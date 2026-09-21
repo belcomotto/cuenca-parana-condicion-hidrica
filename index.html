@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INA Rivers Watch — Pilcomayo · Bermejo · Iguazú · Paraguay</title>
+  </head>
+  <body>
+    <nav id="tabbar">
+      <button class="tab-btn active" data-tab="map">Map</button>
+      <button class="tab-btn" data-tab="dashboard">Dashboards</button>
+    </nav>
+
+    <div id="map-view" class="view active">
+      <div id="map"></div>
+
+      <div id="panel">
+        <h1>INA Rivers Watch</h1>
+        <p class="sub">Live telemetry — Pilcomayo, Bermejo, Iguazú &amp; Paraguay corridor</p>
+
+        <div id="stats"></div>
+
+        <div class="legend-title">Station status</div>
+        <div class="legend-row"><span class="dot status-ok"></span> Reporting (&le;14d)</div>
+        <div class="legend-row"><span class="dot status-stale"></span> Stale (15&ndash;30d)</div>
+        <p class="hint">Only currently-transmitting stations are shown — anything silent for 30+ days is left off the map.</p>
+
+        <div id="variable-filter"></div>
+        <div id="river-filter"></div>
+
+        <div class="section-divider"></div>
+        <label class="river-row">
+          <input type="checkbox" id="tramos-toggle" />
+          <span class="legend-title" style="margin:0">Condición Hídrica (reaches)</span>
+        </label>
+        <div id="tramos-legend" class="tramos-legend"></div>
+
+        <a id="download" href="/data/stations.geojson" download>Download stations GeoJSON ↓</a>
+        <a id="download-tramos" href="/data/tramos.geojson" download>Download reaches GeoJSON ↓</a>
+        <p class="hint">Both are flat-property EPSG:4326 layers, ready to import into ArcGIS Online / Experience Builder.</p>
+      </div>
+    </div>
+
+    <div id="dashboard-view" class="view"></div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
