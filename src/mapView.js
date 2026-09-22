@@ -1,10 +1,21 @@
-import { Map, NavigationControl, ScaleControl, Popup, LngLatBounds } from 'maplibre-gl';
+import { Map, NavigationControl, ScaleControl, Popup, LngLatBounds, setWorkerUrl } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import {
   RIVER_COLOR, RIVER_FALLBACK_COLOR, RIVER_ORDER,
   VARIABLE_LABEL, VARIABLE_ORDER, STATUS_LABEL,
   CONDICION_LABEL, CONDICION_ORDER, CONDICION_COLOR,
 } from './shared.js';
+
+// MapLibre looks for its worker script next to wherever its own JS file was
+// loaded from (new URL('./maplibre-gl-worker.mjs', import.meta.url)) — a
+// bundler that inlines everything into one chunk (which Vite's production
+// build does) never emits that file, so the worker 404s and nothing that
+// depends on it (vector tiles, GeoJSON sources) renders. `scripts/copy-
+// maplibre-worker.mjs` vendors the worker script AND its sibling
+// maplibre-gl-shared.mjs (the worker imports it by exact relative filename,
+// which a Vite `?url` copy would otherwise hash and break) into public/vendor
+// before every dev/build, so this path is always valid and unhashed.
+setWorkerUrl('/vendor/maplibre-gl-worker.mjs');
 
 let map;
 let allFeatures = [];

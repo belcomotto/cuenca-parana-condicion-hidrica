@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Vendored from node_modules/maplibre-gl by scripts/copy-maplibre-worker.mjs
+# (runs automatically before dev/build) — not source, don't commit.
+public/vendor/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
