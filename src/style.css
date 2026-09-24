@@ -347,6 +347,35 @@ body {
   font-size: 12px;
 }
 
+.minimap-wrap {
+  margin: 2px 0 12px;
+}
+
+.minimap {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.minimap-bg {
+  fill: rgba(255,255,255,0.03);
+  stroke: rgba(255,255,255,0.08);
+  stroke-width: 1;
+}
+
+.minimap-marker {
+  cursor: default;
+}
+
+.minimap-legend {
+  display: flex;
+  gap: 14px;
+  font-size: 10.5px;
+  margin-top: 5px;
+  color: #9aa0a8;
+}
+
 .reach-summary {
   display: flex;
   flex-wrap: wrap;

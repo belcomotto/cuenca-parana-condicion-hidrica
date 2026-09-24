@@ -14,7 +14,7 @@ let cachedData = null;
 
 export function renderDashboard(container, data) {
   cachedData = data;
-  const stations = data.stations.features.map(f => parseStation(f.properties));
+  const stations = data.stations.features.map(f => parseStation(f.properties, f.geometry));
   const reaches = data.tramos.features.map(f => f.properties);
   const byRiver = groupByRiver(stations);
 
@@ -56,9 +56,11 @@ export function renderDashboard(container, data) {
   `;
 }
 
-function parseStation(p) {
+function parseStation(p, geometry) {
   return {
     ...p,
+    lon: geometry?.coordinates?.[0] ?? null,
+    lat: geometry?.coordinates?.[1] ?? null,
     trend_history: safeParse(p.trend_history, []),
     forecast: p.has_forecast ? safeParse(p.forecast, null) : null,
   };
@@ -115,6 +117,7 @@ function riverCardHTML(river, stationsInRiver, reaches) {
       </div>
 
       ${headlineHTML(headline, counts)}
+      ${miniMapHTML(stationsInRiver, matchingReaches)}
       ${matchingReaches.map(reachSummaryHTML).join('')}
 
       <div class="river-card-stations">
@@ -148,6 +151,77 @@ function headlineHTML(headline, counts) {
       ${TREND_ARROW[headline]} ${TREND_LABEL[headline]}
       <span class="dim"> — ${counts.rising} rising, ${counts.falling} falling, ${counts.steady} steady</span>
     </p>
+  `;
+}
+
+// A lightweight, dependency-free "zoomed to this river" plot — real lon/lat
+// positions linearly projected into a small SVG box, no basemap tiles.
+// Spinning up a dozen full MapLibre instances (one per river card) would mean
+// a dozen concurrent WebGL contexts and vector-tile fetches just for this
+// dashboard tab; this stays consistent with the sparkline/forecast charts
+// elsewhere on this page (hand-rolled SVG, no chart library) and costs
+// nothing to render.
+function miniMapHTML(stationsInRiver) {
+  const pts = stationsInRiver.filter(s => s.lon != null && s.lat != null);
+  if (!pts.length) return '';
+
+  const w = 300, h = 170, pad = 24;
+  const minLon0 = Math.min(...pts.map(p => p.lon));
+  const maxLon0 = Math.max(...pts.map(p => p.lon));
+  const minLat0 = Math.min(...pts.map(p => p.lat));
+  const maxLat0 = Math.max(...pts.map(p => p.lat));
+  const lonMid = (minLon0 + maxLon0) / 2;
+  const latMid = (minLat0 + maxLat0) / 2;
+
+  // Floor the span so a single station (or a tight cluster) doesn't zoom to
+  // nothing, and pad by 25% so markers never sit flush against the edge.
+  const MIN_SPAN_DEG = 0.15;
+  const lonSpan = Math.max((maxLon0 - minLon0) * 1.25, MIN_SPAN_DEG);
+  const latSpan = Math.max((maxLat0 - minLat0) * 1.25, MIN_SPAN_DEG);
+  const minLon = lonMid - lonSpan / 2, maxLon = lonMid + lonSpan / 2;
+  const minLat = latMid - latSpan / 2, maxLat = latMid + latSpan / 2;
+
+  const x = (lon) => pad + ((lon - minLon) / (maxLon - minLon)) * (w - 2 * pad);
+  // lat increases north; SVG y increases downward, so flip.
+  const y = (lat) => pad + (1 - (lat - minLat) / (maxLat - minLat)) * (h - 2 * pad);
+
+  const markers = pts.map(p => minimapMarkerSVG(x(p.lon), y(p.lat), p)).join('');
+
+  return `
+    <div class="minimap-wrap">
+      <svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" class="minimap" preserveAspectRatio="xMidYMid meet">
+        <rect x="0.5" y="0.5" width="${w - 1}" height="${h - 1}" class="minimap-bg" rx="8" />
+        ${markers}
+      </svg>
+      <div class="minimap-legend">
+        <span style="color:${TREND_COLOR.rising}">▲ Rising</span>
+        <span style="color:${TREND_COLOR.falling}">▼ Falling</span>
+        <span style="color:${TREND_COLOR.steady}">● Steady</span>
+      </div>
+    </div>
+  `;
+}
+
+function minimapMarkerSVG(cx, cy, s) {
+  const color = TREND_COLOR[s.trend] ?? '#94a3b8';
+  const cxr = cx.toFixed(1), cyr = cy.toFixed(1);
+  const title = `${s.name} — ${TREND_LABEL[s.trend] ?? 'no trend data'}${s.level_m != null ? ` — ${s.level_m} m` : ''}`;
+
+  let shape;
+  if (s.trend === 'rising') {
+    shape = `<path d="M ${cxr} ${(cy - 5).toFixed(1)} L ${(cx - 4.5).toFixed(1)} ${(cy + 4).toFixed(1)} L ${(cx + 4.5).toFixed(1)} ${(cy + 4).toFixed(1)} Z" fill="${color}" />`;
+  } else if (s.trend === 'falling') {
+    shape = `<path d="M ${cxr} ${(cy + 5).toFixed(1)} L ${(cx - 4.5).toFixed(1)} ${(cy - 4).toFixed(1)} L ${(cx + 4.5).toFixed(1)} ${(cy - 4).toFixed(1)} Z" fill="${color}" />`;
+  } else {
+    shape = `<circle cx="${cxr}" cy="${cyr}" r="3.6" fill="${color}" />`;
+  }
+
+  return `
+    <g class="minimap-marker">
+      <circle cx="${cxr}" cy="${cyr}" r="7.5" fill="rgba(255,255,255,0.92)" />
+      ${shape}
+      <title>${title}</title>
+    </g>
   `;
 }
 
