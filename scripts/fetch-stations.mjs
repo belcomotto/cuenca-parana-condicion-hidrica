@@ -62,6 +62,7 @@ const EXTRA_SITECODES = [
   2854, // Aº Riachuelo - RP Nº5 (RHN-SAT)
   21,   // Empedrado (escalas Prefectura, rio=PARANAINF)
   22,   // Bella Vista (escalas Prefectura, rio=PARANAINF)
+  23,   // Goya (escalas Prefectura, rio=PARANAINF)
   16,   // Itá Ibaté (escalas Prefectura, rio=PARANAMED)
   15,   // Ituzaingó (escalas Prefectura, rio=PARANAMED)
   13,   // Santa Ana (escalas Prefectura, rio=PARANAMED)

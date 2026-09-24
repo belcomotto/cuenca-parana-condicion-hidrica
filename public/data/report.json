@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-24T14:57:48.537Z",
-  "totalStations": 61,
+  "generatedAt": "2026-09-24T15:08:15.274Z",
+  "totalStations": 62,
   "droppedNotTransmitting": 6,
   "byRiver": {
     "Paraguay": 18,
@@ -11,12 +11,12 @@
     "Paraná (medio)": 16,
     "Riacho Barranqueras": 1,
     "Arroyo Riachuelo": 1,
-    "Paraná (inferior)": 2,
+    "Paraná (inferior)": 3,
     "Piray Guazú": 1,
     "Piray Miní": 1
   },
   "byVariable": {
-    "level": 60,
+    "level": 61,
     "rain": 12,
     "discharge": 10,
     "temperature": 3,
@@ -25,12 +25,12 @@
     "hydrological_state": 6
   },
   "byTrend": {
-    "rising": 29,
+    "rising": 30,
     "falling": 22,
     "steady": 10
   },
   "byAgency": {
-    "INA": 43,
+    "INA": 44,
     "MADES": 18
   },
   "stationsWithForecast": [
@@ -2622,10 +2622,10 @@
       "lon": -57.65,
       "lat": -25.3666666666667,
       "status": "ok",
-      "last_reading_date": "2026-09-23T00:00:00",
-      "days_since_reading": 1,
+      "last_reading_date": "2026-09-24T00:00:00",
+      "days_since_reading": 0,
       "level_m": 1.09,
-      "discharge_m3s": 1583.7,
+      "discharge_m3s": 1578.57,
       "rain_mm": null,
       "temp_c": null,
       "wind_kmh": null,
@@ -2726,16 +2726,16 @@
       ],
       "forecast": {
         "issued": "2026-09-24T12:00:00Z",
-        "tendencia": "baja",
+        "tendencia": "crece",
         "alert_level_m": 5.35,
         "evacuation_level_m": 6,
         "low_water_level_m": 1.4,
         "points": [
           {
             "date": "2026-09-24",
+            "lower": 0.99,
             "upper": 1.22,
-            "central": 1.11,
-            "lower": 0.99
+            "central": 1.11
           },
           {
             "date": "2026-09-25",
@@ -2745,9 +2745,9 @@
           },
           {
             "date": "2026-09-26",
+            "lower": 0.91,
             "upper": 1.29,
-            "central": 1.1,
-            "lower": 0.91
+            "central": 1.1
           },
           {
             "date": "2026-09-27",
@@ -2757,33 +2757,33 @@
           },
           {
             "date": "2026-09-28",
+            "lower": 0.74,
             "upper": 1.43,
-            "central": 1.09,
-            "lower": 0.74
+            "central": 1.09
           },
           {
             "date": "2026-09-29",
-            "upper": 1.49,
             "central": 1.07,
+            "upper": 1.49,
             "lower": 0.65
           },
           {
             "date": "2026-09-30",
-            "upper": 1.56,
             "central": 1.06,
+            "upper": 1.56,
             "lower": 0.56
           },
           {
             "date": "2026-10-01",
-            "upper": 1.62,
             "central": 1.04,
+            "upper": 1.62,
             "lower": 0.46
           },
           {
             "date": "2026-10-02",
+            "lower": 0.36,
             "upper": 1.68,
-            "central": 1.02,
-            "lower": 0.36
+            "central": 1.02
           }
         ],
         "source": "INA modelo \"tabprono_central\" (Pronósticos hidrométricos)"
@@ -2803,10 +2803,10 @@
       "lon": -58.1833333333333,
       "lat": -26.1833333333333,
       "status": "ok",
-      "last_reading_date": "2026-09-23T00:00:00",
-      "days_since_reading": 1,
+      "last_reading_date": "2026-09-24T00:00:00",
+      "days_since_reading": 0,
       "level_m": 2.42,
-      "discharge_m3s": 2162.02,
+      "discharge_m3s": 2170.83,
       "rain_mm": null,
       "temp_c": null,
       "wind_kmh": null,
@@ -2983,8 +2983,8 @@
       "lon": -58.506205,
       "lat": -26.92629,
       "status": "ok",
-      "last_reading_date": "2026-09-23T00:00:00",
-      "days_since_reading": 1,
+      "last_reading_date": "2026-09-24T00:00:00",
+      "days_since_reading": 0,
       "level_m": 3.15,
       "discharge_m3s": null,
       "rain_mm": null,
@@ -3100,8 +3100,8 @@
       "lon": -58.6166666666667,
       "lat": -27.3166666666667,
       "status": "ok",
-      "last_reading_date": "2026-09-23T00:00:00",
-      "days_since_reading": 1,
+      "last_reading_date": "2026-09-24T00:00:00",
+      "days_since_reading": 0,
       "level_m": 4.91,
       "discharge_m3s": null,
       "rain_mm": null,
@@ -3217,8 +3217,8 @@
       "lon": -58.5833333333333,
       "lat": -27.3333333333333,
       "status": "ok",
-      "last_reading_date": "2026-09-23T00:00:00",
-      "days_since_reading": 1,
+      "last_reading_date": "2026-09-24T00:00:00",
+      "days_since_reading": 0,
       "level_m": 4.7,
       "discharge_m3s": null,
       "rain_mm": null,
@@ -3336,10 +3336,10 @@
       "lon": -58.8388696,
       "lat": -27.46364349,
       "status": "ok",
-      "last_reading_date": "2026-09-23T00:00:00",
-      "days_since_reading": 1,
+      "last_reading_date": "2026-09-24T00:00:00",
+      "days_since_reading": 0,
       "level_m": 4.52,
-      "discharge_m3s": 20297.4,
+      "discharge_m3s": 20454.3,
       "rain_mm": null,
       "temp_c": null,
       "wind_kmh": null,
@@ -3482,8 +3482,8 @@
       "lon": -58.9333333333333,
       "lat": -27.4833333333333,
       "status": "ok",
-      "last_reading_date": "2026-09-23T00:00:00",
-      "days_since_reading": 1,
+      "last_reading_date": "2026-09-24T00:00:00",
+      "days_since_reading": 0,
       "level_m": 4.53,
       "discharge_m3s": null,
       "rain_mm": null,
@@ -3743,8 +3743,8 @@
       "lon": -58.81852419,
       "lat": -27.95412346,
       "status": "ok",
-      "last_reading_date": "2026-09-23T00:00:00",
-      "days_since_reading": 1,
+      "last_reading_date": "2026-09-24T00:00:00",
+      "days_since_reading": 0,
       "level_m": 4.23,
       "discharge_m3s": null,
       "rain_mm": null,
@@ -3860,8 +3860,8 @@
       "lon": -59.05931723,
       "lat": -28.51840072,
       "status": "ok",
-      "last_reading_date": "2026-09-23T00:00:00",
-      "days_since_reading": 1,
+      "last_reading_date": "2026-09-24T00:00:00",
+      "days_since_reading": 0,
       "level_m": 4.51,
       "discharge_m3s": null,
       "rain_mm": null,
@@ -3966,6 +3966,123 @@
     },
     {
       "agency": "INA",
+      "site_code": 23,
+      "name": "Goya",
+      "river": "Paraná (inferior)",
+      "variables": [
+        "level"
+      ],
+      "country": "Argentina",
+      "network": "escalas Prefectura Nacional",
+      "lon": -59.27303952,
+      "lat": -29.14376844,
+      "status": "ok",
+      "last_reading_date": "2026-09-24T00:00:00",
+      "days_since_reading": 0,
+      "level_m": 4.23,
+      "discharge_m3s": null,
+      "rain_mm": null,
+      "temp_c": null,
+      "wind_kmh": null,
+      "humidity_pct": null,
+      "trend_variable": "level",
+      "trend": "rising",
+      "trend_change": 1.5,
+      "trend_window_days": 21,
+      "trend_history": [
+        {
+          "date": "2026-09-03",
+          "value": 2.68
+        },
+        {
+          "date": "2026-09-04",
+          "value": 2.57
+        },
+        {
+          "date": "2026-09-05",
+          "value": 2.65
+        },
+        {
+          "date": "2026-09-06",
+          "value": 2.8
+        },
+        {
+          "date": "2026-09-07",
+          "value": 3
+        },
+        {
+          "date": "2026-09-08",
+          "value": 3.17
+        },
+        {
+          "date": "2026-09-09",
+          "value": 3.25
+        },
+        {
+          "date": "2026-09-10",
+          "value": 3.32
+        },
+        {
+          "date": "2026-09-11",
+          "value": 3.31
+        },
+        {
+          "date": "2026-09-12",
+          "value": 3.2
+        },
+        {
+          "date": "2026-09-13",
+          "value": 3.15
+        },
+        {
+          "date": "2026-09-14",
+          "value": 3.1
+        },
+        {
+          "date": "2026-09-15",
+          "value": 3.2
+        },
+        {
+          "date": "2026-09-16",
+          "value": 3.34
+        },
+        {
+          "date": "2026-09-17",
+          "value": 3.53
+        },
+        {
+          "date": "2026-09-18",
+          "value": 3.69
+        },
+        {
+          "date": "2026-09-19",
+          "value": 3.81
+        },
+        {
+          "date": "2026-09-20",
+          "value": 3.95
+        },
+        {
+          "date": "2026-09-21",
+          "value": 3.95
+        },
+        {
+          "date": "2026-09-22",
+          "value": 4.04
+        },
+        {
+          "date": "2026-09-23",
+          "value": 4.14
+        },
+        {
+          "date": "2026-09-24",
+          "value": 4.23
+        }
+      ],
+      "forecast": null
+    },
+    {
+      "agency": "INA",
       "site_code": 16,
       "name": "Itá Ibaté",
       "river": "Paraná (medio)",
@@ -3977,8 +4094,8 @@
       "lon": -57.33326783,
       "lat": -27.42336098,
       "status": "ok",
-      "last_reading_date": "2026-09-23T00:00:00",
-      "days_since_reading": 1,
+      "last_reading_date": "2026-09-24T00:00:00",
+      "days_since_reading": 0,
       "level_m": 3.68,
       "discharge_m3s": null,
       "rain_mm": null,
@@ -4094,8 +4211,8 @@
       "lon": -56.7,
       "lat": -27.5833333333333,
       "status": "ok",
-      "last_reading_date": "2026-09-23T00:00:00",
-      "days_since_reading": 1,
+      "last_reading_date": "2026-09-24T00:00:00",
+      "days_since_reading": 0,
       "level_m": 2,
       "discharge_m3s": null,
       "rain_mm": null,
@@ -4211,8 +4328,8 @@
       "lon": -55.588412,
       "lat": -27.33509,
       "status": "ok",
-      "last_reading_date": "2026-09-23T00:00:00",
-      "days_since_reading": 1,
+      "last_reading_date": "2026-09-24T00:00:00",
+      "days_since_reading": 0,
       "level_m": 8.18,
       "discharge_m3s": null,
       "rain_mm": null,
@@ -4330,8 +4447,8 @@
       "lon": -55.8833333333333,
       "lat": -27.3666666666667,
       "status": "ok",
-      "last_reading_date": "2026-09-23T00:00:00",
-      "days_since_reading": 1,
+      "last_reading_date": "2026-09-24T00:00:00",
+      "days_since_reading": 0,
       "level_m": 10.27,
       "discharge_m3s": null,
       "rain_mm": null,
@@ -4447,8 +4564,8 @@
       "lon": -55.0333333333333,
       "lat": -26.8,
       "status": "ok",
-      "last_reading_date": "2026-09-23T00:00:00",
-      "days_since_reading": 1,
+      "last_reading_date": "2026-09-24T00:00:00",
+      "days_since_reading": 0,
       "level_m": 9.87,
       "discharge_m3s": null,
       "rain_mm": null,
@@ -4681,8 +4798,8 @@
       "lon": -54.7,
       "lat": -26.3833333333333,
       "status": "ok",
-      "last_reading_date": "2026-09-23T00:00:00",
-      "days_since_reading": 1,
+      "last_reading_date": "2026-09-24T00:00:00",
+      "days_since_reading": 0,
       "level_m": 12.25,
       "discharge_m3s": null,
       "rain_mm": null,
@@ -4913,8 +5030,8 @@
       "lon": -54.621134,
       "lat": -25.916679,
       "status": "ok",
-      "last_reading_date": "2026-09-23T00:00:00",
-      "days_since_reading": 1,
+      "last_reading_date": "2026-09-24T00:00:00",
+      "days_since_reading": 0,
       "level_m": 16.5,
       "discharge_m3s": null,
       "rain_mm": null,
@@ -5032,8 +5149,8 @@
       "lon": -54.5666666666667,
       "lat": -25.5833333333333,
       "status": "ok",
-      "last_reading_date": "2026-09-23T00:00:00",
-      "days_since_reading": 1,
+      "last_reading_date": "2026-09-24T00:00:00",
+      "days_since_reading": 0,
       "level_m": 17.3,
       "discharge_m3s": null,
       "rain_mm": null,
@@ -5151,10 +5268,10 @@
       "lon": -53.9833333333333,
       "lat": -25.5833333333333,
       "status": "ok",
-      "last_reading_date": "2026-09-23T00:00:00",
-      "days_since_reading": 1,
+      "last_reading_date": "2026-09-24T00:00:00",
+      "days_since_reading": 0,
       "level_m": 3.53,
-      "discharge_m3s": 5163.38,
+      "discharge_m3s": 5518.56,
       "rain_mm": null,
       "temp_c": null,
       "wind_kmh": null,
