@@ -1,8 +1,14 @@
 // MADES Paraguay (Ministerio del Ambiente y Desarrollo Sostenible) — SIAGUAPY
-// telemetry stations. A specific 14-station subset of MADES's full ~36-station
+// telemetry stations. A specific subset of MADES's full ~36-station
 // Paraguay/Paraná/Pilcomayo catalog was requested (see TARGET_SITE_IDS below)
 // — including a few cross-border gauges MADES monitors in Bolivia, Argentina
 // and Brazil under regional basin agreements.
+//
+// Note: id 36 "Pilar" (automatic, code 2000086256) was requested but is
+// currently offline — its last real (non-null) reading was 2026-06-29, well
+// past the 30-day active window — so it's deliberately left out per this
+// project's "don't add non-transmitting stations" rule. A manual Pilar gauge
+// at nearly the same spot (id 16, code 2000086255) is live if wanted instead.
 //
 // Source: https://siaguapy.mades.gov.py/monitoreo-cuencas-y-acuiferos/mapa
 //   - The station catalog (id, name, coordinates, basin group, data owner,
@@ -38,6 +44,10 @@ const TARGET_SITE_IDS = new Set([
   11, // Villeta (Paraguay)
   18, // Salto del Guairá (Paraná)
   19, // Ciudad del Este (Paraná)
+  28, // Encarnación (Paraná)
+  27, // San Cosme y San Damián (Paraná)
+  21, // Ita Piru (Paraná)
+  22, // Paso de Patria (Paraná)
 ]);
 const GROUP_TO_RIVER = {
   'Río Paraguay': 'Paraguay',
