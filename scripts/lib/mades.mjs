@@ -52,11 +52,13 @@ const TARGET_SITE_IDS = new Set([
 const GROUP_TO_RIVER = {
   'Río Paraguay': 'Paraguay',
   'Río Pilcomayo': 'Pilcomayo',
-  // MADES's own "Río Paraná" group spans the whole Paraguayan reach (Salto
-  // del Guairá down to the Argentina confluence near Paso de la Patria) —
-  // a different segmentation than INA's Condición Hídrica reach names, so
-  // it gets its own label rather than being force-fit into "medio"/"inferior".
-  'Río Paraná': 'Paraná (Paraguay)',
+  // Same physical river as INA's "Paraná (medio)" — these MADES stations
+  // (Ciudad del Este, Encarnación, Ita Piru, Paso de Patria, San Cosme y San
+  // Damián, Salto del Guairá) sit within or right at the edge of the same
+  // stretch INA's own Condición Hídrica reaches call "medio" (Puerto Iguazú
+  // down to Corrientes). Kept as one river label instead of splitting by
+  // which country's agency happens to report it.
+  'Río Paraná': 'Paraná (medio)',
 };
 
 const ACTIVE_WINDOW_DAYS = 30;

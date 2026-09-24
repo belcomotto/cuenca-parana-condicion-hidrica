@@ -9,10 +9,6 @@ export const RIVER_COLOR = {
   'Paraguay':            '#c084fc',
   'Paraná (medio)':      '#ef4444',
   'Paraná (inferior)':   '#fb7185',
-  // MADES's own "Río Paraná" grouping spans the whole Paraguayan reach —
-  // a different segmentation than INA's medio/inferior reach names, kept
-  // as its own label rather than force-mapped onto INA's scheme.
-  'Paraná (Paraguay)':   '#b91c1c',
   'Riacho Barranqueras': '#94a3b8',
   'Arroyo Riachuelo':    '#2dd4bf',
   'Piray Guazú':         '#eab308',
@@ -24,7 +20,7 @@ export const RIVER_FALLBACK_COLOR = '#DED8CF';
 // Order the four "headline" rivers first, then the extra corridor stations.
 export const RIVER_ORDER = [
   'Bermejo', 'Pilcomayo', 'Iguazú', 'Paraguay',
-  'Paraná (medio)', 'Paraná (inferior)', 'Paraná (Paraguay)', 'Riacho Barranqueras',
+  'Paraná (medio)', 'Paraná (inferior)', 'Riacho Barranqueras',
   'Arroyo Riachuelo', 'Piray Guazú', 'Piray Miní', 'Riacho Salado',
 ];
 
