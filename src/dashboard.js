@@ -154,18 +154,36 @@ function headlineHTML(headline, counts) {
   `;
 }
 
-// A lightweight, dependency-free "zoomed to this river" plot — real lon/lat
-// positions linearly projected into a small SVG box, no basemap tiles.
-// Spinning up a dozen full MapLibre instances (one per river card) would mean
-// a dozen concurrent WebGL contexts and vector-tile fetches just for this
-// dashboard tab; this stays consistent with the sparkline/forecast charts
-// elsewhere on this page (hand-rolled SVG, no chart library) and costs
-// nothing to render.
+// A real basemap under each river's markers, without a dozen live MapLibre
+// instances: composite a handful of CARTO raster XYZ tiles (plain <img>s, no
+// WebGL) into a fixed-size box using standard Web Mercator tile math, then
+// overlay an SVG of trend-arrow markers computed in that exact same pixel
+// space so they land precisely on their real coordinates.
+const TILE_SIZE = 256;
+
+function lonLatToPixel(lon, lat, zoom) {
+  const n = TILE_SIZE * 2 ** zoom;
+  const x = ((lon + 180) / 360) * n;
+  const latRad = (lat * Math.PI) / 180;
+  const y = ((1 - Math.log(Math.tan(latRad) + 1 / Math.cos(latRad)) / Math.PI) / 2) * n;
+  return [x, y];
+}
+
+// Largest zoom at which the padded bbox still fits inside w×h.
+function fitZoom(minLon, minLat, maxLon, maxLat, w, h) {
+  for (let z = 14; z >= 2; z--) {
+    const [x1, y1] = lonLatToPixel(minLon, maxLat, z); // NW corner
+    const [x2, y2] = lonLatToPixel(maxLon, minLat, z); // SE corner
+    if (x2 - x1 <= w && y2 - y1 <= h) return z;
+  }
+  return 2;
+}
+
 function miniMapHTML(stationsInRiver) {
   const pts = stationsInRiver.filter(s => s.lon != null && s.lat != null);
   if (!pts.length) return '';
 
-  const w = 300, h = 170, pad = 24;
+  const w = 300, h = 170;
   const minLon0 = Math.min(...pts.map(p => p.lon));
   const maxLon0 = Math.max(...pts.map(p => p.lon));
   const minLat0 = Math.min(...pts.map(p => p.lat));
@@ -173,30 +191,57 @@ function miniMapHTML(stationsInRiver) {
   const lonMid = (minLon0 + maxLon0) / 2;
   const latMid = (minLat0 + maxLat0) / 2;
 
-  // Floor the span so a single station (or a tight cluster) doesn't zoom to
-  // nothing, and pad by 25% so markers never sit flush against the edge.
-  const MIN_SPAN_DEG = 0.15;
-  const lonSpan = Math.max((maxLon0 - minLon0) * 1.25, MIN_SPAN_DEG);
-  const latSpan = Math.max((maxLat0 - minLat0) * 1.25, MIN_SPAN_DEG);
+  // Floor the span so a single station (or a tight cluster) doesn't zoom
+  // past a sane street/terrain level, and pad by 40% so markers never sit
+  // flush against the edge.
+  const MIN_SPAN_DEG = 0.2;
+  const lonSpan = Math.max((maxLon0 - minLon0) * 1.4, MIN_SPAN_DEG);
+  const latSpan = Math.max((maxLat0 - minLat0) * 1.4, MIN_SPAN_DEG);
   const minLon = lonMid - lonSpan / 2, maxLon = lonMid + lonSpan / 2;
   const minLat = latMid - latSpan / 2, maxLat = latMid + latSpan / 2;
 
-  const x = (lon) => pad + ((lon - minLon) / (maxLon - minLon)) * (w - 2 * pad);
-  // lat increases north; SVG y increases downward, so flip.
-  const y = (lat) => pad + (1 - (lat - minLat) / (maxLat - minLat)) * (h - 2 * pad);
+  const zoom = fitZoom(minLon, minLat, maxLon, maxLat, w, h);
+  const [centerX, centerY] = lonLatToPixel(lonMid, latMid, zoom);
+  const originX = centerX - w / 2, originY = centerY - h / 2;
+  const nTiles = 2 ** zoom;
 
-  const markers = pts.map(p => minimapMarkerSVG(x(p.lon), y(p.lat), p)).join('');
+  const tileMinX = Math.floor(originX / TILE_SIZE);
+  const tileMaxX = Math.floor((originX + w) / TILE_SIZE);
+  const tileMinY = Math.max(0, Math.floor(originY / TILE_SIZE));
+  const tileMaxY = Math.min(nTiles - 1, Math.floor((originY + h) / TILE_SIZE));
+
+  // Esri's free World_Dark_Gray_Base service (no API key required for tile
+  // access) — also a fitting choice given the whole point of this project is
+  // an eventual ArcGIS Online layer. Note its REST tile scheme is
+  // {z}/{y}/{x} (row before column), the reverse of standard XYZ.
+  const tiles = [];
+  for (let ty = tileMinY; ty <= tileMaxY; ty++) {
+    for (let tx = tileMinX; tx <= tileMaxX; tx++) {
+      const wrappedX = ((tx % nTiles) + nTiles) % nTiles;
+      const left = tx * TILE_SIZE - originX;
+      const top = ty * TILE_SIZE - originY;
+      tiles.push(`<img class="minimap-tile" src="https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/${zoom}/${ty}/${wrappedX}" style="left:${left}px;top:${top}px" loading="lazy" alt="" />`);
+    }
+  }
+
+  const markers = pts.map(p => {
+    const [px, py] = lonLatToPixel(p.lon, p.lat, zoom);
+    return minimapMarkerSVG(px - originX, py - originY, p);
+  }).join('');
 
   return `
     <div class="minimap-wrap">
-      <svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" class="minimap" preserveAspectRatio="xMidYMid meet">
-        <rect x="0.5" y="0.5" width="${w - 1}" height="${h - 1}" class="minimap-bg" rx="8" />
-        ${markers}
-      </svg>
+      <div class="minimap" style="width:${w}px;height:${h}px">
+        ${tiles.join('')}
+        <svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" class="minimap-overlay">
+          ${markers}
+        </svg>
+      </div>
       <div class="minimap-legend">
         <span style="color:${TREND_COLOR.rising}">▲ Rising</span>
         <span style="color:${TREND_COLOR.falling}">▼ Falling</span>
         <span style="color:${TREND_COLOR.steady}">● Steady</span>
+        <span class="minimap-attrib">© Esri</span>
       </div>
     </div>
   `;

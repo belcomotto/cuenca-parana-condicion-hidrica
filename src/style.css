@@ -352,28 +352,44 @@ body {
 }
 
 .minimap {
-  display: block;
-  width: 100%;
-  height: auto;
+  position: relative;
+  overflow: hidden;
   border-radius: 8px;
+  background: #1a1c22;
+  border: 1px solid rgba(255,255,255,0.08);
 }
 
-.minimap-bg {
-  fill: rgba(255,255,255,0.03);
-  stroke: rgba(255,255,255,0.08);
-  stroke-width: 1;
+.minimap-tile {
+  position: absolute;
+  width: 256px;
+  height: 256px;
+  /* CARTO dark tiles are near-black already; a slight lift keeps markers
+     legible without fighting the card's own dark background. */
+  filter: brightness(1.15) saturate(0.9);
+}
+
+.minimap-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
 }
 
 .minimap-marker {
-  cursor: default;
+  pointer-events: auto;
 }
 
 .minimap-legend {
   display: flex;
+  flex-wrap: wrap;
   gap: 14px;
   font-size: 10.5px;
   margin-top: 5px;
   color: #9aa0a8;
+}
+
+.minimap-attrib {
+  margin-left: auto;
+  color: #5c6169;
 }
 
 .reach-summary {
