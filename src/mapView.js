@@ -148,7 +148,7 @@ function stationPopupHTML(p) {
   return `
     <div class="popup">
       <p class="popup-title">${p.name}</p>
-      <p class="popup-sub">${p.river} · siteCode ${p.site_code}</p>
+      <p class="popup-sub">${p.river} · ${p.country} · ${p.agency} siteCode ${p.site_code}</p>
       <p class="popup-status" style="color:${statusColor}">● ${STATUS_LABEL[p.status] ?? p.status}</p>
       <div class="popup-body">
         <p>${rows}</p>

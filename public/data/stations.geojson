@@ -11,6 +11,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 2116,
         "name": "Paraguay - Pto. Formosa",
         "river": "Paraguay",
@@ -19,21 +20,24 @@
         "country": "Argentina",
         "network": "RHN - SAT",
         "status": "ok",
-        "level_m": 2.41,
+        "level_m": 2.52,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T08:00:00",
+        "last_reading_date": "2026-09-24T08:00:00",
         "days_since_reading": 0,
         "trend_variable": "level",
-        "trend": "steady",
-        "trend_change": -0.01,
+        "trend": "rising",
+        "trend_change": 0.25,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":2.46},{\"date\":\"2026-09-01\",\"value\":2.41},{\"date\":\"2026-09-02\",\"value\":2.32},{\"date\":\"2026-09-03\",\"value\":2.27},{\"date\":\"2026-09-04\",\"value\":2.25},{\"date\":\"2026-09-05\",\"value\":2.24},{\"date\":\"2026-09-06\",\"value\":2.23},{\"date\":\"2026-09-07\",\"value\":2.23},{\"date\":\"2026-09-08\",\"value\":2.22},{\"date\":\"2026-09-09\",\"value\":2.22},{\"date\":\"2026-09-10\",\"value\":2.19},{\"date\":\"2026-09-11\",\"value\":2.19},{\"date\":\"2026-09-12\",\"value\":2.18},{\"date\":\"2026-09-13\",\"value\":2.16},{\"date\":\"2026-09-14\",\"value\":2.16},{\"date\":\"2026-09-15\",\"value\":2.18},{\"date\":\"2026-09-16\",\"value\":2.2},{\"date\":\"2026-09-17\",\"value\":2.23},{\"date\":\"2026-09-18\",\"value\":2.27},{\"date\":\"2026-09-19\",\"value\":2.34},{\"date\":\"2026-09-20\",\"value\":2.4},{\"date\":\"2026-09-21\",\"value\":2.41}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":2.27},{\"date\":\"2026-09-04\",\"value\":2.25},{\"date\":\"2026-09-05\",\"value\":2.24},{\"date\":\"2026-09-06\",\"value\":2.23},{\"date\":\"2026-09-07\",\"value\":2.23},{\"date\":\"2026-09-08\",\"value\":2.22},{\"date\":\"2026-09-09\",\"value\":2.22},{\"date\":\"2026-09-10\",\"value\":2.19},{\"date\":\"2026-09-11\",\"value\":2.19},{\"date\":\"2026-09-12\",\"value\":2.18},{\"date\":\"2026-09-13\",\"value\":2.16},{\"date\":\"2026-09-14\",\"value\":2.16},{\"date\":\"2026-09-15\",\"value\":2.18},{\"date\":\"2026-09-16\",\"value\":2.2},{\"date\":\"2026-09-17\",\"value\":2.23},{\"date\":\"2026-09-18\",\"value\":2.27},{\"date\":\"2026-09-19\",\"value\":2.34},{\"date\":\"2026-09-20\",\"value\":2.4},{\"date\":\"2026-09-21\",\"value\":2.49},{\"date\":\"2026-09-22\",\"value\":2.49},{\"date\":\"2026-09-23\",\"value\":2.51},{\"date\":\"2026-09-24\",\"value\":2.52}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -46,6 +50,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 2133,
         "name": "Paraguay - Pto. Pilcomayo",
         "river": "Paraguay",
@@ -54,21 +59,24 @@
         "country": "Argentina",
         "network": "RHN - SAT",
         "status": "ok",
-        "level_m": 1.08,
+        "level_m": 1.1,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T08:00:00",
+        "last_reading_date": "2026-09-24T04:00:00",
         "days_since_reading": 0,
         "trend_variable": "level",
         "trend": "falling",
         "trend_change": -0.35,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":1.44},{\"date\":\"2026-09-01\",\"value\":1.44},{\"date\":\"2026-09-02\",\"value\":1.44},{\"date\":\"2026-09-03\",\"value\":1.44},{\"date\":\"2026-09-04\",\"value\":1.44},{\"date\":\"2026-09-05\",\"value\":1.44},{\"date\":\"2026-09-06\",\"value\":1.44},{\"date\":\"2026-09-07\",\"value\":1.44},{\"date\":\"2026-09-08\",\"value\":1.44},{\"date\":\"2026-09-09\",\"value\":1.44},{\"date\":\"2026-09-10\",\"value\":1.44},{\"date\":\"2026-09-11\",\"value\":1.44},{\"date\":\"2026-09-12\",\"value\":1.44},{\"date\":\"2026-09-13\",\"value\":1.44},{\"date\":\"2026-09-14\",\"value\":1.44},{\"date\":\"2026-09-15\",\"value\":1.11},{\"date\":\"2026-09-16\",\"value\":1.09},{\"date\":\"2026-09-17\",\"value\":1.06},{\"date\":\"2026-09-18\",\"value\":1.06},{\"date\":\"2026-09-19\",\"value\":1.1},{\"date\":\"2026-09-20\",\"value\":1.08},{\"date\":\"2026-09-21\",\"value\":1.08}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":1.44},{\"date\":\"2026-09-04\",\"value\":1.44},{\"date\":\"2026-09-05\",\"value\":1.44},{\"date\":\"2026-09-06\",\"value\":1.44},{\"date\":\"2026-09-07\",\"value\":1.44},{\"date\":\"2026-09-08\",\"value\":1.44},{\"date\":\"2026-09-09\",\"value\":1.44},{\"date\":\"2026-09-10\",\"value\":1.44},{\"date\":\"2026-09-11\",\"value\":1.44},{\"date\":\"2026-09-12\",\"value\":1.44},{\"date\":\"2026-09-13\",\"value\":1.44},{\"date\":\"2026-09-14\",\"value\":1.44},{\"date\":\"2026-09-15\",\"value\":1.11},{\"date\":\"2026-09-16\",\"value\":1.09},{\"date\":\"2026-09-17\",\"value\":1.06},{\"date\":\"2026-09-18\",\"value\":1.06},{\"date\":\"2026-09-19\",\"value\":1.1},{\"date\":\"2026-09-20\",\"value\":1.08},{\"date\":\"2026-09-21\",\"value\":1.09},{\"date\":\"2026-09-22\",\"value\":1.09},{\"date\":\"2026-09-23\",\"value\":1.09},{\"date\":\"2026-09-24\",\"value\":1.1}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -81,6 +89,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 2149,
         "name": "Iguazú - Perfil Tipo",
         "river": "Iguazú",
@@ -89,21 +98,24 @@
         "country": "Argentina",
         "network": "RHN - SAT",
         "status": "ok",
-        "level_m": 1.76,
+        "level_m": 2.48,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T08:00:00",
+        "last_reading_date": "2026-09-24T08:00:00",
         "days_since_reading": 0,
         "trend_variable": "level",
         "trend": "falling",
-        "trend_change": -0.09,
+        "trend_change": -0.32,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":1.13},{\"date\":\"2026-09-01\",\"value\":1.29},{\"date\":\"2026-09-02\",\"value\":3.27},{\"date\":\"2026-09-03\",\"value\":2.84},{\"date\":\"2026-09-04\",\"value\":2.59},{\"date\":\"2026-09-05\",\"value\":2.76},{\"date\":\"2026-09-06\",\"value\":1.9},{\"date\":\"2026-09-07\",\"value\":1.8},{\"date\":\"2026-09-08\",\"value\":1.85},{\"date\":\"2026-09-09\",\"value\":2.15},{\"date\":\"2026-09-10\",\"value\":2.22},{\"date\":\"2026-09-11\",\"value\":3.59},{\"date\":\"2026-09-12\",\"value\":3.32},{\"date\":\"2026-09-13\",\"value\":3.24},{\"date\":\"2026-09-14\",\"value\":2.82},{\"date\":\"2026-09-15\",\"value\":2.32},{\"date\":\"2026-09-16\",\"value\":2.72},{\"date\":\"2026-09-17\",\"value\":2.54},{\"date\":\"2026-09-18\",\"value\":2.48},{\"date\":\"2026-09-19\",\"value\":1.85},{\"date\":\"2026-09-20\",\"value\":1.8},{\"date\":\"2026-09-21\",\"value\":1.76}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":2.84},{\"date\":\"2026-09-04\",\"value\":2.59},{\"date\":\"2026-09-05\",\"value\":2.76},{\"date\":\"2026-09-06\",\"value\":1.9},{\"date\":\"2026-09-07\",\"value\":1.8},{\"date\":\"2026-09-08\",\"value\":1.85},{\"date\":\"2026-09-09\",\"value\":2.15},{\"date\":\"2026-09-10\",\"value\":2.22},{\"date\":\"2026-09-11\",\"value\":3.59},{\"date\":\"2026-09-12\",\"value\":3.32},{\"date\":\"2026-09-13\",\"value\":3.24},{\"date\":\"2026-09-14\",\"value\":2.82},{\"date\":\"2026-09-15\",\"value\":2.32},{\"date\":\"2026-09-16\",\"value\":2.72},{\"date\":\"2026-09-17\",\"value\":2.54},{\"date\":\"2026-09-18\",\"value\":2.48},{\"date\":\"2026-09-19\",\"value\":1.85},{\"date\":\"2026-09-20\",\"value\":1.8},{\"date\":\"2026-09-21\",\"value\":2.24},{\"date\":\"2026-09-22\",\"value\":2.26},{\"date\":\"2026-09-23\",\"value\":2.49},{\"date\":\"2026-09-24\",\"value\":2.48}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -116,6 +128,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 2178,
         "name": "Iguazú - Puerto Andresito",
         "river": "Iguazú",
@@ -124,21 +137,24 @@
         "country": "Argentina",
         "network": "RHN - SAT",
         "status": "ok",
-        "level_m": 2.77,
-        "discharge_m3s": 3093.98,
+        "level_m": 3.52,
+        "discharge_m3s": 5130.95,
         "rain_mm": 0,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T08:00:00",
+        "last_reading_date": "2026-09-24T08:00:00",
         "days_since_reading": 0,
         "trend_variable": "level",
-        "trend": "falling",
-        "trend_change": -0.54,
+        "trend": "rising",
+        "trend_change": 0.31,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":1.12},{\"date\":\"2026-09-01\",\"value\":3.44},{\"date\":\"2026-09-02\",\"value\":4.3},{\"date\":\"2026-09-03\",\"value\":3.46},{\"date\":\"2026-09-04\",\"value\":3.41},{\"date\":\"2026-09-05\",\"value\":2.34},{\"date\":\"2026-09-06\",\"value\":2.25},{\"date\":\"2026-09-07\",\"value\":1.47},{\"date\":\"2026-09-08\",\"value\":2.22},{\"date\":\"2026-09-09\",\"value\":2.28},{\"date\":\"2026-09-10\",\"value\":3.64},{\"date\":\"2026-09-11\",\"value\":5.63},{\"date\":\"2026-09-12\",\"value\":4.62},{\"date\":\"2026-09-13\",\"value\":4.35},{\"date\":\"2026-09-14\",\"value\":3.89},{\"date\":\"2026-09-15\",\"value\":3.51},{\"date\":\"2026-09-16\",\"value\":3.21},{\"date\":\"2026-09-17\",\"value\":3.21},{\"date\":\"2026-09-18\",\"value\":2.42},{\"date\":\"2026-09-19\",\"value\":2.11},{\"date\":\"2026-09-20\",\"value\":2.37},{\"date\":\"2026-09-21\",\"value\":2.77}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":3.46},{\"date\":\"2026-09-04\",\"value\":3.41},{\"date\":\"2026-09-05\",\"value\":2.34},{\"date\":\"2026-09-06\",\"value\":2.25},{\"date\":\"2026-09-07\",\"value\":1.47},{\"date\":\"2026-09-08\",\"value\":2.22},{\"date\":\"2026-09-09\",\"value\":2.28},{\"date\":\"2026-09-10\",\"value\":3.64},{\"date\":\"2026-09-11\",\"value\":5.63},{\"date\":\"2026-09-12\",\"value\":4.62},{\"date\":\"2026-09-13\",\"value\":4.35},{\"date\":\"2026-09-14\",\"value\":3.89},{\"date\":\"2026-09-15\",\"value\":3.51},{\"date\":\"2026-09-16\",\"value\":3.21},{\"date\":\"2026-09-17\",\"value\":3.21},{\"date\":\"2026-09-18\",\"value\":2.42},{\"date\":\"2026-09-19\",\"value\":2.11},{\"date\":\"2026-09-20\",\"value\":2.37},{\"date\":\"2026-09-21\",\"value\":3.23},{\"date\":\"2026-09-22\",\"value\":3.2},{\"date\":\"2026-09-23\",\"value\":3.41},{\"date\":\"2026-09-24\",\"value\":3.52}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -151,6 +167,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 2188,
         "name": "Bermejo - El Colorado",
         "river": "Bermejo",
@@ -159,21 +176,24 @@
         "country": "Argentina",
         "network": "RHN - SAT",
         "status": "ok",
-        "level_m": 2.42,
+        "level_m": 2.37,
         "discharge_m3s": null,
         "rain_mm": 0,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T09:00:00",
+        "last_reading_date": "2026-09-24T05:00:00",
         "days_since_reading": 0,
         "trend_variable": "level",
         "trend": "falling",
-        "trend_change": -0.5,
+        "trend_change": -0.4,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":2.99},{\"date\":\"2026-09-01\",\"value\":2.93},{\"date\":\"2026-09-02\",\"value\":2.88},{\"date\":\"2026-09-03\",\"value\":2.82},{\"date\":\"2026-09-04\",\"value\":2.78},{\"date\":\"2026-09-05\",\"value\":2.74},{\"date\":\"2026-09-06\",\"value\":2.7},{\"date\":\"2026-09-07\",\"value\":2.66},{\"date\":\"2026-09-08\",\"value\":2.64},{\"date\":\"2026-09-09\",\"value\":2.62},{\"date\":\"2026-09-10\",\"value\":2.6},{\"date\":\"2026-09-11\",\"value\":2.58},{\"date\":\"2026-09-12\",\"value\":2.54},{\"date\":\"2026-09-13\",\"value\":2.51},{\"date\":\"2026-09-14\",\"value\":2.49},{\"date\":\"2026-09-15\",\"value\":2.47},{\"date\":\"2026-09-16\",\"value\":2.45},{\"date\":\"2026-09-17\",\"value\":2.43},{\"date\":\"2026-09-18\",\"value\":2.42},{\"date\":\"2026-09-19\",\"value\":2.45},{\"date\":\"2026-09-20\",\"value\":2.42}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":2.82},{\"date\":\"2026-09-04\",\"value\":2.78},{\"date\":\"2026-09-05\",\"value\":2.74},{\"date\":\"2026-09-06\",\"value\":2.7},{\"date\":\"2026-09-07\",\"value\":2.66},{\"date\":\"2026-09-08\",\"value\":2.64},{\"date\":\"2026-09-09\",\"value\":2.62},{\"date\":\"2026-09-10\",\"value\":2.6},{\"date\":\"2026-09-11\",\"value\":2.58},{\"date\":\"2026-09-12\",\"value\":2.54},{\"date\":\"2026-09-13\",\"value\":2.51},{\"date\":\"2026-09-14\",\"value\":2.49},{\"date\":\"2026-09-15\",\"value\":2.47},{\"date\":\"2026-09-16\",\"value\":2.45},{\"date\":\"2026-09-17\",\"value\":2.43},{\"date\":\"2026-09-18\",\"value\":2.42},{\"date\":\"2026-09-19\",\"value\":2.45},{\"date\":\"2026-09-20\",\"value\":2.42},{\"date\":\"2026-09-21\",\"value\":2.39},{\"date\":\"2026-09-22\",\"value\":2.38},{\"date\":\"2026-09-23\",\"value\":2.37}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -186,6 +206,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 2189,
         "name": "Bermejo - Embarcacion",
         "river": "Bermejo",
@@ -194,21 +215,24 @@
         "country": "Argentina",
         "network": "RHN - SAT",
         "status": "ok",
-        "level_m": 0.47,
+        "level_m": 0.45,
         "discharge_m3s": null,
         "rain_mm": 0,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T10:00:00",
+        "last_reading_date": "2026-09-24T08:00:00",
         "days_since_reading": 0,
         "trend_variable": "level",
         "trend": "falling",
         "trend_change": -0.06,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":0.54},{\"date\":\"2026-09-01\",\"value\":0.53},{\"date\":\"2026-09-02\",\"value\":0.52},{\"date\":\"2026-09-03\",\"value\":0.52},{\"date\":\"2026-09-04\",\"value\":0.5},{\"date\":\"2026-09-05\",\"value\":0.5},{\"date\":\"2026-09-06\",\"value\":0.5},{\"date\":\"2026-09-07\",\"value\":0.5},{\"date\":\"2026-09-08\",\"value\":0.5},{\"date\":\"2026-09-09\",\"value\":0.49},{\"date\":\"2026-09-10\",\"value\":0.48},{\"date\":\"2026-09-11\",\"value\":0.47},{\"date\":\"2026-09-12\",\"value\":0.46},{\"date\":\"2026-09-13\",\"value\":0.49},{\"date\":\"2026-09-14\",\"value\":0.53},{\"date\":\"2026-09-15\",\"value\":0.54},{\"date\":\"2026-09-16\",\"value\":0.53},{\"date\":\"2026-09-17\",\"value\":0.5},{\"date\":\"2026-09-18\",\"value\":0.49},{\"date\":\"2026-09-19\",\"value\":0.48},{\"date\":\"2026-09-20\",\"value\":0.47},{\"date\":\"2026-09-21\",\"value\":0.47}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":0.52},{\"date\":\"2026-09-04\",\"value\":0.5},{\"date\":\"2026-09-05\",\"value\":0.5},{\"date\":\"2026-09-06\",\"value\":0.5},{\"date\":\"2026-09-07\",\"value\":0.5},{\"date\":\"2026-09-08\",\"value\":0.5},{\"date\":\"2026-09-09\",\"value\":0.49},{\"date\":\"2026-09-10\",\"value\":0.48},{\"date\":\"2026-09-11\",\"value\":0.47},{\"date\":\"2026-09-12\",\"value\":0.46},{\"date\":\"2026-09-13\",\"value\":0.49},{\"date\":\"2026-09-14\",\"value\":0.53},{\"date\":\"2026-09-15\",\"value\":0.54},{\"date\":\"2026-09-16\",\"value\":0.53},{\"date\":\"2026-09-17\",\"value\":0.5},{\"date\":\"2026-09-18\",\"value\":0.49},{\"date\":\"2026-09-19\",\"value\":0.48},{\"date\":\"2026-09-20\",\"value\":0.47},{\"date\":\"2026-09-21\",\"value\":0.46},{\"date\":\"2026-09-22\",\"value\":0.45},{\"date\":\"2026-09-23\",\"value\":0.45},{\"date\":\"2026-09-24\",\"value\":0.45}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -221,6 +245,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 2193,
         "name": "Bermejo - Puerto Lavalle",
         "river": "Bermejo",
@@ -229,21 +254,24 @@
         "country": "Argentina",
         "network": "RHN - SAT",
         "status": "ok",
-        "level_m": 0.71,
+        "level_m": 0.66,
         "discharge_m3s": null,
         "rain_mm": 0,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T08:00:00",
+        "last_reading_date": "2026-09-24T08:00:00",
         "days_since_reading": 0,
         "trend_variable": "level",
         "trend": "falling",
-        "trend_change": -0.39,
+        "trend_change": -0.31,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":1.14},{\"date\":\"2026-09-01\",\"value\":1.11},{\"date\":\"2026-09-02\",\"value\":1.05},{\"date\":\"2026-09-03\",\"value\":1.01},{\"date\":\"2026-09-04\",\"value\":0.98},{\"date\":\"2026-09-05\",\"value\":0.95},{\"date\":\"2026-09-06\",\"value\":0.93},{\"date\":\"2026-09-07\",\"value\":0.92},{\"date\":\"2026-09-08\",\"value\":0.9},{\"date\":\"2026-09-09\",\"value\":0.88},{\"date\":\"2026-09-10\",\"value\":0.85},{\"date\":\"2026-09-11\",\"value\":0.82},{\"date\":\"2026-09-12\",\"value\":0.8},{\"date\":\"2026-09-13\",\"value\":0.79},{\"date\":\"2026-09-14\",\"value\":0.77},{\"date\":\"2026-09-15\",\"value\":0.76},{\"date\":\"2026-09-16\",\"value\":0.75},{\"date\":\"2026-09-17\",\"value\":0.73},{\"date\":\"2026-09-18\",\"value\":0.73},{\"date\":\"2026-09-19\",\"value\":0.72},{\"date\":\"2026-09-20\",\"value\":0.71},{\"date\":\"2026-09-21\",\"value\":0.71}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":1.01},{\"date\":\"2026-09-04\",\"value\":0.98},{\"date\":\"2026-09-05\",\"value\":0.95},{\"date\":\"2026-09-06\",\"value\":0.93},{\"date\":\"2026-09-07\",\"value\":0.92},{\"date\":\"2026-09-08\",\"value\":0.9},{\"date\":\"2026-09-09\",\"value\":0.88},{\"date\":\"2026-09-10\",\"value\":0.85},{\"date\":\"2026-09-11\",\"value\":0.82},{\"date\":\"2026-09-12\",\"value\":0.8},{\"date\":\"2026-09-13\",\"value\":0.79},{\"date\":\"2026-09-14\",\"value\":0.77},{\"date\":\"2026-09-15\",\"value\":0.76},{\"date\":\"2026-09-16\",\"value\":0.75},{\"date\":\"2026-09-17\",\"value\":0.73},{\"date\":\"2026-09-18\",\"value\":0.73},{\"date\":\"2026-09-19\",\"value\":0.72},{\"date\":\"2026-09-20\",\"value\":0.71},{\"date\":\"2026-09-21\",\"value\":0.68},{\"date\":\"2026-09-22\",\"value\":0.67},{\"date\":\"2026-09-23\",\"value\":0.67},{\"date\":\"2026-09-24\",\"value\":0.66}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -256,6 +284,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 2194,
         "name": "Bermejo - Puerto Velaz",
         "river": "Bermejo",
@@ -264,21 +293,24 @@
         "country": "Argentina",
         "network": "RHN - SAT",
         "status": "ok",
-        "level_m": 3.44,
+        "level_m": 3.37,
         "discharge_m3s": null,
         "rain_mm": 0,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-20T12:00:00",
+        "last_reading_date": "2026-09-23T12:00:00",
         "days_since_reading": 1,
         "trend_variable": "level",
         "trend": "falling",
-        "trend_change": -0.46,
+        "trend_change": -0.35,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":3.92},{\"date\":\"2026-09-01\",\"value\":3.89},{\"date\":\"2026-09-02\",\"value\":3.86},{\"date\":\"2026-09-03\",\"value\":3.8},{\"date\":\"2026-09-04\",\"value\":3.73},{\"date\":\"2026-09-05\",\"value\":3.67},{\"date\":\"2026-09-06\",\"value\":3.64},{\"date\":\"2026-09-07\",\"value\":3.62},{\"date\":\"2026-09-08\",\"value\":3.6},{\"date\":\"2026-09-09\",\"value\":3.58},{\"date\":\"2026-09-10\",\"value\":3.56},{\"date\":\"2026-09-11\",\"value\":3.55},{\"date\":\"2026-09-12\",\"value\":3.52},{\"date\":\"2026-09-13\",\"value\":3.5},{\"date\":\"2026-09-14\",\"value\":3.48},{\"date\":\"2026-09-15\",\"value\":3.46},{\"date\":\"2026-09-16\",\"value\":3.44},{\"date\":\"2026-09-17\",\"value\":3.43},{\"date\":\"2026-09-18\",\"value\":3.39},{\"date\":\"2026-09-20\",\"value\":3.45},{\"date\":\"2026-09-21\",\"value\":3.44}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":3.8},{\"date\":\"2026-09-04\",\"value\":3.73},{\"date\":\"2026-09-05\",\"value\":3.67},{\"date\":\"2026-09-06\",\"value\":3.64},{\"date\":\"2026-09-07\",\"value\":3.62},{\"date\":\"2026-09-08\",\"value\":3.6},{\"date\":\"2026-09-09\",\"value\":3.58},{\"date\":\"2026-09-10\",\"value\":3.56},{\"date\":\"2026-09-11\",\"value\":3.55},{\"date\":\"2026-09-12\",\"value\":3.52},{\"date\":\"2026-09-13\",\"value\":3.5},{\"date\":\"2026-09-14\",\"value\":3.48},{\"date\":\"2026-09-15\",\"value\":3.46},{\"date\":\"2026-09-16\",\"value\":3.44},{\"date\":\"2026-09-17\",\"value\":3.43},{\"date\":\"2026-09-18\",\"value\":3.39},{\"date\":\"2026-09-20\",\"value\":3.45},{\"date\":\"2026-09-21\",\"value\":3.39},{\"date\":\"2026-09-22\",\"value\":3.38},{\"date\":\"2026-09-23\",\"value\":3.37}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -291,6 +323,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 2815,
         "name": "Bermejo - Aguas Blancas MET",
         "river": "Bermejo",
@@ -302,18 +335,21 @@
         "level_m": null,
         "discharge_m3s": null,
         "rain_mm": 0,
-        "temp_c": 21,
-        "wind_kmh": 4,
+        "temp_c": 13,
+        "wind_kmh": 3,
         "humidity_pct": 0,
-        "last_reading_date": "2026-09-21T00:00:00",
+        "last_reading_date": "2026-09-24T00:00:00",
         "days_since_reading": 0,
         "trend_variable": "temperature",
-        "trend": "rising",
-        "trend_change": 4,
+        "trend": "falling",
+        "trend_change": -3.67,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":20},{\"date\":\"2026-09-01\",\"value\":20},{\"date\":\"2026-09-02\",\"value\":21},{\"date\":\"2026-09-03\",\"value\":23},{\"date\":\"2026-09-04\",\"value\":21},{\"date\":\"2026-09-05\",\"value\":16},{\"date\":\"2026-09-06\",\"value\":13},{\"date\":\"2026-09-07\",\"value\":21},{\"date\":\"2026-09-08\",\"value\":18},{\"date\":\"2026-09-09\",\"value\":22},{\"date\":\"2026-09-10\",\"value\":22},{\"date\":\"2026-09-11\",\"value\":21},{\"date\":\"2026-09-12\",\"value\":15},{\"date\":\"2026-09-13\",\"value\":10},{\"date\":\"2026-09-14\",\"value\":12},{\"date\":\"2026-09-15\",\"value\":30},{\"date\":\"2026-09-16\",\"value\":20},{\"date\":\"2026-09-17\",\"value\":21},{\"date\":\"2026-09-18\",\"value\":22},{\"date\":\"2026-09-19\",\"value\":25},{\"date\":\"2026-09-20\",\"value\":27},{\"date\":\"2026-09-21\",\"value\":21}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":23},{\"date\":\"2026-09-04\",\"value\":21},{\"date\":\"2026-09-05\",\"value\":16},{\"date\":\"2026-09-06\",\"value\":13},{\"date\":\"2026-09-07\",\"value\":21},{\"date\":\"2026-09-08\",\"value\":18},{\"date\":\"2026-09-09\",\"value\":22},{\"date\":\"2026-09-10\",\"value\":22},{\"date\":\"2026-09-11\",\"value\":21},{\"date\":\"2026-09-12\",\"value\":15},{\"date\":\"2026-09-13\",\"value\":10},{\"date\":\"2026-09-14\",\"value\":12},{\"date\":\"2026-09-15\",\"value\":30},{\"date\":\"2026-09-16\",\"value\":20},{\"date\":\"2026-09-17\",\"value\":21},{\"date\":\"2026-09-18\",\"value\":22},{\"date\":\"2026-09-19\",\"value\":25},{\"date\":\"2026-09-20\",\"value\":27},{\"date\":\"2026-09-21\",\"value\":22},{\"date\":\"2026-09-22\",\"value\":17},{\"date\":\"2026-09-23\",\"value\":19},{\"date\":\"2026-09-24\",\"value\":13}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -326,6 +362,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 2826,
         "name": "Pilcomayo - Puesto Jerez",
         "river": "Pilcomayo",
@@ -334,21 +371,24 @@
         "country": "Argentina",
         "network": "RHN - SAT",
         "status": "ok",
-        "level_m": 1.02,
+        "level_m": 1.08,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T08:00:00",
+        "last_reading_date": "2026-09-24T04:00:00",
         "days_since_reading": 0,
         "trend_variable": "level",
-        "trend": "falling",
-        "trend_change": -0.15,
+        "trend": "steady",
+        "trend_change": 0,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":1.09},{\"date\":\"2026-09-01\",\"value\":1.09},{\"date\":\"2026-09-02\",\"value\":1.09},{\"date\":\"2026-09-03\",\"value\":1.09},{\"date\":\"2026-09-04\",\"value\":1.08},{\"date\":\"2026-09-05\",\"value\":1.08},{\"date\":\"2026-09-06\",\"value\":1.08},{\"date\":\"2026-09-07\",\"value\":1.1},{\"date\":\"2026-09-08\",\"value\":1.1},{\"date\":\"2026-09-09\",\"value\":1.09},{\"date\":\"2026-09-10\",\"value\":1.09},{\"date\":\"2026-09-11\",\"value\":0.91},{\"date\":\"2026-09-12\",\"value\":0.86},{\"date\":\"2026-09-13\",\"value\":0.86},{\"date\":\"2026-09-14\",\"value\":0.87},{\"date\":\"2026-09-15\",\"value\":0.98},{\"date\":\"2026-09-16\",\"value\":0.86},{\"date\":\"2026-09-17\",\"value\":0.85},{\"date\":\"2026-09-18\",\"value\":0.72},{\"date\":\"2026-09-19\",\"value\":0.73},{\"date\":\"2026-09-20\",\"value\":1.07},{\"date\":\"2026-09-21\",\"value\":1.02}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":1.09},{\"date\":\"2026-09-04\",\"value\":1.08},{\"date\":\"2026-09-05\",\"value\":1.08},{\"date\":\"2026-09-06\",\"value\":1.08},{\"date\":\"2026-09-07\",\"value\":1.1},{\"date\":\"2026-09-08\",\"value\":1.1},{\"date\":\"2026-09-09\",\"value\":1.09},{\"date\":\"2026-09-10\",\"value\":1.09},{\"date\":\"2026-09-11\",\"value\":0.91},{\"date\":\"2026-09-12\",\"value\":0.86},{\"date\":\"2026-09-13\",\"value\":0.86},{\"date\":\"2026-09-14\",\"value\":0.87},{\"date\":\"2026-09-15\",\"value\":0.98},{\"date\":\"2026-09-16\",\"value\":0.86},{\"date\":\"2026-09-17\",\"value\":0.85},{\"date\":\"2026-09-18\",\"value\":0.72},{\"date\":\"2026-09-19\",\"value\":0.73},{\"date\":\"2026-09-20\",\"value\":1.07},{\"date\":\"2026-09-21\",\"value\":0.79},{\"date\":\"2026-09-22\",\"value\":1.09},{\"date\":\"2026-09-23\",\"value\":1.08},{\"date\":\"2026-09-24\",\"value\":1.08}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -361,6 +401,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 2846,
         "name": "Pilcomayo - Misión La Paz",
         "river": "Pilcomayo",
@@ -376,14 +417,17 @@
         "wind_kmh": 6,
         "humidity_pct": 43,
         "last_reading_date": "2026-09-20T12:00:00",
-        "days_since_reading": 1,
+        "days_since_reading": 4,
         "trend_variable": "level",
         "trend": "steady",
-        "trend_change": 0.04,
+        "trend_change": 0.08,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":3.08},{\"date\":\"2026-09-01\",\"value\":3.06},{\"date\":\"2026-09-02\",\"value\":3.01},{\"date\":\"2026-09-03\",\"value\":3.01},{\"date\":\"2026-09-04\",\"value\":3},{\"date\":\"2026-09-05\",\"value\":3.01},{\"date\":\"2026-09-06\",\"value\":3.02},{\"date\":\"2026-09-07\",\"value\":3.04},{\"date\":\"2026-09-08\",\"value\":3.04},{\"date\":\"2026-09-09\",\"value\":3.02},{\"date\":\"2026-09-10\",\"value\":3.02},{\"date\":\"2026-09-11\",\"value\":3.01},{\"date\":\"2026-09-12\",\"value\":3.03},{\"date\":\"2026-09-13\",\"value\":3.04},{\"date\":\"2026-09-14\",\"value\":3.06},{\"date\":\"2026-09-15\",\"value\":3.07},{\"date\":\"2026-09-16\",\"value\":3.07},{\"date\":\"2026-09-17\",\"value\":3.06},{\"date\":\"2026-09-18\",\"value\":3.06},{\"date\":\"2026-09-19\",\"value\":3.1},{\"date\":\"2026-09-20\",\"value\":3.1}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":3.01},{\"date\":\"2026-09-04\",\"value\":3},{\"date\":\"2026-09-05\",\"value\":3.01},{\"date\":\"2026-09-06\",\"value\":3.02},{\"date\":\"2026-09-07\",\"value\":3.04},{\"date\":\"2026-09-08\",\"value\":3.04},{\"date\":\"2026-09-09\",\"value\":3.02},{\"date\":\"2026-09-10\",\"value\":3.02},{\"date\":\"2026-09-11\",\"value\":3.01},{\"date\":\"2026-09-12\",\"value\":3.03},{\"date\":\"2026-09-13\",\"value\":3.04},{\"date\":\"2026-09-14\",\"value\":3.06},{\"date\":\"2026-09-15\",\"value\":3.07},{\"date\":\"2026-09-16\",\"value\":3.07},{\"date\":\"2026-09-17\",\"value\":3.06},{\"date\":\"2026-09-18\",\"value\":3.06},{\"date\":\"2026-09-19\",\"value\":3.1},{\"date\":\"2026-09-20\",\"value\":3.1}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -396,6 +440,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 6449,
         "name": "Paraguay - Isla del Cerrito",
         "river": "Paraguay",
@@ -404,21 +449,24 @@
         "country": "Argentina",
         "network": "RHN - SAT",
         "status": "ok",
-        "level_m": 4.75,
+        "level_m": 4.91,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T11:00:00",
+        "last_reading_date": "2026-09-24T09:00:00",
         "days_since_reading": 0,
         "trend_variable": "level",
         "trend": "rising",
-        "trend_change": 1.96,
+        "trend_change": 1.62,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":2.78},{\"date\":\"2026-09-01\",\"value\":2.68},{\"date\":\"2026-09-02\",\"value\":2.78},{\"date\":\"2026-09-03\",\"value\":3.06},{\"date\":\"2026-09-04\",\"value\":3.3},{\"date\":\"2026-09-05\",\"value\":3.48},{\"date\":\"2026-09-06\",\"value\":3.61},{\"date\":\"2026-09-07\",\"value\":3.66},{\"date\":\"2026-09-08\",\"value\":3.57},{\"date\":\"2026-09-09\",\"value\":3.43},{\"date\":\"2026-09-10\",\"value\":3.34},{\"date\":\"2026-09-11\",\"value\":3.32},{\"date\":\"2026-09-12\",\"value\":3.41},{\"date\":\"2026-09-13\",\"value\":3.63},{\"date\":\"2026-09-14\",\"value\":3.91},{\"date\":\"2026-09-15\",\"value\":4.13},{\"date\":\"2026-09-16\",\"value\":4.27},{\"date\":\"2026-09-17\",\"value\":4.37},{\"date\":\"2026-09-18\",\"value\":4.46},{\"date\":\"2026-09-19\",\"value\":4.62},{\"date\":\"2026-09-20\",\"value\":4.74},{\"date\":\"2026-09-21\",\"value\":4.75}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":3.06},{\"date\":\"2026-09-04\",\"value\":3.3},{\"date\":\"2026-09-05\",\"value\":3.48},{\"date\":\"2026-09-06\",\"value\":3.61},{\"date\":\"2026-09-07\",\"value\":3.66},{\"date\":\"2026-09-08\",\"value\":3.57},{\"date\":\"2026-09-09\",\"value\":3.43},{\"date\":\"2026-09-10\",\"value\":3.34},{\"date\":\"2026-09-11\",\"value\":3.32},{\"date\":\"2026-09-12\",\"value\":3.41},{\"date\":\"2026-09-13\",\"value\":3.63},{\"date\":\"2026-09-14\",\"value\":3.91},{\"date\":\"2026-09-15\",\"value\":4.13},{\"date\":\"2026-09-16\",\"value\":4.27},{\"date\":\"2026-09-17\",\"value\":4.37},{\"date\":\"2026-09-18\",\"value\":4.46},{\"date\":\"2026-09-19\",\"value\":4.62},{\"date\":\"2026-09-20\",\"value\":4.74},{\"date\":\"2026-09-21\",\"value\":4.82},{\"date\":\"2026-09-22\",\"value\":4.89},{\"date\":\"2026-09-23\",\"value\":4.9},{\"date\":\"2026-09-24\",\"value\":4.91}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -431,6 +479,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 6511,
         "name": "Paraguay - Las Palmas",
         "river": "Paraguay",
@@ -439,21 +488,24 @@
         "country": "Argentina",
         "network": "RHN - SAT",
         "status": "ok",
-        "level_m": 4.09,
+        "level_m": 4.24,
         "discharge_m3s": null,
         "rain_mm": 0,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T11:00:00",
+        "last_reading_date": "2026-09-24T09:00:00",
         "days_since_reading": 0,
         "trend_variable": "level",
         "trend": "rising",
-        "trend_change": 1.67,
+        "trend_change": 1.43,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":2.43},{\"date\":\"2026-09-01\",\"value\":2.32},{\"date\":\"2026-09-02\",\"value\":2.39},{\"date\":\"2026-09-03\",\"value\":2.63},{\"date\":\"2026-09-04\",\"value\":2.81},{\"date\":\"2026-09-05\",\"value\":2.97},{\"date\":\"2026-09-06\",\"value\":3.06},{\"date\":\"2026-09-07\",\"value\":3.1},{\"date\":\"2026-09-08\",\"value\":3.04},{\"date\":\"2026-09-09\",\"value\":2.92},{\"date\":\"2026-09-10\",\"value\":2.85},{\"date\":\"2026-09-11\",\"value\":2.84},{\"date\":\"2026-09-12\",\"value\":2.9},{\"date\":\"2026-09-13\",\"value\":3.08},{\"date\":\"2026-09-14\",\"value\":3.31},{\"date\":\"2026-09-15\",\"value\":3.5},{\"date\":\"2026-09-16\",\"value\":3.63},{\"date\":\"2026-09-17\",\"value\":3.73},{\"date\":\"2026-09-18\",\"value\":3.82},{\"date\":\"2026-09-19\",\"value\":3.97},{\"date\":\"2026-09-20\",\"value\":4.09},{\"date\":\"2026-09-21\",\"value\":4.09}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":2.63},{\"date\":\"2026-09-04\",\"value\":2.81},{\"date\":\"2026-09-05\",\"value\":2.97},{\"date\":\"2026-09-06\",\"value\":3.06},{\"date\":\"2026-09-07\",\"value\":3.1},{\"date\":\"2026-09-08\",\"value\":3.04},{\"date\":\"2026-09-09\",\"value\":2.92},{\"date\":\"2026-09-10\",\"value\":2.85},{\"date\":\"2026-09-11\",\"value\":2.84},{\"date\":\"2026-09-12\",\"value\":2.9},{\"date\":\"2026-09-13\",\"value\":3.08},{\"date\":\"2026-09-14\",\"value\":3.31},{\"date\":\"2026-09-15\",\"value\":3.5},{\"date\":\"2026-09-16\",\"value\":3.63},{\"date\":\"2026-09-17\",\"value\":3.73},{\"date\":\"2026-09-18\",\"value\":3.82},{\"date\":\"2026-09-19\",\"value\":3.97},{\"date\":\"2026-09-20\",\"value\":4.09},{\"date\":\"2026-09-21\",\"value\":4.17},{\"date\":\"2026-09-22\",\"value\":4.22},{\"date\":\"2026-09-23\",\"value\":4.23},{\"date\":\"2026-09-24\",\"value\":4.24}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -466,6 +518,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 6548,
         "name": "Bermejo - Aguas Blancas LIM",
         "river": "Bermejo",
@@ -474,21 +527,24 @@
         "country": "Argentina",
         "network": "RHN - SAT",
         "status": "ok",
-        "level_m": 1.08,
+        "level_m": 1.43,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T08:00:00",
+        "last_reading_date": "2026-09-24T08:00:00",
         "days_since_reading": 0,
         "trend_variable": "level",
-        "trend": "steady",
-        "trend_change": 0,
+        "trend": "rising",
+        "trend_change": 0.36,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":1.09},{\"date\":\"2026-09-01\",\"value\":1.09},{\"date\":\"2026-09-02\",\"value\":1.09},{\"date\":\"2026-09-03\",\"value\":1.09},{\"date\":\"2026-09-04\",\"value\":1.07},{\"date\":\"2026-09-05\",\"value\":1.07},{\"date\":\"2026-09-06\",\"value\":1.08},{\"date\":\"2026-09-07\",\"value\":1.08},{\"date\":\"2026-09-08\",\"value\":1.07},{\"date\":\"2026-09-09\",\"value\":1.08},{\"date\":\"2026-09-10\",\"value\":1.08},{\"date\":\"2026-09-11\",\"value\":1.07},{\"date\":\"2026-09-12\",\"value\":1.08},{\"date\":\"2026-09-13\",\"value\":1.14},{\"date\":\"2026-09-14\",\"value\":1.16},{\"date\":\"2026-09-15\",\"value\":1.13},{\"date\":\"2026-09-16\",\"value\":1.09},{\"date\":\"2026-09-17\",\"value\":1.09},{\"date\":\"2026-09-18\",\"value\":1.09},{\"date\":\"2026-09-19\",\"value\":1.11},{\"date\":\"2026-09-20\",\"value\":1.09},{\"date\":\"2026-09-21\",\"value\":1.08}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":1.09},{\"date\":\"2026-09-04\",\"value\":1.07},{\"date\":\"2026-09-05\",\"value\":1.07},{\"date\":\"2026-09-06\",\"value\":1.08},{\"date\":\"2026-09-07\",\"value\":1.08},{\"date\":\"2026-09-08\",\"value\":1.07},{\"date\":\"2026-09-09\",\"value\":1.08},{\"date\":\"2026-09-10\",\"value\":1.08},{\"date\":\"2026-09-11\",\"value\":1.07},{\"date\":\"2026-09-12\",\"value\":1.08},{\"date\":\"2026-09-13\",\"value\":1.14},{\"date\":\"2026-09-14\",\"value\":1.16},{\"date\":\"2026-09-15\",\"value\":1.13},{\"date\":\"2026-09-16\",\"value\":1.09},{\"date\":\"2026-09-17\",\"value\":1.09},{\"date\":\"2026-09-18\",\"value\":1.09},{\"date\":\"2026-09-19\",\"value\":1.11},{\"date\":\"2026-09-20\",\"value\":1.09},{\"date\":\"2026-09-21\",\"value\":1.45},{\"date\":\"2026-09-22\",\"value\":1.43},{\"date\":\"2026-09-23\",\"value\":1.44},{\"date\":\"2026-09-24\",\"value\":1.43}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -501,6 +557,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 6658,
         "name": "Paraguay - Puerto Dalmacia",
         "river": "Paraguay",
@@ -509,21 +566,24 @@
         "country": "Argentina",
         "network": "RHN - SAT",
         "status": "ok",
-        "level_m": 1.58,
+        "level_m": 1.63,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T08:00:00",
+        "last_reading_date": "2026-09-24T08:00:00",
         "days_since_reading": 0,
         "trend_variable": "level",
         "trend": "falling",
-        "trend_change": -0.26,
+        "trend_change": -0.08,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":1.88},{\"date\":\"2026-09-01\",\"value\":1.87},{\"date\":\"2026-09-02\",\"value\":1.79},{\"date\":\"2026-09-03\",\"value\":1.75},{\"date\":\"2026-09-04\",\"value\":1.72},{\"date\":\"2026-09-05\",\"value\":1.69},{\"date\":\"2026-09-06\",\"value\":1.67},{\"date\":\"2026-09-07\",\"value\":1.64},{\"date\":\"2026-09-08\",\"value\":1.63},{\"date\":\"2026-09-09\",\"value\":1.6},{\"date\":\"2026-09-10\",\"value\":1.58},{\"date\":\"2026-09-11\",\"value\":1.57},{\"date\":\"2026-09-12\",\"value\":1.55},{\"date\":\"2026-09-13\",\"value\":1.52},{\"date\":\"2026-09-14\",\"value\":1.5},{\"date\":\"2026-09-15\",\"value\":1.49},{\"date\":\"2026-09-16\",\"value\":1.48},{\"date\":\"2026-09-17\",\"value\":1.49},{\"date\":\"2026-09-18\",\"value\":1.5},{\"date\":\"2026-09-19\",\"value\":1.56},{\"date\":\"2026-09-20\",\"value\":1.61},{\"date\":\"2026-09-21\",\"value\":1.58}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":1.75},{\"date\":\"2026-09-04\",\"value\":1.72},{\"date\":\"2026-09-05\",\"value\":1.69},{\"date\":\"2026-09-06\",\"value\":1.67},{\"date\":\"2026-09-07\",\"value\":1.64},{\"date\":\"2026-09-08\",\"value\":1.63},{\"date\":\"2026-09-09\",\"value\":1.6},{\"date\":\"2026-09-10\",\"value\":1.58},{\"date\":\"2026-09-11\",\"value\":1.57},{\"date\":\"2026-09-12\",\"value\":1.55},{\"date\":\"2026-09-13\",\"value\":1.52},{\"date\":\"2026-09-14\",\"value\":1.5},{\"date\":\"2026-09-15\",\"value\":1.49},{\"date\":\"2026-09-16\",\"value\":1.48},{\"date\":\"2026-09-17\",\"value\":1.49},{\"date\":\"2026-09-18\",\"value\":1.5},{\"date\":\"2026-09-19\",\"value\":1.56},{\"date\":\"2026-09-20\",\"value\":1.61},{\"date\":\"2026-09-21\",\"value\":1.63},{\"date\":\"2026-09-22\",\"value\":1.64},{\"date\":\"2026-09-23\",\"value\":1.64},{\"date\":\"2026-09-24\",\"value\":1.63}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -536,6 +596,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 6660,
         "name": "Pilcomayo - Villa Gral. Güemes",
         "river": "Pilcomayo",
@@ -544,21 +605,24 @@
         "country": "Argentina",
         "network": "RHN - SAT",
         "status": "ok",
-        "level_m": 1.55,
+        "level_m": 1.54,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T08:00:00",
+        "last_reading_date": "2026-09-24T08:00:00",
         "days_since_reading": 0,
         "trend_variable": "level",
         "trend": "falling",
-        "trend_change": -0.27,
+        "trend_change": -0.2,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":1.84},{\"date\":\"2026-09-01\",\"value\":1.83},{\"date\":\"2026-09-02\",\"value\":1.79},{\"date\":\"2026-09-03\",\"value\":1.76},{\"date\":\"2026-09-04\",\"value\":1.75},{\"date\":\"2026-09-05\",\"value\":1.73},{\"date\":\"2026-09-06\",\"value\":1.71},{\"date\":\"2026-09-07\",\"value\":1.68},{\"date\":\"2026-09-08\",\"value\":1.66},{\"date\":\"2026-09-09\",\"value\":1.65},{\"date\":\"2026-09-10\",\"value\":1.64},{\"date\":\"2026-09-11\",\"value\":1.63},{\"date\":\"2026-09-12\",\"value\":1.62},{\"date\":\"2026-09-13\",\"value\":1.61},{\"date\":\"2026-09-14\",\"value\":1.6},{\"date\":\"2026-09-15\",\"value\":1.59},{\"date\":\"2026-09-16\",\"value\":1.57},{\"date\":\"2026-09-17\",\"value\":1.55},{\"date\":\"2026-09-18\",\"value\":1.56},{\"date\":\"2026-09-19\",\"value\":1.55},{\"date\":\"2026-09-20\",\"value\":1.55},{\"date\":\"2026-09-21\",\"value\":1.55}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":1.76},{\"date\":\"2026-09-04\",\"value\":1.75},{\"date\":\"2026-09-05\",\"value\":1.73},{\"date\":\"2026-09-06\",\"value\":1.71},{\"date\":\"2026-09-07\",\"value\":1.68},{\"date\":\"2026-09-08\",\"value\":1.66},{\"date\":\"2026-09-09\",\"value\":1.65},{\"date\":\"2026-09-10\",\"value\":1.64},{\"date\":\"2026-09-11\",\"value\":1.63},{\"date\":\"2026-09-12\",\"value\":1.62},{\"date\":\"2026-09-13\",\"value\":1.61},{\"date\":\"2026-09-14\",\"value\":1.6},{\"date\":\"2026-09-15\",\"value\":1.59},{\"date\":\"2026-09-16\",\"value\":1.57},{\"date\":\"2026-09-17\",\"value\":1.55},{\"date\":\"2026-09-18\",\"value\":1.56},{\"date\":\"2026-09-19\",\"value\":1.55},{\"date\":\"2026-09-20\",\"value\":1.55},{\"date\":\"2026-09-21\",\"value\":1.55},{\"date\":\"2026-09-22\",\"value\":1.55},{\"date\":\"2026-09-23\",\"value\":1.54},{\"date\":\"2026-09-24\",\"value\":1.54}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -571,6 +635,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 6678,
         "name": "Bermejo - Alarache",
         "river": "Bermejo",
@@ -585,15 +650,18 @@
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T08:00:00",
+        "last_reading_date": "2026-09-24T04:00:00",
         "days_since_reading": 0,
         "trend_variable": "level",
         "trend": "steady",
         "trend_change": 0,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":0.02},{\"date\":\"2026-09-01\",\"value\":0.01},{\"date\":\"2026-09-02\",\"value\":0.03},{\"date\":\"2026-09-03\",\"value\":0.02},{\"date\":\"2026-09-04\",\"value\":0.02},{\"date\":\"2026-09-05\",\"value\":0.03},{\"date\":\"2026-09-06\",\"value\":0.02},{\"date\":\"2026-09-07\",\"value\":0.03},{\"date\":\"2026-09-08\",\"value\":0.04},{\"date\":\"2026-09-09\",\"value\":0.03},{\"date\":\"2026-09-10\",\"value\":0.01},{\"date\":\"2026-09-11\",\"value\":0},{\"date\":\"2026-09-12\",\"value\":0.04},{\"date\":\"2026-09-13\",\"value\":0.04},{\"date\":\"2026-09-14\",\"value\":0.04},{\"date\":\"2026-09-15\",\"value\":0.01},{\"date\":\"2026-09-16\",\"value\":0.01},{\"date\":\"2026-09-17\",\"value\":0.01},{\"date\":\"2026-09-18\",\"value\":0.07},{\"date\":\"2026-09-19\",\"value\":0.04},{\"date\":\"2026-09-20\",\"value\":0},{\"date\":\"2026-09-21\",\"value\":0.01}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":0.02},{\"date\":\"2026-09-04\",\"value\":0.02},{\"date\":\"2026-09-05\",\"value\":0.03},{\"date\":\"2026-09-06\",\"value\":0.02},{\"date\":\"2026-09-07\",\"value\":0.03},{\"date\":\"2026-09-08\",\"value\":0.04},{\"date\":\"2026-09-09\",\"value\":0.03},{\"date\":\"2026-09-10\",\"value\":0.01},{\"date\":\"2026-09-11\",\"value\":0},{\"date\":\"2026-09-12\",\"value\":0.04},{\"date\":\"2026-09-13\",\"value\":0.04},{\"date\":\"2026-09-14\",\"value\":0.04},{\"date\":\"2026-09-15\",\"value\":0.01},{\"date\":\"2026-09-16\",\"value\":0.01},{\"date\":\"2026-09-17\",\"value\":0.01},{\"date\":\"2026-09-18\",\"value\":0.07},{\"date\":\"2026-09-19\",\"value\":0.04},{\"date\":\"2026-09-20\",\"value\":0},{\"date\":\"2026-09-21\",\"value\":0.01},{\"date\":\"2026-09-22\",\"value\":0.03},{\"date\":\"2026-09-23\",\"value\":0.02},{\"date\":\"2026-09-24\",\"value\":0.01}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -606,6 +674,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 7247,
         "name": "Bermejo - Balapuca MET",
         "river": "Bermejo",
@@ -617,18 +686,21 @@
         "level_m": 2.09,
         "discharge_m3s": null,
         "rain_mm": 0,
-        "temp_c": 37,
-        "wind_kmh": 63,
-        "humidity_pct": 9,
-        "last_reading_date": "2026-09-21T08:00:00",
-        "days_since_reading": 0,
+        "temp_c": 55,
+        "wind_kmh": 69,
+        "humidity_pct": 15,
+        "last_reading_date": "2026-09-23T16:00:00",
+        "days_since_reading": 1,
         "trend_variable": "level",
         "trend": "steady",
         "trend_change": 0,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":2.09},{\"date\":\"2026-09-03\",\"value\":2.09},{\"date\":\"2026-09-04\",\"value\":2.09},{\"date\":\"2026-09-05\",\"value\":2.09},{\"date\":\"2026-09-06\",\"value\":2.09},{\"date\":\"2026-09-07\",\"value\":2.09},{\"date\":\"2026-09-08\",\"value\":2.09},{\"date\":\"2026-09-09\",\"value\":2.09},{\"date\":\"2026-09-10\",\"value\":2.09},{\"date\":\"2026-09-11\",\"value\":2.09},{\"date\":\"2026-09-12\",\"value\":2.09},{\"date\":\"2026-09-13\",\"value\":2.09},{\"date\":\"2026-09-14\",\"value\":2.09},{\"date\":\"2026-09-15\",\"value\":2.09},{\"date\":\"2026-09-17\",\"value\":2.09},{\"date\":\"2026-09-18\",\"value\":2.09},{\"date\":\"2026-09-19\",\"value\":2.09},{\"date\":\"2026-09-20\",\"value\":2.09}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":2.09},{\"date\":\"2026-09-04\",\"value\":2.09},{\"date\":\"2026-09-05\",\"value\":2.09},{\"date\":\"2026-09-06\",\"value\":2.09},{\"date\":\"2026-09-07\",\"value\":2.09},{\"date\":\"2026-09-08\",\"value\":2.09},{\"date\":\"2026-09-09\",\"value\":2.09},{\"date\":\"2026-09-10\",\"value\":2.09},{\"date\":\"2026-09-11\",\"value\":2.09},{\"date\":\"2026-09-12\",\"value\":2.09},{\"date\":\"2026-09-13\",\"value\":2.09},{\"date\":\"2026-09-14\",\"value\":2.09},{\"date\":\"2026-09-15\",\"value\":2.09},{\"date\":\"2026-09-17\",\"value\":2.09},{\"date\":\"2026-09-18\",\"value\":2.09},{\"date\":\"2026-09-19\",\"value\":2.09},{\"date\":\"2026-09-20\",\"value\":2.09},{\"date\":\"2026-09-21\",\"value\":2.09},{\"date\":\"2026-09-22\",\"value\":2.09},{\"date\":\"2026-09-23\",\"value\":2.09}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -641,6 +713,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 7248,
         "name": "Bermejo - P. Sarmiento",
         "river": "Bermejo",
@@ -649,21 +722,24 @@
         "country": "Argentina",
         "network": "RHN - SAT",
         "status": "ok",
-        "level_m": 0.06,
+        "level_m": 0.02,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T08:00:00",
+        "last_reading_date": "2026-09-24T08:00:00",
         "days_since_reading": 0,
         "trend_variable": "level",
         "trend": "falling",
-        "trend_change": -0.14,
+        "trend_change": -0.07,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":0.22},{\"date\":\"2026-09-01\",\"value\":0.2},{\"date\":\"2026-09-02\",\"value\":0.21},{\"date\":\"2026-09-03\",\"value\":0.12},{\"date\":\"2026-09-04\",\"value\":0.1},{\"date\":\"2026-09-05\",\"value\":0.08},{\"date\":\"2026-09-06\",\"value\":0.06},{\"date\":\"2026-09-07\",\"value\":0.07},{\"date\":\"2026-09-08\",\"value\":0.07},{\"date\":\"2026-09-09\",\"value\":0.05},{\"date\":\"2026-09-10\",\"value\":0.05},{\"date\":\"2026-09-11\",\"value\":0.03},{\"date\":\"2026-09-12\",\"value\":0.02},{\"date\":\"2026-09-13\",\"value\":0.07},{\"date\":\"2026-09-14\",\"value\":0.14},{\"date\":\"2026-09-15\",\"value\":0.14},{\"date\":\"2026-09-16\",\"value\":0.14},{\"date\":\"2026-09-17\",\"value\":0.11},{\"date\":\"2026-09-18\",\"value\":0.08},{\"date\":\"2026-09-19\",\"value\":0.07},{\"date\":\"2026-09-20\",\"value\":0.07},{\"date\":\"2026-09-21\",\"value\":0.06}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":0.12},{\"date\":\"2026-09-04\",\"value\":0.1},{\"date\":\"2026-09-05\",\"value\":0.08},{\"date\":\"2026-09-06\",\"value\":0.06},{\"date\":\"2026-09-07\",\"value\":0.07},{\"date\":\"2026-09-08\",\"value\":0.07},{\"date\":\"2026-09-09\",\"value\":0.05},{\"date\":\"2026-09-10\",\"value\":0.05},{\"date\":\"2026-09-11\",\"value\":0.03},{\"date\":\"2026-09-12\",\"value\":0.02},{\"date\":\"2026-09-13\",\"value\":0.07},{\"date\":\"2026-09-14\",\"value\":0.14},{\"date\":\"2026-09-15\",\"value\":0.14},{\"date\":\"2026-09-16\",\"value\":0.14},{\"date\":\"2026-09-17\",\"value\":0.11},{\"date\":\"2026-09-18\",\"value\":0.08},{\"date\":\"2026-09-19\",\"value\":0.07},{\"date\":\"2026-09-20\",\"value\":0.07},{\"date\":\"2026-09-21\",\"value\":0.04},{\"date\":\"2026-09-22\",\"value\":0.04},{\"date\":\"2026-09-23\",\"value\":0.02},{\"date\":\"2026-09-24\",\"value\":0.02}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -676,6 +752,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 7249,
         "name": "Bermejo - Santa Victoria Oeste",
         "river": "Bermejo",
@@ -684,21 +761,24 @@
         "country": "Argentina",
         "network": "RHN - SAT",
         "status": "ok",
-        "level_m": 0.75,
+        "level_m": 0.86,
         "discharge_m3s": null,
         "rain_mm": 0,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T04:00:00",
+        "last_reading_date": "2026-09-24T08:00:00",
         "days_since_reading": 0,
         "trend_variable": "level",
-        "trend": "steady",
-        "trend_change": -0.01,
+        "trend": "rising",
+        "trend_change": 0.06,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":0.76},{\"date\":\"2026-09-01\",\"value\":0.77},{\"date\":\"2026-09-02\",\"value\":0.77},{\"date\":\"2026-09-03\",\"value\":0.76},{\"date\":\"2026-09-04\",\"value\":0.77},{\"date\":\"2026-09-05\",\"value\":0.76},{\"date\":\"2026-09-06\",\"value\":0.76},{\"date\":\"2026-09-07\",\"value\":0.77},{\"date\":\"2026-09-08\",\"value\":0.75},{\"date\":\"2026-09-09\",\"value\":0.77},{\"date\":\"2026-09-10\",\"value\":0.75},{\"date\":\"2026-09-11\",\"value\":0.75},{\"date\":\"2026-09-12\",\"value\":0.75},{\"date\":\"2026-09-13\",\"value\":0.76},{\"date\":\"2026-09-14\",\"value\":0.74},{\"date\":\"2026-09-15\",\"value\":0.75},{\"date\":\"2026-09-16\",\"value\":0.74},{\"date\":\"2026-09-17\",\"value\":0.74},{\"date\":\"2026-09-18\",\"value\":0.8},{\"date\":\"2026-09-19\",\"value\":0.76},{\"date\":\"2026-09-20\",\"value\":0.75},{\"date\":\"2026-09-21\",\"value\":0.75}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":0.76},{\"date\":\"2026-09-04\",\"value\":0.77},{\"date\":\"2026-09-05\",\"value\":0.76},{\"date\":\"2026-09-06\",\"value\":0.76},{\"date\":\"2026-09-07\",\"value\":0.77},{\"date\":\"2026-09-08\",\"value\":0.75},{\"date\":\"2026-09-09\",\"value\":0.77},{\"date\":\"2026-09-10\",\"value\":0.75},{\"date\":\"2026-09-11\",\"value\":0.75},{\"date\":\"2026-09-12\",\"value\":0.75},{\"date\":\"2026-09-13\",\"value\":0.76},{\"date\":\"2026-09-14\",\"value\":0.74},{\"date\":\"2026-09-15\",\"value\":0.75},{\"date\":\"2026-09-16\",\"value\":0.74},{\"date\":\"2026-09-17\",\"value\":0.74},{\"date\":\"2026-09-18\",\"value\":0.8},{\"date\":\"2026-09-19\",\"value\":0.76},{\"date\":\"2026-09-20\",\"value\":0.75},{\"date\":\"2026-09-21\",\"value\":0.76},{\"date\":\"2026-09-22\",\"value\":0.74},{\"date\":\"2026-09-23\",\"value\":0.86},{\"date\":\"2026-09-24\",\"value\":0.86}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -711,6 +791,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 7277,
         "name": "Iguazú - Pto. Iguazú",
         "river": "Iguazú",
@@ -719,21 +800,24 @@
         "country": "Argentina",
         "network": "RHN - SAT",
         "status": "ok",
-        "level_m": 17.04,
+        "level_m": 17.44,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T10:30:00",
+        "last_reading_date": "2026-09-24T08:00:00",
         "days_since_reading": 0,
         "trend_variable": "level",
         "trend": "rising",
-        "trend_change": 2.85,
+        "trend_change": 1.11,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":10.6},{\"date\":\"2026-09-01\",\"value\":15.09},{\"date\":\"2026-09-02\",\"value\":18.08},{\"date\":\"2026-09-03\",\"value\":17.08},{\"date\":\"2026-09-04\",\"value\":16.27},{\"date\":\"2026-09-05\",\"value\":14.96},{\"date\":\"2026-09-06\",\"value\":12.78},{\"date\":\"2026-09-07\",\"value\":12.46},{\"date\":\"2026-09-08\",\"value\":13.48},{\"date\":\"2026-09-09\",\"value\":14.75},{\"date\":\"2026-09-10\",\"value\":14.86},{\"date\":\"2026-09-11\",\"value\":18.06},{\"date\":\"2026-09-12\",\"value\":18.6},{\"date\":\"2026-09-13\",\"value\":18.79},{\"date\":\"2026-09-14\",\"value\":18.84},{\"date\":\"2026-09-15\",\"value\":18.63},{\"date\":\"2026-09-16\",\"value\":18.99},{\"date\":\"2026-09-17\",\"value\":18.93},{\"date\":\"2026-09-18\",\"value\":18.48},{\"date\":\"2026-09-19\",\"value\":18.22},{\"date\":\"2026-09-20\",\"value\":17.06},{\"date\":\"2026-09-21\",\"value\":17.04}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":17.08},{\"date\":\"2026-09-04\",\"value\":16.27},{\"date\":\"2026-09-05\",\"value\":14.96},{\"date\":\"2026-09-06\",\"value\":12.78},{\"date\":\"2026-09-07\",\"value\":12.46},{\"date\":\"2026-09-08\",\"value\":13.48},{\"date\":\"2026-09-09\",\"value\":14.75},{\"date\":\"2026-09-10\",\"value\":14.86},{\"date\":\"2026-09-11\",\"value\":18.06},{\"date\":\"2026-09-12\",\"value\":18.6},{\"date\":\"2026-09-13\",\"value\":18.79},{\"date\":\"2026-09-14\",\"value\":18.84},{\"date\":\"2026-09-15\",\"value\":18.63},{\"date\":\"2026-09-16\",\"value\":18.99},{\"date\":\"2026-09-17\",\"value\":18.93},{\"date\":\"2026-09-18\",\"value\":18.48},{\"date\":\"2026-09-19\",\"value\":18.22},{\"date\":\"2026-09-20\",\"value\":17.06},{\"date\":\"2026-09-21\",\"value\":16.65},{\"date\":\"2026-09-22\",\"value\":16.78},{\"date\":\"2026-09-23\",\"value\":17.42},{\"date\":\"2026-09-24\",\"value\":17.44}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -746,6 +830,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 6659,
         "name": "Riacho Salado - Tatané - RN 11",
         "river": "Riacho Salado",
@@ -760,15 +845,18 @@
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T08:00:00",
+        "last_reading_date": "2026-09-24T08:00:00",
         "days_since_reading": 0,
         "trend_variable": "level",
-        "trend": "falling",
-        "trend_change": -0.15,
+        "trend": "steady",
+        "trend_change": -0.04,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":1.51},{\"date\":\"2026-09-01\",\"value\":1.5},{\"date\":\"2026-09-02\",\"value\":1.45},{\"date\":\"2026-09-03\",\"value\":1.41},{\"date\":\"2026-09-04\",\"value\":1.38},{\"date\":\"2026-09-05\",\"value\":1.35},{\"date\":\"2026-09-06\",\"value\":1.34},{\"date\":\"2026-09-07\",\"value\":1.34},{\"date\":\"2026-09-08\",\"value\":1.34},{\"date\":\"2026-09-09\",\"value\":1.34},{\"date\":\"2026-09-10\",\"value\":1.34},{\"date\":\"2026-09-11\",\"value\":1.34},{\"date\":\"2026-09-12\",\"value\":1.34},{\"date\":\"2026-09-13\",\"value\":1.34},{\"date\":\"2026-09-14\",\"value\":1.34},{\"date\":\"2026-09-15\",\"value\":1.34},{\"date\":\"2026-09-16\",\"value\":1.34},{\"date\":\"2026-09-17\",\"value\":1.34},{\"date\":\"2026-09-18\",\"value\":1.34},{\"date\":\"2026-09-19\",\"value\":1.34},{\"date\":\"2026-09-20\",\"value\":1.34},{\"date\":\"2026-09-21\",\"value\":1.34}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":1.41},{\"date\":\"2026-09-04\",\"value\":1.38},{\"date\":\"2026-09-05\",\"value\":1.35},{\"date\":\"2026-09-06\",\"value\":1.34},{\"date\":\"2026-09-07\",\"value\":1.34},{\"date\":\"2026-09-08\",\"value\":1.34},{\"date\":\"2026-09-09\",\"value\":1.34},{\"date\":\"2026-09-10\",\"value\":1.34},{\"date\":\"2026-09-11\",\"value\":1.34},{\"date\":\"2026-09-12\",\"value\":1.34},{\"date\":\"2026-09-13\",\"value\":1.34},{\"date\":\"2026-09-14\",\"value\":1.34},{\"date\":\"2026-09-15\",\"value\":1.34},{\"date\":\"2026-09-16\",\"value\":1.34},{\"date\":\"2026-09-17\",\"value\":1.34},{\"date\":\"2026-09-18\",\"value\":1.34},{\"date\":\"2026-09-19\",\"value\":1.34},{\"date\":\"2026-09-20\",\"value\":1.34},{\"date\":\"2026-09-21\",\"value\":1.34},{\"date\":\"2026-09-22\",\"value\":1.34},{\"date\":\"2026-09-23\",\"value\":1.34},{\"date\":\"2026-09-24\",\"value\":1.34}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -781,6 +869,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 55,
         "name": "Puerto Pilcomayo",
         "river": "Paraguay",
@@ -789,21 +878,24 @@
         "country": "Argentina",
         "network": "escalas Prefectura Nacional",
         "status": "ok",
-        "level_m": 1.09,
-        "discharge_m3s": 1578.57,
+        "level_m": 1.1,
+        "discharge_m3s": 1583.7,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T00:00:00",
-        "days_since_reading": 0,
+        "last_reading_date": "2026-09-23T00:00:00",
+        "days_since_reading": 1,
         "trend_variable": "level",
         "trend": "falling",
-        "trend_change": -0.49,
+        "trend_change": -0.4,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":1.6},{\"date\":\"2026-09-01\",\"value\":1.58},{\"date\":\"2026-09-02\",\"value\":1.55},{\"date\":\"2026-09-03\",\"value\":1.52},{\"date\":\"2026-09-04\",\"value\":1.49},{\"date\":\"2026-09-05\",\"value\":1.47},{\"date\":\"2026-09-06\",\"value\":1.45},{\"date\":\"2026-09-07\",\"value\":1.42},{\"date\":\"2026-09-08\",\"value\":1.39},{\"date\":\"2026-09-09\",\"value\":1.36},{\"date\":\"2026-09-10\",\"value\":1.33},{\"date\":\"2026-09-11\",\"value\":1.31},{\"date\":\"2026-09-12\",\"value\":1.29},{\"date\":\"2026-09-13\",\"value\":1.26},{\"date\":\"2026-09-14\",\"value\":1.23},{\"date\":\"2026-09-15\",\"value\":1.14},{\"date\":\"2026-09-16\",\"value\":1.11},{\"date\":\"2026-09-17\",\"value\":1.1},{\"date\":\"2026-09-18\",\"value\":1.09},{\"date\":\"2026-09-19\",\"value\":1.07},{\"date\":\"2026-09-20\",\"value\":1.09},{\"date\":\"2026-09-21\",\"value\":1.09}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":1.52},{\"date\":\"2026-09-04\",\"value\":1.49},{\"date\":\"2026-09-05\",\"value\":1.47},{\"date\":\"2026-09-06\",\"value\":1.45},{\"date\":\"2026-09-07\",\"value\":1.42},{\"date\":\"2026-09-08\",\"value\":1.39},{\"date\":\"2026-09-09\",\"value\":1.36},{\"date\":\"2026-09-10\",\"value\":1.33},{\"date\":\"2026-09-11\",\"value\":1.31},{\"date\":\"2026-09-12\",\"value\":1.29},{\"date\":\"2026-09-13\",\"value\":1.26},{\"date\":\"2026-09-14\",\"value\":1.23},{\"date\":\"2026-09-15\",\"value\":1.14},{\"date\":\"2026-09-16\",\"value\":1.11},{\"date\":\"2026-09-17\",\"value\":1.1},{\"date\":\"2026-09-18\",\"value\":1.09},{\"date\":\"2026-09-19\",\"value\":1.07},{\"date\":\"2026-09-20\",\"value\":1.09},{\"date\":\"2026-09-21\",\"value\":1.09},{\"date\":\"2026-09-22\",\"value\":1.08},{\"date\":\"2026-09-23\",\"value\":1.1}]",
         "has_forecast": true,
-        "forecast": "{\"issued\":\"2026-09-21T12:00:00Z\",\"tendencia\":\"baja\",\"alert_level_m\":5.35,\"evacuation_level_m\":6,\"low_water_level_m\":1.4,\"points\":[{\"date\":\"2026-09-21\",\"upper\":1.08,\"lower\":0.86,\"central\":0.97},{\"date\":\"2026-09-22\",\"upper\":1.21,\"lower\":0.98,\"central\":1.1},{\"date\":\"2026-09-23\",\"lower\":0.91,\"central\":1.1,\"upper\":1.29},{\"date\":\"2026-09-24\",\"lower\":0.84,\"upper\":1.37,\"central\":1.1},{\"date\":\"2026-09-25\",\"lower\":0.77,\"upper\":1.46,\"central\":1.11},{\"date\":\"2026-09-26\",\"lower\":0.69,\"upper\":1.54,\"central\":1.12},{\"date\":\"2026-09-27\",\"upper\":1.62,\"central\":1.12,\"lower\":0.62},{\"date\":\"2026-09-28\",\"central\":1.12,\"upper\":1.7,\"lower\":0.54},{\"date\":\"2026-09-29\",\"central\":1.11,\"upper\":1.77,\"lower\":0.45}],\"source\":\"INA modelo \\\"tabprono_central\\\" (Pronósticos hidrométricos)\"}"
+        "forecast": "{\"issued\":\"2026-09-24T12:00:00Z\",\"tendencia\":\"baja\",\"alert_level_m\":5.35,\"evacuation_level_m\":6,\"low_water_level_m\":1.4,\"points\":[{\"date\":\"2026-09-24\",\"upper\":1.22,\"central\":1.11,\"lower\":0.99},{\"date\":\"2026-09-25\",\"lower\":0.85,\"upper\":1.07,\"central\":0.96},{\"date\":\"2026-09-26\",\"upper\":1.13,\"central\":0.94,\"lower\":0.75},{\"date\":\"2026-09-27\",\"upper\":1.19,\"central\":0.92,\"lower\":0.66},{\"date\":\"2026-09-28\",\"upper\":1.27,\"central\":0.92,\"lower\":0.58},{\"date\":\"2026-09-29\",\"upper\":1.33,\"central\":0.91,\"lower\":0.48},{\"date\":\"2026-09-30\",\"upper\":1.4,\"central\":0.9,\"lower\":0.4},{\"date\":\"2026-10-01\",\"upper\":1.47,\"central\":0.89,\"lower\":0.3},{\"date\":\"2026-10-02\",\"upper\":1.53,\"central\":0.87,\"lower\":0.21}],\"source\":\"INA modelo \\\"tabprono_central\\\" (Pronósticos hidrométricos)\"}",
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -816,6 +908,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 57,
         "name": "Puerto Formosa",
         "river": "Paraguay",
@@ -824,21 +917,24 @@
         "country": "Argentina",
         "network": "escalas Prefectura Nacional",
         "status": "ok",
-        "level_m": 2.25,
-        "discharge_m3s": 2096.06,
+        "level_m": 2.4,
+        "discharge_m3s": 2162.02,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T00:00:00",
-        "days_since_reading": 0,
+        "last_reading_date": "2026-09-23T00:00:00",
+        "days_since_reading": 1,
         "trend_variable": "level",
-        "trend": "steady",
-        "trend_change": -0.04,
+        "trend": "rising",
+        "trend_change": 0.22,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":2.32},{\"date\":\"2026-09-01\",\"value\":2.28},{\"date\":\"2026-09-02\",\"value\":2.23},{\"date\":\"2026-09-03\",\"value\":2.18},{\"date\":\"2026-09-04\",\"value\":2.15},{\"date\":\"2026-09-05\",\"value\":2.11},{\"date\":\"2026-09-06\",\"value\":2.13},{\"date\":\"2026-09-07\",\"value\":2.1},{\"date\":\"2026-09-08\",\"value\":2.1},{\"date\":\"2026-09-09\",\"value\":2.1},{\"date\":\"2026-09-10\",\"value\":2.08},{\"date\":\"2026-09-11\",\"value\":2.07},{\"date\":\"2026-09-12\",\"value\":2.08},{\"date\":\"2026-09-13\",\"value\":2.06},{\"date\":\"2026-09-14\",\"value\":2.06},{\"date\":\"2026-09-15\",\"value\":2.07},{\"date\":\"2026-09-16\",\"value\":2.09},{\"date\":\"2026-09-17\",\"value\":2.09},{\"date\":\"2026-09-18\",\"value\":2.14},{\"date\":\"2026-09-19\",\"value\":2.2},{\"date\":\"2026-09-20\",\"value\":2.25},{\"date\":\"2026-09-21\",\"value\":2.25}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":2.18},{\"date\":\"2026-09-04\",\"value\":2.15},{\"date\":\"2026-09-05\",\"value\":2.11},{\"date\":\"2026-09-06\",\"value\":2.13},{\"date\":\"2026-09-07\",\"value\":2.1},{\"date\":\"2026-09-08\",\"value\":2.1},{\"date\":\"2026-09-09\",\"value\":2.1},{\"date\":\"2026-09-10\",\"value\":2.08},{\"date\":\"2026-09-11\",\"value\":2.07},{\"date\":\"2026-09-12\",\"value\":2.08},{\"date\":\"2026-09-13\",\"value\":2.06},{\"date\":\"2026-09-14\",\"value\":2.06},{\"date\":\"2026-09-15\",\"value\":2.07},{\"date\":\"2026-09-16\",\"value\":2.09},{\"date\":\"2026-09-17\",\"value\":2.09},{\"date\":\"2026-09-18\",\"value\":2.14},{\"date\":\"2026-09-19\",\"value\":2.2},{\"date\":\"2026-09-20\",\"value\":2.25},{\"date\":\"2026-09-21\",\"value\":2.33},{\"date\":\"2026-09-22\",\"value\":2.38},{\"date\":\"2026-09-23\",\"value\":2.4}]",
         "has_forecast": true,
-        "forecast": "{\"issued\":\"2026-09-21T12:00:00Z\",\"tendencia\":\"crece\",\"alert_level_m\":7.8,\"evacuation_level_m\":8.3,\"low_water_level_m\":1.6,\"points\":[{\"date\":\"2026-09-21\",\"upper\":2.31,\"central\":2.23,\"lower\":2.16},{\"date\":\"2026-09-22\",\"upper\":2.34,\"central\":2.26,\"lower\":2.19},{\"date\":\"2026-09-23\",\"central\":2.29,\"upper\":2.41,\"lower\":2.17},{\"date\":\"2026-09-24\",\"upper\":2.49,\"central\":2.31,\"lower\":2.13},{\"date\":\"2026-09-25\",\"lower\":2.1,\"upper\":2.59,\"central\":2.34},{\"date\":\"2026-09-26\",\"upper\":2.68,\"central\":2.36,\"lower\":2.04},{\"date\":\"2026-09-27\",\"upper\":2.77,\"central\":2.37,\"lower\":1.97},{\"date\":\"2026-09-28\",\"central\":2.4,\"upper\":2.88,\"lower\":1.92},{\"date\":\"2026-09-29\",\"lower\":1.85,\"central\":2.42,\"upper\":2.99}],\"source\":\"INA modelo \\\"tabprono_central\\\" (Pronósticos hidrométricos)\"}"
+        "forecast": "{\"issued\":\"2026-09-24T12:00:00Z\",\"tendencia\":\"crece\",\"alert_level_m\":7.8,\"evacuation_level_m\":8.3,\"low_water_level_m\":1.6,\"points\":[{\"date\":\"2026-09-24\",\"lower\":2.34,\"central\":2.41,\"upper\":2.48},{\"date\":\"2026-09-25\",\"lower\":2.35,\"central\":2.43,\"upper\":2.5},{\"date\":\"2026-09-26\",\"lower\":2.31,\"central\":2.43,\"upper\":2.55},{\"date\":\"2026-09-27\",\"lower\":2.26,\"central\":2.44,\"upper\":2.62},{\"date\":\"2026-09-28\",\"lower\":2.21,\"central\":2.46,\"upper\":2.7},{\"date\":\"2026-09-29\",\"lower\":2.15,\"central\":2.47,\"upper\":2.79},{\"date\":\"2026-09-30\",\"lower\":2.09,\"central\":2.49,\"upper\":2.89},{\"date\":\"2026-10-01\",\"lower\":2.02,\"central\":2.51,\"upper\":2.99},{\"date\":\"2026-10-02\",\"lower\":1.96,\"central\":2.53,\"upper\":3.09}],\"source\":\"INA modelo \\\"tabprono_central\\\" (Pronósticos hidrométricos)\"}",
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -851,6 +947,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 58,
         "name": "Bermejo",
         "river": "Paraguay",
@@ -859,21 +956,24 @@
         "country": "Argentina",
         "network": "escalas Prefectura Nacional",
         "status": "ok",
-        "level_m": 3.25,
+        "level_m": 3.2,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T00:00:00",
-        "days_since_reading": 0,
+        "last_reading_date": "2026-09-23T00:00:00",
+        "days_since_reading": 1,
         "trend_variable": "level",
         "trend": "rising",
-        "trend_change": 0.8,
+        "trend_change": 0.97,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":2.4},{\"date\":\"2026-09-01\",\"value\":2.32},{\"date\":\"2026-09-02\",\"value\":2.32},{\"date\":\"2026-09-03\",\"value\":2.2},{\"date\":\"2026-09-04\",\"value\":2.15},{\"date\":\"2026-09-05\",\"value\":2.4},{\"date\":\"2026-09-06\",\"value\":2.5},{\"date\":\"2026-09-07\",\"value\":2.62},{\"date\":\"2026-09-08\",\"value\":2.65},{\"date\":\"2026-09-09\",\"value\":2.58},{\"date\":\"2026-09-10\",\"value\":2.55},{\"date\":\"2026-09-11\",\"value\":2.47},{\"date\":\"2026-09-12\",\"value\":2.4},{\"date\":\"2026-09-13\",\"value\":2.45},{\"date\":\"2026-09-14\",\"value\":2.45},{\"date\":\"2026-09-15\",\"value\":2.7},{\"date\":\"2026-09-16\",\"value\":2.75},{\"date\":\"2026-09-17\",\"value\":2.9},{\"date\":\"2026-09-18\",\"value\":2.95},{\"date\":\"2026-09-19\",\"value\":3},{\"date\":\"2026-09-20\",\"value\":3.2},{\"date\":\"2026-09-21\",\"value\":3.25}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":2.2},{\"date\":\"2026-09-04\",\"value\":2.15},{\"date\":\"2026-09-05\",\"value\":2.4},{\"date\":\"2026-09-06\",\"value\":2.5},{\"date\":\"2026-09-07\",\"value\":2.62},{\"date\":\"2026-09-08\",\"value\":2.65},{\"date\":\"2026-09-09\",\"value\":2.58},{\"date\":\"2026-09-10\",\"value\":2.55},{\"date\":\"2026-09-11\",\"value\":2.47},{\"date\":\"2026-09-12\",\"value\":2.4},{\"date\":\"2026-09-13\",\"value\":2.45},{\"date\":\"2026-09-14\",\"value\":2.45},{\"date\":\"2026-09-15\",\"value\":2.7},{\"date\":\"2026-09-16\",\"value\":2.75},{\"date\":\"2026-09-17\",\"value\":2.9},{\"date\":\"2026-09-18\",\"value\":2.95},{\"date\":\"2026-09-19\",\"value\":3},{\"date\":\"2026-09-20\",\"value\":3.2},{\"date\":\"2026-09-21\",\"value\":3.25},{\"date\":\"2026-09-22\",\"value\":3.2},{\"date\":\"2026-09-23\",\"value\":3.2}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -886,6 +986,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 59,
         "name": "Isla del Cerrito",
         "river": "Paraguay",
@@ -894,21 +995,24 @@
         "country": "Argentina",
         "network": "escalas Prefectura Nacional",
         "status": "ok",
-        "level_m": 4.47,
+        "level_m": 4.9,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T00:00:00",
-        "days_since_reading": 0,
+        "last_reading_date": "2026-09-23T00:00:00",
+        "days_since_reading": 1,
         "trend_variable": "level",
         "trend": "rising",
-        "trend_change": 1.74,
+        "trend_change": 1.69,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":2.92},{\"date\":\"2026-09-01\",\"value\":2.78},{\"date\":\"2026-09-02\",\"value\":2.68},{\"date\":\"2026-09-03\",\"value\":2.77},{\"date\":\"2026-09-04\",\"value\":3.07},{\"date\":\"2026-09-05\",\"value\":3.27},{\"date\":\"2026-09-06\",\"value\":3.48},{\"date\":\"2026-09-07\",\"value\":3.62},{\"date\":\"2026-09-08\",\"value\":3.66},{\"date\":\"2026-09-09\",\"value\":3.57},{\"date\":\"2026-09-10\",\"value\":3.43},{\"date\":\"2026-09-11\",\"value\":3.32},{\"date\":\"2026-09-12\",\"value\":3.32},{\"date\":\"2026-09-13\",\"value\":3.42},{\"date\":\"2026-09-14\",\"value\":3.61},{\"date\":\"2026-09-15\",\"value\":3.9},{\"date\":\"2026-09-16\",\"value\":4.1},{\"date\":\"2026-09-17\",\"value\":4.27},{\"date\":\"2026-09-18\",\"value\":4.36},{\"date\":\"2026-09-19\",\"value\":4.45},{\"date\":\"2026-09-20\",\"value\":4.68},{\"date\":\"2026-09-21\",\"value\":4.47}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":2.77},{\"date\":\"2026-09-04\",\"value\":3.07},{\"date\":\"2026-09-05\",\"value\":3.27},{\"date\":\"2026-09-06\",\"value\":3.48},{\"date\":\"2026-09-07\",\"value\":3.62},{\"date\":\"2026-09-08\",\"value\":3.66},{\"date\":\"2026-09-09\",\"value\":3.57},{\"date\":\"2026-09-10\",\"value\":3.43},{\"date\":\"2026-09-11\",\"value\":3.32},{\"date\":\"2026-09-12\",\"value\":3.32},{\"date\":\"2026-09-13\",\"value\":3.42},{\"date\":\"2026-09-14\",\"value\":3.61},{\"date\":\"2026-09-15\",\"value\":3.9},{\"date\":\"2026-09-16\",\"value\":4.1},{\"date\":\"2026-09-17\",\"value\":4.27},{\"date\":\"2026-09-18\",\"value\":4.36},{\"date\":\"2026-09-19\",\"value\":4.45},{\"date\":\"2026-09-20\",\"value\":4.68},{\"date\":\"2026-09-21\",\"value\":4.47},{\"date\":\"2026-09-22\",\"value\":4.82},{\"date\":\"2026-09-23\",\"value\":4.9}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -921,6 +1025,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 18,
         "name": "Paso de la Patria",
         "river": "Paraná (medio)",
@@ -929,21 +1034,24 @@
         "country": "Argentina",
         "network": "escalas Prefectura Nacional",
         "status": "ok",
-        "level_m": 4.55,
+        "level_m": 4.69,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T00:00:00",
-        "days_since_reading": 0,
+        "last_reading_date": "2026-09-23T00:00:00",
+        "days_since_reading": 1,
         "trend_variable": "level",
         "trend": "rising",
-        "trend_change": 1.87,
+        "trend_change": 1.82,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":2.7},{\"date\":\"2026-09-01\",\"value\":2.52},{\"date\":\"2026-09-02\",\"value\":2.4},{\"date\":\"2026-09-03\",\"value\":2.4},{\"date\":\"2026-09-04\",\"value\":2.85},{\"date\":\"2026-09-05\",\"value\":3.1},{\"date\":\"2026-09-06\",\"value\":3.33},{\"date\":\"2026-09-07\",\"value\":3.4},{\"date\":\"2026-09-08\",\"value\":3.44},{\"date\":\"2026-09-09\",\"value\":3.33},{\"date\":\"2026-09-10\",\"value\":3.2},{\"date\":\"2026-09-11\",\"value\":3.1},{\"date\":\"2026-09-12\",\"value\":3.1},{\"date\":\"2026-09-13\",\"value\":3.2},{\"date\":\"2026-09-14\",\"value\":3.42},{\"date\":\"2026-09-15\",\"value\":3.62},{\"date\":\"2026-09-16\",\"value\":3.92},{\"date\":\"2026-09-17\",\"value\":4.08},{\"date\":\"2026-09-18\",\"value\":4.1},{\"date\":\"2026-09-19\",\"value\":4.2},{\"date\":\"2026-09-20\",\"value\":4.48},{\"date\":\"2026-09-21\",\"value\":4.55}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":2.4},{\"date\":\"2026-09-04\",\"value\":2.85},{\"date\":\"2026-09-05\",\"value\":3.1},{\"date\":\"2026-09-06\",\"value\":3.33},{\"date\":\"2026-09-07\",\"value\":3.4},{\"date\":\"2026-09-08\",\"value\":3.44},{\"date\":\"2026-09-09\",\"value\":3.33},{\"date\":\"2026-09-10\",\"value\":3.2},{\"date\":\"2026-09-11\",\"value\":3.1},{\"date\":\"2026-09-12\",\"value\":3.1},{\"date\":\"2026-09-13\",\"value\":3.2},{\"date\":\"2026-09-14\",\"value\":3.42},{\"date\":\"2026-09-15\",\"value\":3.62},{\"date\":\"2026-09-16\",\"value\":3.92},{\"date\":\"2026-09-17\",\"value\":4.08},{\"date\":\"2026-09-18\",\"value\":4.1},{\"date\":\"2026-09-19\",\"value\":4.2},{\"date\":\"2026-09-20\",\"value\":4.48},{\"date\":\"2026-09-21\",\"value\":4.55},{\"date\":\"2026-09-22\",\"value\":4.56},{\"date\":\"2026-09-23\",\"value\":4.69}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -956,6 +1064,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 19,
         "name": "Corrientes",
         "river": "Paraná (medio)",
@@ -964,21 +1073,24 @@
         "country": "Argentina",
         "network": "escalas Prefectura Nacional",
         "status": "ok",
-        "level_m": 4.35,
-        "discharge_m3s": 19792.1,
+        "level_m": 4.48,
+        "discharge_m3s": 20297.4,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T00:00:00",
-        "days_since_reading": 0,
+        "last_reading_date": "2026-09-23T00:00:00",
+        "days_since_reading": 1,
         "trend_variable": "level",
         "trend": "rising",
-        "trend_change": 1.72,
+        "trend_change": 1.73,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":2.66},{\"date\":\"2026-09-01\",\"value\":2.52},{\"date\":\"2026-09-02\",\"value\":2.37},{\"date\":\"2026-09-03\",\"value\":2.38},{\"date\":\"2026-09-04\",\"value\":2.73},{\"date\":\"2026-09-05\",\"value\":2.97},{\"date\":\"2026-09-06\",\"value\":3.16},{\"date\":\"2026-09-07\",\"value\":3.28},{\"date\":\"2026-09-08\",\"value\":3.34},{\"date\":\"2026-09-09\",\"value\":3.28},{\"date\":\"2026-09-10\",\"value\":3.14},{\"date\":\"2026-09-11\",\"value\":3.06},{\"date\":\"2026-09-12\",\"value\":3.02},{\"date\":\"2026-09-13\",\"value\":3.11},{\"date\":\"2026-09-14\",\"value\":3.17},{\"date\":\"2026-09-15\",\"value\":3.55},{\"date\":\"2026-09-16\",\"value\":3.76},{\"date\":\"2026-09-17\",\"value\":3.9},{\"date\":\"2026-09-18\",\"value\":4},{\"date\":\"2026-09-19\",\"value\":4.08},{\"date\":\"2026-09-20\",\"value\":4.29},{\"date\":\"2026-09-21\",\"value\":4.35}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":2.38},{\"date\":\"2026-09-04\",\"value\":2.73},{\"date\":\"2026-09-05\",\"value\":2.97},{\"date\":\"2026-09-06\",\"value\":3.16},{\"date\":\"2026-09-07\",\"value\":3.28},{\"date\":\"2026-09-08\",\"value\":3.34},{\"date\":\"2026-09-09\",\"value\":3.28},{\"date\":\"2026-09-10\",\"value\":3.14},{\"date\":\"2026-09-11\",\"value\":3.06},{\"date\":\"2026-09-12\",\"value\":3.02},{\"date\":\"2026-09-13\",\"value\":3.11},{\"date\":\"2026-09-14\",\"value\":3.17},{\"date\":\"2026-09-15\",\"value\":3.55},{\"date\":\"2026-09-16\",\"value\":3.76},{\"date\":\"2026-09-17\",\"value\":3.9},{\"date\":\"2026-09-18\",\"value\":4},{\"date\":\"2026-09-19\",\"value\":4.08},{\"date\":\"2026-09-20\",\"value\":4.29},{\"date\":\"2026-09-21\",\"value\":4.35},{\"date\":\"2026-09-22\",\"value\":4.45},{\"date\":\"2026-09-23\",\"value\":4.48}]",
         "has_forecast": true,
-        "forecast": "{\"issued\":\"2026-09-18T03:00:00Z\",\"tendencia\":\"crece\",\"alert_level_m\":6.5,\"evacuation_level_m\":7,\"low_water_level_m\":1.83,\"points\":[{\"date\":\"2026-09-18\",\"central\":4,\"upper\":4,\"lower\":4},{\"date\":\"2026-09-22\",\"upper\":4.8,\"central\":4.47,\"lower\":4},{\"date\":\"2026-09-29\",\"lower\":3.9,\"upper\":4.7,\"central\":4.24}],\"source\":\"INA modelo \\\"tabprono_central\\\" (Pronósticos hidrométricos)\"}"
+        "forecast": "{\"issued\":\"2026-09-22T03:00:00Z\",\"tendencia\":\"baja\",\"alert_level_m\":6.5,\"evacuation_level_m\":7,\"low_water_level_m\":1.83,\"points\":[{\"date\":\"2026-09-22\",\"lower\":4.45,\"upper\":4.45,\"central\":4.45},{\"date\":\"2026-09-29\",\"upper\":4.4,\"central\":4.03,\"lower\":3.6},{\"date\":\"2026-10-06\",\"lower\":3.3,\"upper\":4.1,\"central\":3.73}],\"source\":\"INA modelo \\\"tabprono_central\\\" (Pronósticos hidrométricos)\"}",
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -991,6 +1103,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 20,
         "name": "Barranqueras",
         "river": "Riacho Barranqueras",
@@ -999,21 +1112,24 @@
         "country": "Argentina",
         "network": "escalas Prefectura Nacional",
         "status": "ok",
-        "level_m": 4.35,
+        "level_m": 4.48,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T00:00:00",
-        "days_since_reading": 0,
+        "last_reading_date": "2026-09-23T00:00:00",
+        "days_since_reading": 1,
         "trend_variable": "level",
         "trend": "rising",
-        "trend_change": 1.74,
+        "trend_change": 1.75,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":2.64},{\"date\":\"2026-09-01\",\"value\":2.51},{\"date\":\"2026-09-02\",\"value\":2.36},{\"date\":\"2026-09-03\",\"value\":2.4},{\"date\":\"2026-09-04\",\"value\":2.7},{\"date\":\"2026-09-05\",\"value\":2.92},{\"date\":\"2026-09-06\",\"value\":3.14},{\"date\":\"2026-09-07\",\"value\":3.26},{\"date\":\"2026-09-08\",\"value\":3.32},{\"date\":\"2026-09-09\",\"value\":3.29},{\"date\":\"2026-09-10\",\"value\":3.16},{\"date\":\"2026-09-11\",\"value\":3.04},{\"date\":\"2026-09-12\",\"value\":3},{\"date\":\"2026-09-13\",\"value\":3.07},{\"date\":\"2026-09-14\",\"value\":3.24},{\"date\":\"2026-09-15\",\"value\":3.54},{\"date\":\"2026-09-16\",\"value\":3.71},{\"date\":\"2026-09-17\",\"value\":3.89},{\"date\":\"2026-09-18\",\"value\":3.97},{\"date\":\"2026-09-19\",\"value\":4.09},{\"date\":\"2026-09-20\",\"value\":4.29},{\"date\":\"2026-09-21\",\"value\":4.35}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":2.4},{\"date\":\"2026-09-04\",\"value\":2.7},{\"date\":\"2026-09-05\",\"value\":2.92},{\"date\":\"2026-09-06\",\"value\":3.14},{\"date\":\"2026-09-07\",\"value\":3.26},{\"date\":\"2026-09-08\",\"value\":3.32},{\"date\":\"2026-09-09\",\"value\":3.29},{\"date\":\"2026-09-10\",\"value\":3.16},{\"date\":\"2026-09-11\",\"value\":3.04},{\"date\":\"2026-09-12\",\"value\":3},{\"date\":\"2026-09-13\",\"value\":3.07},{\"date\":\"2026-09-14\",\"value\":3.24},{\"date\":\"2026-09-15\",\"value\":3.54},{\"date\":\"2026-09-16\",\"value\":3.71},{\"date\":\"2026-09-17\",\"value\":3.89},{\"date\":\"2026-09-18\",\"value\":3.97},{\"date\":\"2026-09-19\",\"value\":4.09},{\"date\":\"2026-09-20\",\"value\":4.29},{\"date\":\"2026-09-21\",\"value\":4.35},{\"date\":\"2026-09-22\",\"value\":4.44},{\"date\":\"2026-09-23\",\"value\":4.48}]",
         "has_forecast": true,
-        "forecast": "{\"issued\":\"2026-09-18T03:00:00Z\",\"tendencia\":\"crece\",\"alert_level_m\":6,\"evacuation_level_m\":6.5,\"low_water_level_m\":1.93,\"points\":[{\"date\":\"2026-09-18\",\"lower\":3.97,\"upper\":3.97,\"central\":3.97},{\"date\":\"2026-09-22\",\"upper\":4.8,\"central\":4.45,\"lower\":4},{\"date\":\"2026-09-29\",\"lower\":3.9,\"upper\":4.7,\"central\":4.22}],\"source\":\"INA modelo \\\"tabprono_central\\\" (Pronósticos hidrométricos)\"}"
+        "forecast": "{\"issued\":\"2026-09-22T03:00:00Z\",\"tendencia\":\"baja\",\"alert_level_m\":6,\"evacuation_level_m\":6.5,\"low_water_level_m\":1.93,\"points\":[{\"date\":\"2026-09-22\",\"upper\":4.44,\"lower\":4.44,\"central\":4.44},{\"date\":\"2026-09-29\",\"upper\":4.4,\"lower\":3.6,\"central\":4.01},{\"date\":\"2026-10-06\",\"lower\":3.3,\"central\":3.71,\"upper\":4.1}],\"source\":\"INA modelo \\\"tabprono_central\\\" (Pronósticos hidrométricos)\"}",
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -1026,6 +1142,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 2854,
         "name": "Aº Riachuelo - RP Nº5",
         "river": "Arroyo Riachuelo",
@@ -1034,21 +1151,24 @@
         "country": "Argentina",
         "network": "RHN - SAT",
         "status": "ok",
-        "level_m": 1.06,
+        "level_m": 0.86,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T10:00:00",
+        "last_reading_date": "2026-09-24T08:00:00",
         "days_since_reading": 0,
         "trend_variable": "level",
         "trend": "falling",
-        "trend_change": -0.3,
+        "trend_change": -0.31,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":1.33},{\"date\":\"2026-09-01\",\"value\":1.31},{\"date\":\"2026-09-02\",\"value\":1.28},{\"date\":\"2026-09-03\",\"value\":1.24},{\"date\":\"2026-09-04\",\"value\":1.19},{\"date\":\"2026-09-05\",\"value\":1.12},{\"date\":\"2026-09-06\",\"value\":1.09},{\"date\":\"2026-09-07\",\"value\":1.05},{\"date\":\"2026-09-08\",\"value\":1.02},{\"date\":\"2026-09-09\",\"value\":1},{\"date\":\"2026-09-10\",\"value\":0.98},{\"date\":\"2026-09-11\",\"value\":0.94},{\"date\":\"2026-09-12\",\"value\":0.93},{\"date\":\"2026-09-13\",\"value\":0.9},{\"date\":\"2026-09-14\",\"value\":0.88},{\"date\":\"2026-09-15\",\"value\":0.86},{\"date\":\"2026-09-16\",\"value\":0.83},{\"date\":\"2026-09-17\",\"value\":0.81},{\"date\":\"2026-09-18\",\"value\":0.8},{\"date\":\"2026-09-19\",\"value\":0.89},{\"date\":\"2026-09-20\",\"value\":1.06},{\"date\":\"2026-09-21\",\"value\":1.06}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":1.24},{\"date\":\"2026-09-04\",\"value\":1.19},{\"date\":\"2026-09-05\",\"value\":1.12},{\"date\":\"2026-09-06\",\"value\":1.09},{\"date\":\"2026-09-07\",\"value\":1.05},{\"date\":\"2026-09-08\",\"value\":1.02},{\"date\":\"2026-09-09\",\"value\":1},{\"date\":\"2026-09-10\",\"value\":0.98},{\"date\":\"2026-09-11\",\"value\":0.94},{\"date\":\"2026-09-12\",\"value\":0.93},{\"date\":\"2026-09-13\",\"value\":0.9},{\"date\":\"2026-09-14\",\"value\":0.88},{\"date\":\"2026-09-15\",\"value\":0.86},{\"date\":\"2026-09-16\",\"value\":0.83},{\"date\":\"2026-09-17\",\"value\":0.81},{\"date\":\"2026-09-18\",\"value\":0.8},{\"date\":\"2026-09-19\",\"value\":0.89},{\"date\":\"2026-09-20\",\"value\":1.06},{\"date\":\"2026-09-21\",\"value\":0.99},{\"date\":\"2026-09-22\",\"value\":0.9},{\"date\":\"2026-09-23\",\"value\":0.86},{\"date\":\"2026-09-24\",\"value\":0.86}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -1061,6 +1181,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 21,
         "name": "Empedrado",
         "river": "Paraná (inferior)",
@@ -1069,21 +1190,24 @@
         "country": "Argentina",
         "network": "escalas Prefectura Nacional",
         "status": "ok",
-        "level_m": 4.03,
+        "level_m": 4.2,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T00:00:00",
-        "days_since_reading": 0,
+        "last_reading_date": "2026-09-23T00:00:00",
+        "days_since_reading": 1,
         "trend_variable": "level",
         "trend": "rising",
-        "trend_change": 1.48,
+        "trend_change": 1.73,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":2.5},{\"date\":\"2026-09-01\",\"value\":2.45},{\"date\":\"2026-09-02\",\"value\":2.45},{\"date\":\"2026-09-03\",\"value\":2.28},{\"date\":\"2026-09-04\",\"value\":2.28},{\"date\":\"2026-09-05\",\"value\":2.52},{\"date\":\"2026-09-06\",\"value\":2.85},{\"date\":\"2026-09-07\",\"value\":3.02},{\"date\":\"2026-09-08\",\"value\":3.14},{\"date\":\"2026-09-09\",\"value\":3.1},{\"date\":\"2026-09-10\",\"value\":3.1},{\"date\":\"2026-09-11\",\"value\":2.95},{\"date\":\"2026-09-12\",\"value\":2.82},{\"date\":\"2026-09-13\",\"value\":2.96},{\"date\":\"2026-09-14\",\"value\":2.95},{\"date\":\"2026-09-15\",\"value\":3.12},{\"date\":\"2026-09-16\",\"value\":3.28},{\"date\":\"2026-09-17\",\"value\":3.59},{\"date\":\"2026-09-18\",\"value\":3.72},{\"date\":\"2026-09-19\",\"value\":3.8},{\"date\":\"2026-09-20\",\"value\":4},{\"date\":\"2026-09-21\",\"value\":4.03}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":2.28},{\"date\":\"2026-09-04\",\"value\":2.28},{\"date\":\"2026-09-05\",\"value\":2.52},{\"date\":\"2026-09-06\",\"value\":2.85},{\"date\":\"2026-09-07\",\"value\":3.02},{\"date\":\"2026-09-08\",\"value\":3.14},{\"date\":\"2026-09-09\",\"value\":3.1},{\"date\":\"2026-09-10\",\"value\":3.1},{\"date\":\"2026-09-11\",\"value\":2.95},{\"date\":\"2026-09-12\",\"value\":2.82},{\"date\":\"2026-09-13\",\"value\":2.96},{\"date\":\"2026-09-14\",\"value\":2.95},{\"date\":\"2026-09-15\",\"value\":3.12},{\"date\":\"2026-09-16\",\"value\":3.28},{\"date\":\"2026-09-17\",\"value\":3.59},{\"date\":\"2026-09-18\",\"value\":3.72},{\"date\":\"2026-09-19\",\"value\":3.8},{\"date\":\"2026-09-20\",\"value\":4},{\"date\":\"2026-09-21\",\"value\":4.03},{\"date\":\"2026-09-22\",\"value\":4.03},{\"date\":\"2026-09-23\",\"value\":4.2}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -1096,6 +1220,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 22,
         "name": "Bella Vista",
         "river": "Paraná (inferior)",
@@ -1104,21 +1229,24 @@
         "country": "Argentina",
         "network": "escalas Prefectura Nacional",
         "status": "ok",
-        "level_m": 4.27,
+        "level_m": 4.45,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T00:00:00",
-        "days_since_reading": 0,
+        "last_reading_date": "2026-09-23T00:00:00",
+        "days_since_reading": 1,
         "trend_variable": "level",
         "trend": "rising",
-        "trend_change": 1.46,
+        "trend_change": 1.77,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":2.71},{\"date\":\"2026-09-01\",\"value\":2.73},{\"date\":\"2026-09-02\",\"value\":2.71},{\"date\":\"2026-09-03\",\"value\":2.49},{\"date\":\"2026-09-04\",\"value\":2.5},{\"date\":\"2026-09-05\",\"value\":2.76},{\"date\":\"2026-09-06\",\"value\":2.76},{\"date\":\"2026-09-07\",\"value\":3.17},{\"date\":\"2026-09-08\",\"value\":3.33},{\"date\":\"2026-09-09\",\"value\":3.41},{\"date\":\"2026-09-10\",\"value\":3.4},{\"date\":\"2026-09-11\",\"value\":3.29},{\"date\":\"2026-09-12\",\"value\":3.24},{\"date\":\"2026-09-13\",\"value\":3.15},{\"date\":\"2026-09-14\",\"value\":3.16},{\"date\":\"2026-09-15\",\"value\":3.32},{\"date\":\"2026-09-16\",\"value\":3.58},{\"date\":\"2026-09-17\",\"value\":3.75},{\"date\":\"2026-09-18\",\"value\":3.91},{\"date\":\"2026-09-19\",\"value\":4.05},{\"date\":\"2026-09-20\",\"value\":4.2},{\"date\":\"2026-09-21\",\"value\":4.27}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":2.49},{\"date\":\"2026-09-04\",\"value\":2.5},{\"date\":\"2026-09-05\",\"value\":2.76},{\"date\":\"2026-09-06\",\"value\":2.76},{\"date\":\"2026-09-07\",\"value\":3.17},{\"date\":\"2026-09-08\",\"value\":3.33},{\"date\":\"2026-09-09\",\"value\":3.41},{\"date\":\"2026-09-10\",\"value\":3.4},{\"date\":\"2026-09-11\",\"value\":3.29},{\"date\":\"2026-09-12\",\"value\":3.24},{\"date\":\"2026-09-13\",\"value\":3.15},{\"date\":\"2026-09-14\",\"value\":3.16},{\"date\":\"2026-09-15\",\"value\":3.32},{\"date\":\"2026-09-16\",\"value\":3.58},{\"date\":\"2026-09-17\",\"value\":3.75},{\"date\":\"2026-09-18\",\"value\":3.91},{\"date\":\"2026-09-19\",\"value\":4.05},{\"date\":\"2026-09-20\",\"value\":4.2},{\"date\":\"2026-09-21\",\"value\":4.27},{\"date\":\"2026-09-22\",\"value\":4.34},{\"date\":\"2026-09-23\",\"value\":4.45}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -1131,6 +1259,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 16,
         "name": "Itá Ibaté",
         "river": "Paraná (medio)",
@@ -1145,15 +1274,18 @@
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T00:00:00",
-        "days_since_reading": 0,
+        "last_reading_date": "2026-09-23T00:00:00",
+        "days_since_reading": 1,
         "trend_variable": "level",
         "trend": "rising",
-        "trend_change": 2.17,
+        "trend_change": 1.37,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":1.56},{\"date\":\"2026-09-01\",\"value\":1.46},{\"date\":\"2026-09-02\",\"value\":1.74},{\"date\":\"2026-09-03\",\"value\":2.25},{\"date\":\"2026-09-04\",\"value\":2.45},{\"date\":\"2026-09-05\",\"value\":2.6},{\"date\":\"2026-09-06\",\"value\":2.65},{\"date\":\"2026-09-07\",\"value\":2.7},{\"date\":\"2026-09-08\",\"value\":2.45},{\"date\":\"2026-09-09\",\"value\":2.3},{\"date\":\"2026-09-10\",\"value\":2.26},{\"date\":\"2026-09-11\",\"value\":2.3},{\"date\":\"2026-09-12\",\"value\":2.42},{\"date\":\"2026-09-13\",\"value\":2.7},{\"date\":\"2026-09-14\",\"value\":3.2},{\"date\":\"2026-09-15\",\"value\":3.4},{\"date\":\"2026-09-16\",\"value\":3.4},{\"date\":\"2026-09-17\",\"value\":3.6},{\"date\":\"2026-09-18\",\"value\":3.5},{\"date\":\"2026-09-19\",\"value\":3.66},{\"date\":\"2026-09-20\",\"value\":3.8},{\"date\":\"2026-09-21\",\"value\":3.8}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":2.25},{\"date\":\"2026-09-04\",\"value\":2.45},{\"date\":\"2026-09-05\",\"value\":2.6},{\"date\":\"2026-09-06\",\"value\":2.65},{\"date\":\"2026-09-07\",\"value\":2.7},{\"date\":\"2026-09-08\",\"value\":2.45},{\"date\":\"2026-09-09\",\"value\":2.3},{\"date\":\"2026-09-10\",\"value\":2.26},{\"date\":\"2026-09-11\",\"value\":2.3},{\"date\":\"2026-09-12\",\"value\":2.42},{\"date\":\"2026-09-13\",\"value\":2.7},{\"date\":\"2026-09-14\",\"value\":3.2},{\"date\":\"2026-09-15\",\"value\":3.4},{\"date\":\"2026-09-16\",\"value\":3.4},{\"date\":\"2026-09-17\",\"value\":3.6},{\"date\":\"2026-09-18\",\"value\":3.5},{\"date\":\"2026-09-19\",\"value\":3.66},{\"date\":\"2026-09-20\",\"value\":3.8},{\"date\":\"2026-09-21\",\"value\":3.8},{\"date\":\"2026-09-22\",\"value\":3.8},{\"date\":\"2026-09-23\",\"value\":3.8}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -1166,6 +1298,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 15,
         "name": "Ituzaingó",
         "river": "Paraná (medio)",
@@ -1180,15 +1313,18 @@
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T00:00:00",
-        "days_since_reading": 0,
+        "last_reading_date": "2026-09-23T00:00:00",
+        "days_since_reading": 1,
         "trend_variable": "level",
         "trend": "rising",
-        "trend_change": 0.65,
+        "trend_change": 0.33,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":1.1},{\"date\":\"2026-09-01\",\"value\":1.3},{\"date\":\"2026-09-02\",\"value\":1.7},{\"date\":\"2026-09-03\",\"value\":1.65},{\"date\":\"2026-09-04\",\"value\":1.75},{\"date\":\"2026-09-05\",\"value\":1.75},{\"date\":\"2026-09-06\",\"value\":1.75},{\"date\":\"2026-09-07\",\"value\":1.75},{\"date\":\"2026-09-08\",\"value\":1.6},{\"date\":\"2026-09-09\",\"value\":1.6},{\"date\":\"2026-09-10\",\"value\":1.6},{\"date\":\"2026-09-11\",\"value\":1.7},{\"date\":\"2026-09-12\",\"value\":1.8},{\"date\":\"2026-09-13\",\"value\":1.8},{\"date\":\"2026-09-14\",\"value\":1.8},{\"date\":\"2026-09-15\",\"value\":2},{\"date\":\"2026-09-16\",\"value\":1.9},{\"date\":\"2026-09-17\",\"value\":1.9},{\"date\":\"2026-09-18\",\"value\":1.95},{\"date\":\"2026-09-19\",\"value\":2},{\"date\":\"2026-09-20\",\"value\":2},{\"date\":\"2026-09-21\",\"value\":2.05}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":1.65},{\"date\":\"2026-09-04\",\"value\":1.75},{\"date\":\"2026-09-05\",\"value\":1.75},{\"date\":\"2026-09-06\",\"value\":1.75},{\"date\":\"2026-09-07\",\"value\":1.75},{\"date\":\"2026-09-08\",\"value\":1.6},{\"date\":\"2026-09-09\",\"value\":1.6},{\"date\":\"2026-09-10\",\"value\":1.6},{\"date\":\"2026-09-11\",\"value\":1.7},{\"date\":\"2026-09-12\",\"value\":1.8},{\"date\":\"2026-09-13\",\"value\":1.8},{\"date\":\"2026-09-14\",\"value\":1.8},{\"date\":\"2026-09-15\",\"value\":2},{\"date\":\"2026-09-16\",\"value\":1.9},{\"date\":\"2026-09-17\",\"value\":1.9},{\"date\":\"2026-09-18\",\"value\":1.95},{\"date\":\"2026-09-19\",\"value\":2},{\"date\":\"2026-09-20\",\"value\":2},{\"date\":\"2026-09-21\",\"value\":2.05},{\"date\":\"2026-09-22\",\"value\":2.05},{\"date\":\"2026-09-23\",\"value\":2.05}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -1201,6 +1337,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 13,
         "name": "Santa Ana",
         "river": "Paraná (medio)",
@@ -1209,21 +1346,24 @@
         "country": "Argentina",
         "network": "escalas Prefectura Nacional",
         "status": "ok",
-        "level_m": 8.49,
+        "level_m": 8.17,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T00:00:00",
-        "days_since_reading": 0,
+        "last_reading_date": "2026-09-23T00:00:00",
+        "days_since_reading": 1,
         "trend_variable": "level",
         "trend": "rising",
-        "trend_change": 0.96,
+        "trend_change": 0.6,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":7.39},{\"date\":\"2026-09-01\",\"value\":7.43},{\"date\":\"2026-09-02\",\"value\":7.43},{\"date\":\"2026-09-03\",\"value\":7.44},{\"date\":\"2026-09-04\",\"value\":7.82},{\"date\":\"2026-09-05\",\"value\":7.88},{\"date\":\"2026-09-06\",\"value\":7.88},{\"date\":\"2026-09-07\",\"value\":7.79},{\"date\":\"2026-09-08\",\"value\":7.58},{\"date\":\"2026-09-09\",\"value\":7.58},{\"date\":\"2026-09-10\",\"value\":7.52},{\"date\":\"2026-09-11\",\"value\":7.58},{\"date\":\"2026-09-12\",\"value\":7.72},{\"date\":\"2026-09-13\",\"value\":8.13},{\"date\":\"2026-09-14\",\"value\":8.18},{\"date\":\"2026-09-15\",\"value\":8.2},{\"date\":\"2026-09-16\",\"value\":8.25},{\"date\":\"2026-09-17\",\"value\":8.25},{\"date\":\"2026-09-18\",\"value\":8.25},{\"date\":\"2026-09-19\",\"value\":8.22},{\"date\":\"2026-09-20\",\"value\":8.43},{\"date\":\"2026-09-21\",\"value\":8.49}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":7.44},{\"date\":\"2026-09-04\",\"value\":7.82},{\"date\":\"2026-09-05\",\"value\":7.88},{\"date\":\"2026-09-06\",\"value\":7.88},{\"date\":\"2026-09-07\",\"value\":7.79},{\"date\":\"2026-09-08\",\"value\":7.58},{\"date\":\"2026-09-09\",\"value\":7.58},{\"date\":\"2026-09-10\",\"value\":7.52},{\"date\":\"2026-09-11\",\"value\":7.58},{\"date\":\"2026-09-12\",\"value\":7.72},{\"date\":\"2026-09-13\",\"value\":8.13},{\"date\":\"2026-09-14\",\"value\":8.18},{\"date\":\"2026-09-15\",\"value\":8.2},{\"date\":\"2026-09-16\",\"value\":8.25},{\"date\":\"2026-09-17\",\"value\":8.25},{\"date\":\"2026-09-18\",\"value\":8.25},{\"date\":\"2026-09-19\",\"value\":8.22},{\"date\":\"2026-09-20\",\"value\":8.43},{\"date\":\"2026-09-21\",\"value\":8.49},{\"date\":\"2026-09-22\",\"value\":8.29},{\"date\":\"2026-09-23\",\"value\":8.17}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -1236,6 +1376,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 14,
         "name": "Posadas",
         "river": "Paraná (medio)",
@@ -1244,21 +1385,24 @@
         "country": "Argentina",
         "network": "escalas Prefectura Nacional",
         "status": "ok",
-        "level_m": 10.43,
+        "level_m": 10.34,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T00:00:00",
-        "days_since_reading": 0,
+        "last_reading_date": "2026-09-23T00:00:00",
+        "days_since_reading": 1,
         "trend_variable": "level",
         "trend": "rising",
-        "trend_change": 0.33,
+        "trend_change": 0.32,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":10.02},{\"date\":\"2026-09-01\",\"value\":10.05},{\"date\":\"2026-09-02\",\"value\":10},{\"date\":\"2026-09-03\",\"value\":9.96},{\"date\":\"2026-09-04\",\"value\":10.11},{\"date\":\"2026-09-05\",\"value\":10.17},{\"date\":\"2026-09-06\",\"value\":10.19},{\"date\":\"2026-09-07\",\"value\":10.16},{\"date\":\"2026-09-08\",\"value\":10.11},{\"date\":\"2026-09-09\",\"value\":10.08},{\"date\":\"2026-09-10\",\"value\":10.04},{\"date\":\"2026-09-11\",\"value\":10.02},{\"date\":\"2026-09-12\",\"value\":10.06},{\"date\":\"2026-09-13\",\"value\":10.15},{\"date\":\"2026-09-14\",\"value\":10.24},{\"date\":\"2026-09-15\",\"value\":10.28},{\"date\":\"2026-09-16\",\"value\":10.32},{\"date\":\"2026-09-17\",\"value\":10.34},{\"date\":\"2026-09-18\",\"value\":10.34},{\"date\":\"2026-09-19\",\"value\":10.26},{\"date\":\"2026-09-20\",\"value\":10.38},{\"date\":\"2026-09-21\",\"value\":10.43}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":9.96},{\"date\":\"2026-09-04\",\"value\":10.11},{\"date\":\"2026-09-05\",\"value\":10.17},{\"date\":\"2026-09-06\",\"value\":10.19},{\"date\":\"2026-09-07\",\"value\":10.16},{\"date\":\"2026-09-08\",\"value\":10.11},{\"date\":\"2026-09-09\",\"value\":10.08},{\"date\":\"2026-09-10\",\"value\":10.04},{\"date\":\"2026-09-11\",\"value\":10.02},{\"date\":\"2026-09-12\",\"value\":10.06},{\"date\":\"2026-09-13\",\"value\":10.15},{\"date\":\"2026-09-14\",\"value\":10.24},{\"date\":\"2026-09-15\",\"value\":10.28},{\"date\":\"2026-09-16\",\"value\":10.32},{\"date\":\"2026-09-17\",\"value\":10.34},{\"date\":\"2026-09-18\",\"value\":10.34},{\"date\":\"2026-09-19\",\"value\":10.26},{\"date\":\"2026-09-20\",\"value\":10.38},{\"date\":\"2026-09-21\",\"value\":10.43},{\"date\":\"2026-09-22\",\"value\":10.44},{\"date\":\"2026-09-23\",\"value\":10.34}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -1271,6 +1415,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 12,
         "name": "Libertador",
         "river": "Paraná (medio)",
@@ -1279,21 +1424,24 @@
         "country": "Argentina",
         "network": "escalas Prefectura Nacional",
         "status": "ok",
-        "level_m": 10.98,
+        "level_m": 10,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T00:00:00",
-        "days_since_reading": 0,
+        "last_reading_date": "2026-09-23T00:00:00",
+        "days_since_reading": 1,
         "trend_variable": "level",
         "trend": "rising",
-        "trend_change": 3.81,
+        "trend_change": 1.91,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":7.06},{\"date\":\"2026-09-01\",\"value\":7.25},{\"date\":\"2026-09-02\",\"value\":7.35},{\"date\":\"2026-09-03\",\"value\":7.78},{\"date\":\"2026-09-04\",\"value\":8.71},{\"date\":\"2026-09-05\",\"value\":9.26},{\"date\":\"2026-09-06\",\"value\":8.95},{\"date\":\"2026-09-07\",\"value\":8.53},{\"date\":\"2026-09-08\",\"value\":7.87},{\"date\":\"2026-09-09\",\"value\":7.48},{\"date\":\"2026-09-10\",\"value\":7.79},{\"date\":\"2026-09-11\",\"value\":8.2},{\"date\":\"2026-09-12\",\"value\":9.1},{\"date\":\"2026-09-13\",\"value\":10.87},{\"date\":\"2026-09-14\",\"value\":10.65},{\"date\":\"2026-09-15\",\"value\":11.05},{\"date\":\"2026-09-16\",\"value\":10.88},{\"date\":\"2026-09-17\",\"value\":10.84},{\"date\":\"2026-09-18\",\"value\":10.85},{\"date\":\"2026-09-19\",\"value\":10.82},{\"date\":\"2026-09-20\",\"value\":11.28},{\"date\":\"2026-09-21\",\"value\":10.98}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":7.78},{\"date\":\"2026-09-04\",\"value\":8.71},{\"date\":\"2026-09-05\",\"value\":9.26},{\"date\":\"2026-09-06\",\"value\":8.95},{\"date\":\"2026-09-07\",\"value\":8.53},{\"date\":\"2026-09-08\",\"value\":7.87},{\"date\":\"2026-09-09\",\"value\":7.48},{\"date\":\"2026-09-10\",\"value\":7.79},{\"date\":\"2026-09-11\",\"value\":8.2},{\"date\":\"2026-09-12\",\"value\":9.1},{\"date\":\"2026-09-13\",\"value\":10.87},{\"date\":\"2026-09-14\",\"value\":10.65},{\"date\":\"2026-09-15\",\"value\":11.05},{\"date\":\"2026-09-16\",\"value\":10.88},{\"date\":\"2026-09-17\",\"value\":10.84},{\"date\":\"2026-09-18\",\"value\":10.85},{\"date\":\"2026-09-19\",\"value\":10.82},{\"date\":\"2026-09-20\",\"value\":11.28},{\"date\":\"2026-09-21\",\"value\":10.98},{\"date\":\"2026-09-22\",\"value\":10.5},{\"date\":\"2026-09-23\",\"value\":10}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -1306,6 +1454,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 6435,
         "name": "Piray Guazú - R. Nac. 12 Vieja",
         "river": "Piray Guazú",
@@ -1314,21 +1463,24 @@
         "country": "Argentina",
         "network": "RHN - SAT",
         "status": "ok",
-        "level_m": 1.8,
+        "level_m": 1.54,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T08:00:00",
+        "last_reading_date": "2026-09-24T08:00:00",
         "days_since_reading": 0,
         "trend_variable": "level",
         "trend": "rising",
-        "trend_change": 0.05,
+        "trend_change": 0.19,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":1.1},{\"date\":\"2026-09-01\",\"value\":1.55},{\"date\":\"2026-09-02\",\"value\":1.88},{\"date\":\"2026-09-03\",\"value\":1.51},{\"date\":\"2026-09-04\",\"value\":1.32},{\"date\":\"2026-09-05\",\"value\":1.33},{\"date\":\"2026-09-06\",\"value\":1.34},{\"date\":\"2026-09-07\",\"value\":1.22},{\"date\":\"2026-09-08\",\"value\":1.1},{\"date\":\"2026-09-09\",\"value\":1.01},{\"date\":\"2026-09-10\",\"value\":1.03},{\"date\":\"2026-09-11\",\"value\":2.08},{\"date\":\"2026-09-12\",\"value\":2.52},{\"date\":\"2026-09-13\",\"value\":1.96},{\"date\":\"2026-09-14\",\"value\":1.6},{\"date\":\"2026-09-15\",\"value\":1.45},{\"date\":\"2026-09-16\",\"value\":1.35},{\"date\":\"2026-09-17\",\"value\":1.22},{\"date\":\"2026-09-18\",\"value\":1.09},{\"date\":\"2026-09-19\",\"value\":1.1},{\"date\":\"2026-09-20\",\"value\":1.78},{\"date\":\"2026-09-21\",\"value\":1.8}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":1.51},{\"date\":\"2026-09-04\",\"value\":1.32},{\"date\":\"2026-09-05\",\"value\":1.33},{\"date\":\"2026-09-06\",\"value\":1.34},{\"date\":\"2026-09-07\",\"value\":1.22},{\"date\":\"2026-09-08\",\"value\":1.1},{\"date\":\"2026-09-09\",\"value\":1.01},{\"date\":\"2026-09-10\",\"value\":1.03},{\"date\":\"2026-09-11\",\"value\":2.08},{\"date\":\"2026-09-12\",\"value\":2.52},{\"date\":\"2026-09-13\",\"value\":1.96},{\"date\":\"2026-09-14\",\"value\":1.6},{\"date\":\"2026-09-15\",\"value\":1.45},{\"date\":\"2026-09-16\",\"value\":1.35},{\"date\":\"2026-09-17\",\"value\":1.22},{\"date\":\"2026-09-18\",\"value\":1.09},{\"date\":\"2026-09-19\",\"value\":1.1},{\"date\":\"2026-09-20\",\"value\":1.78},{\"date\":\"2026-09-21\",\"value\":1.6},{\"date\":\"2026-09-22\",\"value\":1.68},{\"date\":\"2026-09-23\",\"value\":1.52},{\"date\":\"2026-09-24\",\"value\":1.54}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -1341,6 +1493,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 11,
         "name": "El Dorado",
         "river": "Paraná (medio)",
@@ -1349,21 +1502,24 @@
         "country": "Argentina",
         "network": "escalas Prefectura Nacional",
         "status": "ok",
-        "level_m": 13.3,
+        "level_m": 12.45,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T00:00:00",
-        "days_since_reading": 0,
+        "last_reading_date": "2026-09-23T00:00:00",
+        "days_since_reading": 1,
         "trend_variable": "level",
         "trend": "rising",
-        "trend_change": 5.4,
+        "trend_change": 0.72,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":7.7},{\"date\":\"2026-09-01\",\"value\":8},{\"date\":\"2026-09-02\",\"value\":8.9},{\"date\":\"2026-09-03\",\"value\":12.1},{\"date\":\"2026-09-04\",\"value\":12.5},{\"date\":\"2026-09-05\",\"value\":11.75},{\"date\":\"2026-09-06\",\"value\":11.25},{\"date\":\"2026-09-07\",\"value\":9.7},{\"date\":\"2026-09-08\",\"value\":9.25},{\"date\":\"2026-09-09\",\"value\":9.25},{\"date\":\"2026-09-10\",\"value\":9.8},{\"date\":\"2026-09-11\",\"value\":10.45},{\"date\":\"2026-09-12\",\"value\":12.14},{\"date\":\"2026-09-13\",\"value\":13.7},{\"date\":\"2026-09-14\",\"value\":13.9},{\"date\":\"2026-09-15\",\"value\":13.9},{\"date\":\"2026-09-16\",\"value\":13.8},{\"date\":\"2026-09-17\",\"value\":13.7},{\"date\":\"2026-09-18\",\"value\":13.7},{\"date\":\"2026-09-19\",\"value\":13.8},{\"date\":\"2026-09-20\",\"value\":13.7},{\"date\":\"2026-09-21\",\"value\":13.3}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":12.1},{\"date\":\"2026-09-04\",\"value\":12.5},{\"date\":\"2026-09-05\",\"value\":11.75},{\"date\":\"2026-09-06\",\"value\":11.25},{\"date\":\"2026-09-07\",\"value\":9.7},{\"date\":\"2026-09-08\",\"value\":9.25},{\"date\":\"2026-09-09\",\"value\":9.25},{\"date\":\"2026-09-10\",\"value\":9.8},{\"date\":\"2026-09-11\",\"value\":10.45},{\"date\":\"2026-09-12\",\"value\":12.14},{\"date\":\"2026-09-13\",\"value\":13.7},{\"date\":\"2026-09-14\",\"value\":13.9},{\"date\":\"2026-09-15\",\"value\":13.9},{\"date\":\"2026-09-16\",\"value\":13.8},{\"date\":\"2026-09-17\",\"value\":13.7},{\"date\":\"2026-09-18\",\"value\":13.7},{\"date\":\"2026-09-19\",\"value\":13.8},{\"date\":\"2026-09-20\",\"value\":13.7},{\"date\":\"2026-09-21\",\"value\":13.3},{\"date\":\"2026-09-22\",\"value\":12.75},{\"date\":\"2026-09-23\",\"value\":12.45}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -1376,6 +1532,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 6439,
         "name": "Piray Mini - Valle Hermoso",
         "river": "Piray Miní",
@@ -1384,21 +1541,24 @@
         "country": "Argentina",
         "network": "RHN - SAT",
         "status": "ok",
-        "level_m": 2.14,
+        "level_m": 1.53,
         "discharge_m3s": null,
         "rain_mm": 0,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T08:00:00",
+        "last_reading_date": "2026-09-24T08:00:00",
         "days_since_reading": 0,
         "trend_variable": "level",
         "trend": "rising",
-        "trend_change": 0.63,
+        "trend_change": 0.4,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":0.82},{\"date\":\"2026-09-01\",\"value\":1.37},{\"date\":\"2026-09-04\",\"value\":1.4},{\"date\":\"2026-09-05\",\"value\":1.23},{\"date\":\"2026-09-06\",\"value\":1.1},{\"date\":\"2026-09-07\",\"value\":0.99},{\"date\":\"2026-09-08\",\"value\":0.91},{\"date\":\"2026-09-09\",\"value\":0.88},{\"date\":\"2026-09-10\",\"value\":1.8},{\"date\":\"2026-09-11\",\"value\":3.96},{\"date\":\"2026-09-12\",\"value\":4.27},{\"date\":\"2026-09-13\",\"value\":2.73},{\"date\":\"2026-09-14\",\"value\":2.14},{\"date\":\"2026-09-15\",\"value\":1.72},{\"date\":\"2026-09-16\",\"value\":1.48},{\"date\":\"2026-09-17\",\"value\":1.3},{\"date\":\"2026-09-18\",\"value\":1.16},{\"date\":\"2026-09-19\",\"value\":1.33},{\"date\":\"2026-09-20\",\"value\":2.02},{\"date\":\"2026-09-21\",\"value\":2.14}]",
+        "trend_history": "[{\"date\":\"2026-09-04\",\"value\":1.4},{\"date\":\"2026-09-05\",\"value\":1.23},{\"date\":\"2026-09-06\",\"value\":1.1},{\"date\":\"2026-09-07\",\"value\":0.99},{\"date\":\"2026-09-08\",\"value\":0.91},{\"date\":\"2026-09-09\",\"value\":0.88},{\"date\":\"2026-09-10\",\"value\":1.8},{\"date\":\"2026-09-11\",\"value\":3.96},{\"date\":\"2026-09-12\",\"value\":4.27},{\"date\":\"2026-09-13\",\"value\":2.73},{\"date\":\"2026-09-14\",\"value\":2.14},{\"date\":\"2026-09-15\",\"value\":1.72},{\"date\":\"2026-09-16\",\"value\":1.48},{\"date\":\"2026-09-17\",\"value\":1.3},{\"date\":\"2026-09-18\",\"value\":1.16},{\"date\":\"2026-09-19\",\"value\":1.33},{\"date\":\"2026-09-20\",\"value\":2.02},{\"date\":\"2026-09-21\",\"value\":2.18},{\"date\":\"2026-09-22\",\"value\":1.84},{\"date\":\"2026-09-23\",\"value\":1.57},{\"date\":\"2026-09-24\",\"value\":1.53}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -1411,6 +1571,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 10,
         "name": "Libertad",
         "river": "Paraná (medio)",
@@ -1419,21 +1580,24 @@
         "country": "Argentina",
         "network": "escalas Prefectura Nacional",
         "status": "ok",
-        "level_m": 17.5,
+        "level_m": 16.5,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T00:00:00",
-        "days_since_reading": 0,
+        "last_reading_date": "2026-09-23T00:00:00",
+        "days_since_reading": 1,
         "trend_variable": "level",
         "trend": "rising",
-        "trend_change": 7.33,
+        "trend_change": 1.17,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":10.3},{\"date\":\"2026-09-01\",\"value\":10.5},{\"date\":\"2026-09-02\",\"value\":10.8},{\"date\":\"2026-09-03\",\"value\":15.6},{\"date\":\"2026-09-04\",\"value\":16.6},{\"date\":\"2026-09-05\",\"value\":16},{\"date\":\"2026-09-06\",\"value\":15.7},{\"date\":\"2026-09-07\",\"value\":14.1},{\"date\":\"2026-09-08\",\"value\":13.7},{\"date\":\"2026-09-09\",\"value\":12.9},{\"date\":\"2026-09-10\",\"value\":13.2},{\"date\":\"2026-09-11\",\"value\":14.5},{\"date\":\"2026-09-12\",\"value\":15.8},{\"date\":\"2026-09-13\",\"value\":18.3},{\"date\":\"2026-09-14\",\"value\":18.8},{\"date\":\"2026-09-15\",\"value\":18.9},{\"date\":\"2026-09-16\",\"value\":18.3},{\"date\":\"2026-09-17\",\"value\":18.6},{\"date\":\"2026-09-18\",\"value\":18.3},{\"date\":\"2026-09-19\",\"value\":18.6},{\"date\":\"2026-09-20\",\"value\":17.5},{\"date\":\"2026-09-21\",\"value\":17.5}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":15.6},{\"date\":\"2026-09-04\",\"value\":16.6},{\"date\":\"2026-09-05\",\"value\":16},{\"date\":\"2026-09-06\",\"value\":15.7},{\"date\":\"2026-09-07\",\"value\":14.1},{\"date\":\"2026-09-08\",\"value\":13.7},{\"date\":\"2026-09-09\",\"value\":12.9},{\"date\":\"2026-09-10\",\"value\":13.2},{\"date\":\"2026-09-11\",\"value\":14.5},{\"date\":\"2026-09-12\",\"value\":15.8},{\"date\":\"2026-09-13\",\"value\":18.3},{\"date\":\"2026-09-14\",\"value\":18.8},{\"date\":\"2026-09-15\",\"value\":18.9},{\"date\":\"2026-09-16\",\"value\":18.3},{\"date\":\"2026-09-17\",\"value\":18.6},{\"date\":\"2026-09-18\",\"value\":18.3},{\"date\":\"2026-09-19\",\"value\":18.6},{\"date\":\"2026-09-20\",\"value\":17.5},{\"date\":\"2026-09-21\",\"value\":17.5},{\"date\":\"2026-09-22\",\"value\":17.7},{\"date\":\"2026-09-23\",\"value\":16.5}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -1446,6 +1610,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 9,
         "name": "Puerto Iguazú",
         "river": "Paraná (medio)",
@@ -1454,21 +1619,24 @@
         "country": "Argentina",
         "network": "escalas Prefectura Nacional",
         "status": "ok",
-        "level_m": 17.4,
+        "level_m": 16.9,
         "discharge_m3s": null,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T00:00:00",
-        "days_since_reading": 0,
+        "last_reading_date": "2026-09-23T00:00:00",
+        "days_since_reading": 1,
         "trend_variable": "level",
-        "trend": "rising",
-        "trend_change": 7.27,
+        "trend": "steady",
+        "trend_change": 0.03,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":9.4},{\"date\":\"2026-09-01\",\"value\":10.4},{\"date\":\"2026-09-02\",\"value\":12.6},{\"date\":\"2026-09-03\",\"value\":18.2},{\"date\":\"2026-09-04\",\"value\":16.6},{\"date\":\"2026-09-05\",\"value\":16.6},{\"date\":\"2026-09-06\",\"value\":13.4},{\"date\":\"2026-09-07\",\"value\":13},{\"date\":\"2026-09-08\",\"value\":12.6},{\"date\":\"2026-09-09\",\"value\":12.8},{\"date\":\"2026-09-10\",\"value\":14},{\"date\":\"2026-09-11\",\"value\":14.6},{\"date\":\"2026-09-12\",\"value\":17.6},{\"date\":\"2026-09-13\",\"value\":18.8},{\"date\":\"2026-09-14\",\"value\":19},{\"date\":\"2026-09-15\",\"value\":19.3},{\"date\":\"2026-09-16\",\"value\":19},{\"date\":\"2026-09-17\",\"value\":19.2},{\"date\":\"2026-09-18\",\"value\":19.2},{\"date\":\"2026-09-19\",\"value\":18.8},{\"date\":\"2026-09-20\",\"value\":18},{\"date\":\"2026-09-21\",\"value\":17.4}]",
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":18.2},{\"date\":\"2026-09-04\",\"value\":16.6},{\"date\":\"2026-09-05\",\"value\":16.6},{\"date\":\"2026-09-06\",\"value\":13.4},{\"date\":\"2026-09-07\",\"value\":13},{\"date\":\"2026-09-08\",\"value\":12.6},{\"date\":\"2026-09-09\",\"value\":12.8},{\"date\":\"2026-09-10\",\"value\":14},{\"date\":\"2026-09-11\",\"value\":14.6},{\"date\":\"2026-09-12\",\"value\":17.6},{\"date\":\"2026-09-13\",\"value\":18.8},{\"date\":\"2026-09-14\",\"value\":19},{\"date\":\"2026-09-15\",\"value\":19.3},{\"date\":\"2026-09-16\",\"value\":19},{\"date\":\"2026-09-17\",\"value\":19.2},{\"date\":\"2026-09-18\",\"value\":19.2},{\"date\":\"2026-09-19\",\"value\":18.8},{\"date\":\"2026-09-20\",\"value\":18},{\"date\":\"2026-09-21\",\"value\":17.4},{\"date\":\"2026-09-22\",\"value\":17.2},{\"date\":\"2026-09-23\",\"value\":16.9}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
       }
     },
     {
@@ -1481,6 +1649,7 @@
         ]
       },
       "properties": {
+        "agency": "INA",
         "site_code": 8,
         "name": "Andresito",
         "river": "Iguazú",
@@ -1489,21 +1658,570 @@
         "country": "Argentina",
         "network": "escalas Prefectura Nacional",
         "status": "ok",
-        "level_m": 2.65,
-        "discharge_m3s": 3799.08,
+        "level_m": 3.36,
+        "discharge_m3s": 5163.38,
         "rain_mm": null,
         "temp_c": null,
         "wind_kmh": null,
         "humidity_pct": null,
-        "last_reading_date": "2026-09-21T00:00:00",
+        "last_reading_date": "2026-09-23T00:00:00",
+        "days_since_reading": 1,
+        "trend_variable": "level",
+        "trend": "falling",
+        "trend_change": -1.03,
+        "trend_window_days": 21,
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":4.58},{\"date\":\"2026-09-04\",\"value\":3.82},{\"date\":\"2026-09-05\",\"value\":3.88},{\"date\":\"2026-09-06\",\"value\":2.56},{\"date\":\"2026-09-07\",\"value\":2},{\"date\":\"2026-09-08\",\"value\":1.88},{\"date\":\"2026-09-09\",\"value\":2.38},{\"date\":\"2026-09-10\",\"value\":2.54},{\"date\":\"2026-09-11\",\"value\":3.86},{\"date\":\"2026-09-12\",\"value\":5.76},{\"date\":\"2026-09-13\",\"value\":4.95},{\"date\":\"2026-09-14\",\"value\":4.55},{\"date\":\"2026-09-15\",\"value\":4.05},{\"date\":\"2026-09-16\",\"value\":3.57},{\"date\":\"2026-09-17\",\"value\":3.94},{\"date\":\"2026-09-18\",\"value\":3.25},{\"date\":\"2026-09-19\",\"value\":3.26},{\"date\":\"2026-09-20\",\"value\":2.7},{\"date\":\"2026-09-21\",\"value\":2.65},{\"date\":\"2026-09-22\",\"value\":3.19},{\"date\":\"2026-09-23\",\"value\":3.36}]",
+        "has_forecast": false,
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3,
+          -20.227
+        ]
+      },
+      "properties": {
+        "agency": "MADES",
+        "site_code": 6,
+        "name": "Bahia Negra",
+        "river": "Paraguay",
+        "variables": "level",
+        "variable_labels": "Water level",
+        "country": "Paraguay",
+        "network": "MADES SIAGUAPY — Armada Nacional/ANNP/DMH-DINAC (manual)",
+        "status": "ok",
+        "level_m": 2.92,
+        "discharge_m3s": null,
+        "rain_mm": null,
+        "temp_c": null,
+        "wind_kmh": null,
+        "humidity_pct": null,
+        "last_reading_date": "2026-09-24",
+        "days_since_reading": 0,
+        "trend_variable": "level",
+        "trend": "falling",
+        "trend_change": -0.61,
+        "trend_window_days": 21,
+        "trend_history": "[{\"date\":\"2026-09-04\",\"value\":3.6},{\"date\":\"2026-09-05\",\"value\":3.55},{\"date\":\"2026-09-06\",\"value\":3.5},{\"date\":\"2026-09-07\",\"value\":3.47},{\"date\":\"2026-09-08\",\"value\":3.44},{\"date\":\"2026-09-09\",\"value\":3.4},{\"date\":\"2026-09-10\",\"value\":3.36},{\"date\":\"2026-09-11\",\"value\":3.31},{\"date\":\"2026-09-12\",\"value\":3.29},{\"date\":\"2026-09-13\",\"value\":3.25},{\"date\":\"2026-09-14\",\"value\":3.21},{\"date\":\"2026-09-15\",\"value\":3.2},{\"date\":\"2026-09-16\",\"value\":3.16},{\"date\":\"2026-09-17\",\"value\":3.13},{\"date\":\"2026-09-18\",\"value\":3.1},{\"date\":\"2026-09-19\",\"value\":3.06},{\"date\":\"2026-09-20\",\"value\":3.04},{\"date\":\"2026-09-21\",\"value\":3.04},{\"date\":\"2026-09-22\",\"value\":2.97},{\"date\":\"2026-09-23\",\"value\":2.94},{\"date\":\"2026-09-24\",\"value\":2.92}]",
+        "has_forecast": false,
+        "forecast": null,
+        "alert_level_m": 5,
+        "critical_level_m": 5.5,
+        "disaster_level_m": 6.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.612,
+          -25.519
+        ]
+      },
+      "properties": {
+        "agency": "MADES",
+        "site_code": 19,
+        "name": "Ciudad del Este",
+        "river": "Paraná (Paraguay)",
+        "variables": "level",
+        "variable_labels": "Water level",
+        "country": "Paraguay",
+        "network": "MADES SIAGUAPY — Armada Nacional/ANNP/DMH-DINAC (manual)",
+        "status": "ok",
+        "level_m": 17.06,
+        "discharge_m3s": null,
+        "rain_mm": null,
+        "temp_c": null,
+        "wind_kmh": null,
+        "humidity_pct": null,
+        "last_reading_date": "2026-09-22",
+        "days_since_reading": 2,
+        "trend_variable": "level",
+        "trend": "rising",
+        "trend_change": 4.86,
+        "trend_window_days": 21,
+        "trend_history": "[{\"date\":\"2026-08-30\",\"value\":11.41},{\"date\":\"2026-08-31\",\"value\":10.97},{\"date\":\"2026-09-02\",\"value\":16.52},{\"date\":\"2026-09-03\",\"value\":17.34},{\"date\":\"2026-09-05\",\"value\":15.98},{\"date\":\"2026-09-06\",\"value\":14.32},{\"date\":\"2026-09-07\",\"value\":12.98},{\"date\":\"2026-09-08\",\"value\":12.59},{\"date\":\"2026-09-09\",\"value\":13.68},{\"date\":\"2026-09-10\",\"value\":14.7},{\"date\":\"2026-09-11\",\"value\":15.91},{\"date\":\"2026-09-12\",\"value\":18.75},{\"date\":\"2026-09-13\",\"value\":19.29},{\"date\":\"2026-09-14\",\"value\":19.32},{\"date\":\"2026-09-15\",\"value\":19.29},{\"date\":\"2026-09-16\",\"value\":19.09},{\"date\":\"2026-09-17\",\"value\":19.45},{\"date\":\"2026-09-18\",\"value\":18.93},{\"date\":\"2026-09-19\",\"value\":18.79},{\"date\":\"2026-09-21\",\"value\":17.62},{\"date\":\"2026-09-22\",\"value\":17.06}]",
+        "has_forecast": false,
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.43,
+          -23.44
+        ]
+      },
+      "properties": {
+        "agency": "MADES",
+        "site_code": 8,
+        "name": "Concepción",
+        "river": "Paraguay",
+        "variables": "level",
+        "variable_labels": "Water level",
+        "country": "Paraguay",
+        "network": "MADES SIAGUAPY — Armada Nacional/ANNP/DMH-DINAC (manual)",
+        "status": "ok",
+        "level_m": 1.64,
+        "discharge_m3s": null,
+        "rain_mm": null,
+        "temp_c": null,
+        "wind_kmh": null,
+        "humidity_pct": null,
+        "last_reading_date": "2026-09-24",
+        "days_since_reading": 0,
+        "trend_variable": "level",
+        "trend": "falling",
+        "trend_change": -0.27,
+        "trend_window_days": 21,
+        "trend_history": "[{\"date\":\"2026-09-04\",\"value\":1.92},{\"date\":\"2026-09-05\",\"value\":1.93},{\"date\":\"2026-09-06\",\"value\":1.91},{\"date\":\"2026-09-07\",\"value\":1.86},{\"date\":\"2026-09-08\",\"value\":1.83},{\"date\":\"2026-09-09\",\"value\":1.81},{\"date\":\"2026-09-10\",\"value\":1.8},{\"date\":\"2026-09-11\",\"value\":1.8},{\"date\":\"2026-09-12\",\"value\":1.79},{\"date\":\"2026-09-13\",\"value\":1.76},{\"date\":\"2026-09-14\",\"value\":1.74},{\"date\":\"2026-09-15\",\"value\":1.72},{\"date\":\"2026-09-16\",\"value\":1.7},{\"date\":\"2026-09-17\",\"value\":1.68},{\"date\":\"2026-09-18\",\"value\":1.67},{\"date\":\"2026-09-19\",\"value\":1.66},{\"date\":\"2026-09-20\",\"value\":1.67},{\"date\":\"2026-09-21\",\"value\":1.65},{\"date\":\"2026-09-22\",\"value\":1.65},{\"date\":\"2026-09-23\",\"value\":1.66},{\"date\":\"2026-09-24\",\"value\":1.64}]",
+        "has_forecast": false,
+        "forecast": null,
+        "alert_level_m": 6,
+        "critical_level_m": 7,
+        "disaster_level_m": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.87083333,
+          -21.0375
+        ]
+      },
+      "properties": {
+        "agency": "MADES",
+        "site_code": 5,
+        "name": "Fuerte Olimpo",
+        "river": "Paraguay",
+        "variables": "level",
+        "variable_labels": "Water level",
+        "country": "Paraguay",
+        "network": "MADES SIAGUAPY — Armada Nacional/ANNP/DMH-DINAC (manual)",
+        "status": "ok",
+        "level_m": 3.17,
+        "discharge_m3s": null,
+        "rain_mm": null,
+        "temp_c": null,
+        "wind_kmh": null,
+        "humidity_pct": null,
+        "last_reading_date": "2026-09-24",
+        "days_since_reading": 0,
+        "trend_variable": "level",
+        "trend": "falling",
+        "trend_change": -0.48,
+        "trend_window_days": 21,
+        "trend_history": "[{\"date\":\"2026-09-04\",\"value\":3.7},{\"date\":\"2026-09-05\",\"value\":3.68},{\"date\":\"2026-09-06\",\"value\":3.65},{\"date\":\"2026-09-07\",\"value\":3.63},{\"date\":\"2026-09-08\",\"value\":3.6},{\"date\":\"2026-09-09\",\"value\":3.56},{\"date\":\"2026-09-10\",\"value\":3.52},{\"date\":\"2026-09-11\",\"value\":3.49},{\"date\":\"2026-09-12\",\"value\":3.47},{\"date\":\"2026-09-13\",\"value\":3.45},{\"date\":\"2026-09-14\",\"value\":3.43},{\"date\":\"2026-09-15\",\"value\":3.41},{\"date\":\"2026-09-16\",\"value\":3.38},{\"date\":\"2026-09-17\",\"value\":3.33},{\"date\":\"2026-09-18\",\"value\":3.32},{\"date\":\"2026-09-19\",\"value\":3.29},{\"date\":\"2026-09-20\",\"value\":3.27},{\"date\":\"2026-09-21\",\"value\":3.24},{\"date\":\"2026-09-22\",\"value\":3.21},{\"date\":\"2026-09-23\",\"value\":3.2},{\"date\":\"2026-09-24\",\"value\":3.17}]",
+        "has_forecast": false,
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.9727067,
+          -21.6246151
+        ]
+      },
+      "properties": {
+        "agency": "MADES",
+        "site_code": 4,
+        "name": "Isla Margarita",
+        "river": "Paraguay",
+        "variables": "level",
+        "variable_labels": "Water level",
+        "country": "Paraguay",
+        "network": "MADES SIAGUAPY — Armada Nacional/ANNP/DMH-DINAC (manual)",
+        "status": "ok",
+        "level_m": 2.41,
+        "discharge_m3s": null,
+        "rain_mm": null,
+        "temp_c": null,
+        "wind_kmh": null,
+        "humidity_pct": null,
+        "last_reading_date": "2026-09-24",
+        "days_since_reading": 0,
+        "trend_variable": "level",
+        "trend": "falling",
+        "trend_change": -0.42,
+        "trend_window_days": 21,
+        "trend_history": "[{\"date\":\"2026-09-04\",\"value\":2.89},{\"date\":\"2026-09-05\",\"value\":2.85},{\"date\":\"2026-09-06\",\"value\":2.83},{\"date\":\"2026-09-07\",\"value\":2.83},{\"date\":\"2026-09-08\",\"value\":2.83},{\"date\":\"2026-09-09\",\"value\":2.83},{\"date\":\"2026-09-10\",\"value\":2.83},{\"date\":\"2026-09-11\",\"value\":2.78},{\"date\":\"2026-09-12\",\"value\":2.73},{\"date\":\"2026-09-13\",\"value\":2.72},{\"date\":\"2026-09-14\",\"value\":2.72},{\"date\":\"2026-09-15\",\"value\":2.66},{\"date\":\"2026-09-16\",\"value\":2.6},{\"date\":\"2026-09-17\",\"value\":2.56},{\"date\":\"2026-09-18\",\"value\":2.54},{\"date\":\"2026-09-19\",\"value\":2.52},{\"date\":\"2026-09-20\",\"value\":2.5},{\"date\":\"2026-09-21\",\"value\":2.48},{\"date\":\"2026-09-22\",\"value\":2.46},{\"date\":\"2026-09-23\",\"value\":2.43},{\"date\":\"2026-09-24\",\"value\":2.41}]",
+        "has_forecast": false,
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.518639,
+          -22.3782
+        ]
+      },
+      "properties": {
+        "agency": "MADES",
+        "site_code": 44,
+        "name": "Misión La Paz DE CTN",
+        "river": "Pilcomayo",
+        "variables": "level",
+        "variable_labels": "Water level",
+        "country": "Argentina",
+        "network": "MADES SIAGUAPY — Comisión Trinacional del Pilcomayo (automatic)",
+        "status": "ok",
+        "level_m": 3.27,
+        "discharge_m3s": null,
+        "rain_mm": null,
+        "temp_c": null,
+        "wind_kmh": null,
+        "humidity_pct": null,
+        "last_reading_date": "2026-09-24",
         "days_since_reading": 0,
         "trend_variable": "level",
         "trend": "rising",
-        "trend_change": 0.52,
+        "trend_change": 0.15,
         "trend_window_days": 21,
-        "trend_history": "[{\"date\":\"2026-08-31\",\"value\":0.78},{\"date\":\"2026-09-01\",\"value\":1.46},{\"date\":\"2026-09-02\",\"value\":4.8},{\"date\":\"2026-09-03\",\"value\":4.58},{\"date\":\"2026-09-04\",\"value\":3.82},{\"date\":\"2026-09-05\",\"value\":3.88},{\"date\":\"2026-09-06\",\"value\":2.56},{\"date\":\"2026-09-07\",\"value\":2},{\"date\":\"2026-09-08\",\"value\":1.88},{\"date\":\"2026-09-09\",\"value\":2.38},{\"date\":\"2026-09-10\",\"value\":2.54},{\"date\":\"2026-09-11\",\"value\":3.86},{\"date\":\"2026-09-12\",\"value\":5.76},{\"date\":\"2026-09-13\",\"value\":4.95},{\"date\":\"2026-09-14\",\"value\":4.55},{\"date\":\"2026-09-15\",\"value\":4.05},{\"date\":\"2026-09-16\",\"value\":3.57},{\"date\":\"2026-09-17\",\"value\":3.94},{\"date\":\"2026-09-18\",\"value\":3.25},{\"date\":\"2026-09-19\",\"value\":3.26},{\"date\":\"2026-09-20\",\"value\":2.7},{\"date\":\"2026-09-21\",\"value\":2.65}]",
+        "trend_history": "[{\"date\":\"2026-09-04\",\"value\":3.04},{\"date\":\"2026-09-05\",\"value\":3.04},{\"date\":\"2026-09-06\",\"value\":3.03},{\"date\":\"2026-09-07\",\"value\":3.04},{\"date\":\"2026-09-08\",\"value\":3.03},{\"date\":\"2026-09-09\",\"value\":3},{\"date\":\"2026-09-10\",\"value\":2.98},{\"date\":\"2026-09-11\",\"value\":3},{\"date\":\"2026-09-12\",\"value\":2.96},{\"date\":\"2026-09-13\",\"value\":3},{\"date\":\"2026-09-14\",\"value\":3.03},{\"date\":\"2026-09-15\",\"value\":3.04},{\"date\":\"2026-09-16\",\"value\":3.04},{\"date\":\"2026-09-17\",\"value\":3.04},{\"date\":\"2026-09-18\",\"value\":3.03},{\"date\":\"2026-09-19\",\"value\":3.08},{\"date\":\"2026-09-20\",\"value\":3.09},{\"date\":\"2026-09-21\",\"value\":3.05},{\"date\":\"2026-09-22\",\"value\":3.03},{\"date\":\"2026-09-23\",\"value\":3.27},{\"date\":\"2026-09-24\",\"value\":3.27}]",
         "has_forecast": false,
-        "forecast": null
+        "forecast": null,
+        "alert_level_m": 5,
+        "critical_level_m": null,
+        "disaster_level_m": 5.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.51849,
+          -22.4778
+        ]
+      },
+      "properties": {
+        "agency": "MADES",
+        "site_code": 29,
+        "name": "Pozo Hondo",
+        "river": "Pilcomayo",
+        "variables": "level",
+        "variable_labels": "Water level",
+        "country": "Argentina",
+        "network": "MADES SIAGUAPY — Armada Nacional/ANNP/DMH-DINAC (manual)",
+        "status": "ok",
+        "level_m": 3.27,
+        "discharge_m3s": null,
+        "rain_mm": null,
+        "temp_c": null,
+        "wind_kmh": null,
+        "humidity_pct": null,
+        "last_reading_date": "2026-09-24",
+        "days_since_reading": 0,
+        "trend_variable": "level",
+        "trend": "steady",
+        "trend_change": 0.01,
+        "trend_window_days": 21,
+        "trend_history": "[{\"date\":\"2026-09-02\",\"value\":3.17},{\"date\":\"2026-09-03\",\"value\":3.08},{\"date\":\"2026-09-05\",\"value\":3.08},{\"date\":\"2026-09-06\",\"value\":3.03},{\"date\":\"2026-09-07\",\"value\":3.04},{\"date\":\"2026-09-08\",\"value\":3.04},{\"date\":\"2026-09-09\",\"value\":3.02},{\"date\":\"2026-09-10\",\"value\":3.02},{\"date\":\"2026-09-11\",\"value\":3.02},{\"date\":\"2026-09-12\",\"value\":3.03},{\"date\":\"2026-09-13\",\"value\":3.02},{\"date\":\"2026-09-14\",\"value\":3},{\"date\":\"2026-09-15\",\"value\":3.04},{\"date\":\"2026-09-16\",\"value\":3.01},{\"date\":\"2026-09-17\",\"value\":3.04},{\"date\":\"2026-09-18\",\"value\":3.04},{\"date\":\"2026-09-19\",\"value\":3.04},{\"date\":\"2026-09-21\",\"value\":3.09},{\"date\":\"2026-09-22\",\"value\":3.05},{\"date\":\"2026-09-23\",\"value\":3.05},{\"date\":\"2026-09-24\",\"value\":3.27}]",
+        "has_forecast": false,
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.17,
+          -24.1
+        ]
+      },
+      "properties": {
+        "agency": "MADES",
+        "site_code": 10,
+        "name": "Puerto Antequera",
+        "river": "Paraguay",
+        "variables": "level",
+        "variable_labels": "Water level",
+        "country": "Paraguay",
+        "network": "MADES SIAGUAPY — Armada Nacional/ANNP/DMH-DINAC (manual)",
+        "status": "ok",
+        "level_m": 1.18,
+        "discharge_m3s": null,
+        "rain_mm": null,
+        "temp_c": null,
+        "wind_kmh": null,
+        "humidity_pct": null,
+        "last_reading_date": "2026-09-24",
+        "days_since_reading": 0,
+        "trend_variable": "level",
+        "trend": "falling",
+        "trend_change": -0.25,
+        "trend_window_days": 21,
+        "trend_history": "[{\"date\":\"2026-09-03\",\"value\":1.46},{\"date\":\"2026-09-04\",\"value\":1.44},{\"date\":\"2026-09-05\",\"value\":1.42},{\"date\":\"2026-09-07\",\"value\":1.37},{\"date\":\"2026-09-08\",\"value\":1.37},{\"date\":\"2026-09-09\",\"value\":1.34},{\"date\":\"2026-09-10\",\"value\":1.33},{\"date\":\"2026-09-11\",\"value\":1.33},{\"date\":\"2026-09-12\",\"value\":1.32},{\"date\":\"2026-09-13\",\"value\":1.31},{\"date\":\"2026-09-14\",\"value\":1.28},{\"date\":\"2026-09-15\",\"value\":1.25},{\"date\":\"2026-09-16\",\"value\":1.23},{\"date\":\"2026-09-17\",\"value\":1.2},{\"date\":\"2026-09-18\",\"value\":1.18},{\"date\":\"2026-09-19\",\"value\":1.18},{\"date\":\"2026-09-20\",\"value\":1.2},{\"date\":\"2026-09-21\",\"value\":1.2},{\"date\":\"2026-09-22\",\"value\":1.19},{\"date\":\"2026-09-23\",\"value\":1.2},{\"date\":\"2026-09-24\",\"value\":1.18}]",
+        "has_forecast": false,
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.60194,
+          -19.005
+        ]
+      },
+      "properties": {
+        "agency": "MADES",
+        "site_code": 1,
+        "name": "Puerto Ladario - Brasil",
+        "river": "Paraguay",
+        "variables": "level",
+        "variable_labels": "Water level",
+        "country": "Brasil",
+        "network": "MADES SIAGUAPY — Armada Nacional/ANNP/DMH-DINAC (manual)",
+        "status": "ok",
+        "level_m": 1.4,
+        "discharge_m3s": null,
+        "rain_mm": null,
+        "temp_c": null,
+        "wind_kmh": null,
+        "humidity_pct": null,
+        "last_reading_date": "2026-09-22",
+        "days_since_reading": 2,
+        "trend_variable": "level",
+        "trend": "falling",
+        "trend_change": -0.52,
+        "trend_window_days": 21,
+        "trend_history": "[{\"date\":\"2026-09-02\",\"value\":1.94},{\"date\":\"2026-09-03\",\"value\":1.94},{\"date\":\"2026-09-04\",\"value\":1.92},{\"date\":\"2026-09-05\",\"value\":1.86},{\"date\":\"2026-09-06\",\"value\":1.84},{\"date\":\"2026-09-07\",\"value\":1.84},{\"date\":\"2026-09-08\",\"value\":1.8},{\"date\":\"2026-09-09\",\"value\":1.76},{\"date\":\"2026-09-10\",\"value\":1.68},{\"date\":\"2026-09-11\",\"value\":1.64},{\"date\":\"2026-09-12\",\"value\":1.61},{\"date\":\"2026-09-13\",\"value\":1.6},{\"date\":\"2026-09-14\",\"value\":1.58},{\"date\":\"2026-09-15\",\"value\":1.56},{\"date\":\"2026-09-16\",\"value\":1.54},{\"date\":\"2026-09-17\",\"value\":1.52},{\"date\":\"2026-09-18\",\"value\":1.5},{\"date\":\"2026-09-19\",\"value\":1.45},{\"date\":\"2026-09-20\",\"value\":1.44},{\"date\":\"2026-09-21\",\"value\":1.4},{\"date\":\"2026-09-22\",\"value\":1.4}]",
+        "has_forecast": false,
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.165856,
+          -24.427809
+        ]
+      },
+      "properties": {
+        "agency": "MADES",
+        "site_code": 9,
+        "name": "Rosario",
+        "river": "Paraguay",
+        "variables": "level",
+        "variable_labels": "Water level",
+        "country": "Paraguay",
+        "network": "MADES SIAGUAPY — Armada Nacional/ANNP/DMH-DINAC (manual)",
+        "status": "ok",
+        "level_m": 1.14,
+        "discharge_m3s": null,
+        "rain_mm": null,
+        "temp_c": null,
+        "wind_kmh": null,
+        "humidity_pct": null,
+        "last_reading_date": "2026-09-24",
+        "days_since_reading": 0,
+        "trend_variable": "level",
+        "trend": "falling",
+        "trend_change": -0.22,
+        "trend_window_days": 21,
+        "trend_history": "[{\"date\":\"2026-09-04\",\"value\":1.41},{\"date\":\"2026-09-05\",\"value\":1.38},{\"date\":\"2026-09-06\",\"value\":1.36},{\"date\":\"2026-09-07\",\"value\":1.35},{\"date\":\"2026-09-08\",\"value\":1.33},{\"date\":\"2026-09-09\",\"value\":1.32},{\"date\":\"2026-09-10\",\"value\":1.31},{\"date\":\"2026-09-11\",\"value\":1.3},{\"date\":\"2026-09-12\",\"value\":1.29},{\"date\":\"2026-09-13\",\"value\":1.27},{\"date\":\"2026-09-14\",\"value\":1.24},{\"date\":\"2026-09-15\",\"value\":1.2},{\"date\":\"2026-09-16\",\"value\":1.16},{\"date\":\"2026-09-17\",\"value\":1.14},{\"date\":\"2026-09-18\",\"value\":1.1},{\"date\":\"2026-09-19\",\"value\":1.1},{\"date\":\"2026-09-20\",\"value\":1.14},{\"date\":\"2026-09-21\",\"value\":1.14},{\"date\":\"2026-09-22\",\"value\":1.16},{\"date\":\"2026-09-23\",\"value\":1.18},{\"date\":\"2026-09-24\",\"value\":1.14}]",
+        "has_forecast": false,
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.353,
+          -24.032
+        ]
+      },
+      "properties": {
+        "agency": "MADES",
+        "site_code": 18,
+        "name": "Salto del Guairá",
+        "river": "Paraná (Paraguay)",
+        "variables": "level",
+        "variable_labels": "Water level",
+        "country": "Paraguay",
+        "network": "MADES SIAGUAPY — Armada Nacional/ANNP/DMH-DINAC (manual)",
+        "status": "ok",
+        "level_m": 7,
+        "discharge_m3s": null,
+        "rain_mm": null,
+        "temp_c": null,
+        "wind_kmh": null,
+        "humidity_pct": null,
+        "last_reading_date": "2026-09-24",
+        "days_since_reading": 0,
+        "trend_variable": "level",
+        "trend": "rising",
+        "trend_change": 1.23,
+        "trend_window_days": 21,
+        "trend_history": "[{\"date\":\"2026-09-04\",\"value\":5.67},{\"date\":\"2026-09-05\",\"value\":5.69},{\"date\":\"2026-09-06\",\"value\":5.76},{\"date\":\"2026-09-07\",\"value\":5.85},{\"date\":\"2026-09-08\",\"value\":5.91},{\"date\":\"2026-09-09\",\"value\":5.91},{\"date\":\"2026-09-10\",\"value\":5.89},{\"date\":\"2026-09-11\",\"value\":5.9},{\"date\":\"2026-09-12\",\"value\":5.99},{\"date\":\"2026-09-13\",\"value\":6.18},{\"date\":\"2026-09-14\",\"value\":6.37},{\"date\":\"2026-09-15\",\"value\":6.51},{\"date\":\"2026-09-16\",\"value\":6.75},{\"date\":\"2026-09-17\",\"value\":6.87},{\"date\":\"2026-09-18\",\"value\":6.93},{\"date\":\"2026-09-19\",\"value\":6.96},{\"date\":\"2026-09-20\",\"value\":6.9},{\"date\":\"2026-09-21\",\"value\":6.88},{\"date\":\"2026-09-22\",\"value\":6.88},{\"date\":\"2026-09-23\",\"value\":6.94},{\"date\":\"2026-09-24\",\"value\":7}]",
+        "has_forecast": false,
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.046136,
+          -22.1346626
+        ]
+      },
+      "properties": {
+        "agency": "MADES",
+        "site_code": 7,
+        "name": "Vallemí",
+        "river": "Paraguay",
+        "variables": "level",
+        "variable_labels": "Water level",
+        "country": "Paraguay",
+        "network": "MADES SIAGUAPY — Armada Nacional/ANNP/DMH-DINAC (manual)",
+        "status": "ok",
+        "level_m": 2.31,
+        "discharge_m3s": null,
+        "rain_mm": null,
+        "temp_c": null,
+        "wind_kmh": null,
+        "humidity_pct": null,
+        "last_reading_date": "2026-09-24",
+        "days_since_reading": 0,
+        "trend_variable": "level",
+        "trend": "falling",
+        "trend_change": -0.33,
+        "trend_window_days": 21,
+        "trend_history": "[{\"date\":\"2026-09-04\",\"value\":2.67},{\"date\":\"2026-09-05\",\"value\":2.66},{\"date\":\"2026-09-06\",\"value\":2.63},{\"date\":\"2026-09-07\",\"value\":2.6},{\"date\":\"2026-09-08\",\"value\":2.58},{\"date\":\"2026-09-09\",\"value\":2.57},{\"date\":\"2026-09-10\",\"value\":2.55},{\"date\":\"2026-09-11\",\"value\":2.54},{\"date\":\"2026-09-12\",\"value\":2.52},{\"date\":\"2026-09-13\",\"value\":2.5},{\"date\":\"2026-09-14\",\"value\":2.48},{\"date\":\"2026-09-15\",\"value\":2.46},{\"date\":\"2026-09-16\",\"value\":2.44},{\"date\":\"2026-09-17\",\"value\":2.42},{\"date\":\"2026-09-18\",\"value\":2.41},{\"date\":\"2026-09-19\",\"value\":2.4},{\"date\":\"2026-09-20\",\"value\":2.39},{\"date\":\"2026-09-21\",\"value\":2.37},{\"date\":\"2026-09-22\",\"value\":2.35},{\"date\":\"2026-09-23\",\"value\":2.32},{\"date\":\"2026-09-24\",\"value\":2.31}]",
+        "has_forecast": false,
+        "forecast": null,
+        "alert_level_m": null,
+        "critical_level_m": null,
+        "disaster_level_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.503391,
+          -21.2609
+        ]
+      },
+      "properties": {
+        "agency": "MADES",
+        "site_code": 45,
+        "name": "Villa Montes",
+        "river": "Pilcomayo",
+        "variables": "level",
+        "variable_labels": "Water level",
+        "country": "Bolivia",
+        "network": "MADES SIAGUAPY — Comisión Trinacional del Pilcomayo (automatic)",
+        "status": "ok",
+        "level_m": 0.86,
+        "discharge_m3s": null,
+        "rain_mm": null,
+        "temp_c": null,
+        "wind_kmh": null,
+        "humidity_pct": null,
+        "last_reading_date": "2026-09-24",
+        "days_since_reading": 0,
+        "trend_variable": "level",
+        "trend": "rising",
+        "trend_change": 0.06,
+        "trend_window_days": 21,
+        "trend_history": "[{\"date\":\"2026-09-04\",\"value\":0.84},{\"date\":\"2026-09-05\",\"value\":0.82},{\"date\":\"2026-09-06\",\"value\":0.82},{\"date\":\"2026-09-07\",\"value\":0.81},{\"date\":\"2026-09-08\",\"value\":0.83},{\"date\":\"2026-09-09\",\"value\":0.81},{\"date\":\"2026-09-10\",\"value\":0.81},{\"date\":\"2026-09-11\",\"value\":0.8},{\"date\":\"2026-09-12\",\"value\":0.8},{\"date\":\"2026-09-13\",\"value\":0.79},{\"date\":\"2026-09-14\",\"value\":0.82},{\"date\":\"2026-09-15\",\"value\":0.84},{\"date\":\"2026-09-16\",\"value\":0.82},{\"date\":\"2026-09-17\",\"value\":0.81},{\"date\":\"2026-09-18\",\"value\":0.81},{\"date\":\"2026-09-19\",\"value\":0.84},{\"date\":\"2026-09-20\",\"value\":1.07},{\"date\":\"2026-09-21\",\"value\":1},{\"date\":\"2026-09-22\",\"value\":0.92},{\"date\":\"2026-09-23\",\"value\":0.87},{\"date\":\"2026-09-24\",\"value\":0.86}]",
+        "has_forecast": false,
+        "forecast": null,
+        "alert_level_m": 3,
+        "critical_level_m": null,
+        "disaster_level_m": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.575242,
+          -25.506747
+        ]
+      },
+      "properties": {
+        "agency": "MADES",
+        "site_code": 11,
+        "name": "Villeta",
+        "river": "Paraguay",
+        "variables": "level",
+        "variable_labels": "Water level",
+        "country": "Paraguay",
+        "network": "MADES SIAGUAPY — Armada Nacional/ANNP/DMH-DINAC (manual)",
+        "status": "ok",
+        "level_m": 0.85,
+        "discharge_m3s": null,
+        "rain_mm": null,
+        "temp_c": null,
+        "wind_kmh": null,
+        "humidity_pct": null,
+        "last_reading_date": "2026-09-24",
+        "days_since_reading": 0,
+        "trend_variable": "level",
+        "trend": "falling",
+        "trend_change": -0.27,
+        "trend_window_days": 21,
+        "trend_history": "[{\"date\":\"2026-09-04\",\"value\":1.16},{\"date\":\"2026-09-05\",\"value\":1.13},{\"date\":\"2026-09-06\",\"value\":1.11},{\"date\":\"2026-09-07\",\"value\":1.09},{\"date\":\"2026-09-08\",\"value\":1.07},{\"date\":\"2026-09-09\",\"value\":1.04},{\"date\":\"2026-09-10\",\"value\":1.01},{\"date\":\"2026-09-11\",\"value\":1},{\"date\":\"2026-09-12\",\"value\":0.97},{\"date\":\"2026-09-13\",\"value\":0.93},{\"date\":\"2026-09-14\",\"value\":0.88},{\"date\":\"2026-09-15\",\"value\":0.88},{\"date\":\"2026-09-16\",\"value\":0.86},{\"date\":\"2026-09-17\",\"value\":0.85},{\"date\":\"2026-09-18\",\"value\":0.83},{\"date\":\"2026-09-19\",\"value\":0.87},{\"date\":\"2026-09-20\",\"value\":0.87},{\"date\":\"2026-09-21\",\"value\":0.86},{\"date\":\"2026-09-22\",\"value\":0.87},{\"date\":\"2026-09-23\",\"value\":0.87},{\"date\":\"2026-09-24\",\"value\":0.85}]",
+        "has_forecast": false,
+        "forecast": null,
+        "alert_level_m": 5.5,
+        "critical_level_m": 7.5,
+        "disaster_level_m": 8
       }
     }
   ]

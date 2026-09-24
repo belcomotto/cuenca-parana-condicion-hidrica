@@ -1,18 +1,23 @@
 #!/usr/bin/env node
-// Builds the verified INA telemetry station catalog for the Pilcomayo, Bermejo,
-// Iguazú and Paraguay rivers (plus the mainstem Paraná/tributary gauges visible
-// on INA's public map in that same corridor), and the "Condición Hídrica"
-// reach-condition layer for the same area.
+// Builds the verified telemetry station catalog for the wider Paraná basin —
+// INA (Argentina) stations on the Pilcomayo, Bermejo, Iguazú and Paraguay
+// rivers (plus the mainstem Paraná/tributary gauges visible on INA's public
+// map in that same corridor), and MADES (Paraguay) stations on the
+// Paraguayan reach of the Paraná/Paraguay/Pilcomayo — plus INA's "Condición
+// Hídrica" reach-condition layer. Goal: prove every gauge in this basin can
+// actually be fetched live, as the source for a combined ArcGIS Online layer.
 //
-// Source: INA SIyAH public API (https://alerta.ina.gob.ar/pub/datos/) + GeoServer
-//   - `estaciones`        — full national station catalog (~1900 stations).
-//   - `series`            — every configured variable series for one station,
-//                            with its last observation date. One call tells us
-//                            everything a station currently reports, so no more
-//                            guessing variable IDs station by station.
-//   - GeoServer WFS layer `public2:tramos_condicion_params` — named river
-//     reaches with a current level/discharge percentile classification
-//     ("aguas altas" .. "aguas bajas") and line geometry.
+// Sources:
+//   INA SIyAH public API (https://alerta.ina.gob.ar/pub/datos/) + GeoServer
+//     - `estaciones` — full national station catalog (~1900 stations).
+//     - `series`     — every configured variable series for one station,
+//                       with its last observation date. One call tells us
+//                       everything a station currently reports, so no more
+//                       guessing variable IDs station by station.
+//     - GeoServer WFS layer `public2:tramos_condicion_params` — named river
+//       reaches with a current level/discharge percentile classification
+//       ("aguas altas" .. "aguas bajas") and line geometry.
+//   MADES SIAGUAPY (https://siaguapy.mades.gov.py) — see scripts/lib/mades.mjs
 //
 // Output:
 //   public/data/stations.geojson — flat-property GeoJSON, ArcGIS-ready
@@ -22,6 +27,7 @@
 import { writeFile, mkdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
+import { fetchMadesStations } from './lib/mades.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, '..', 'public', 'data');
@@ -377,6 +383,7 @@ async function main() {
         ?? (RIVERS.includes(namePrefix) ? riverLabel(namePrefix, null) : null);
 
     return {
+      agency: 'INA',
       site_code: station.sitecode,
       name: station.nombre,
       river: river ?? 'Unclassified',
@@ -403,14 +410,24 @@ async function main() {
     };
   });
 
+  console.log('Fetching MADES (Paraguay) station catalog and daily history…');
+  const madesStations = await fetchMadesStations();
+  console.log(`  ${madesStations.length} MADES stations currently transmitting\n`);
+
+  // One combined array feeds the single ArcGIS-bound layer — this is the
+  // whole point of the exercise: prove every gauge in the basin, regardless
+  // of which country's agency runs it, can be fetched into one place.
+  const allStations = [...verified, ...madesStations];
+
   await mkdir(DATA_DIR, { recursive: true });
 
   const stationsGeoJSON = {
     type: 'FeatureCollection',
-    features: verified.map(v => ({
+    features: allStations.map(v => ({
       type: 'Feature',
       geometry: { type: 'Point', coordinates: [v.lon, v.lat] },
       properties: {
+        agency: v.agency,
         site_code: v.site_code,
         name: v.name,
         river: v.river,
@@ -435,6 +452,12 @@ async function main() {
         trend_history: JSON.stringify(v.trend_history),
         has_forecast: v.forecast != null,
         forecast: v.forecast ? JSON.stringify(v.forecast) : null,
+        // MADES-only reference thresholds (null for INA stations, which
+        // carry their own alert/evacuation levels inside `forecast` instead
+        // — the two agencies don't share a threshold scale/semantics).
+        alert_level_m: v.alert_level_m ?? null,
+        critical_level_m: v.critical_level_m ?? null,
+        disaster_level_m: v.disaster_level_m ?? null,
       },
     })),
   };
@@ -485,22 +508,25 @@ async function main() {
   const byRiver = {};
   const byVariable = {};
   const byTrend = {};
-  for (const v of verified) {
+  const byAgency = {};
+  for (const v of allStations) {
     byRiver[v.river] = (byRiver[v.river] ?? 0) + 1;
     for (const cat of v.variables) byVariable[cat] = (byVariable[cat] ?? 0) + 1;
     if (v.trend) byTrend[v.trend] = (byTrend[v.trend] ?? 0) + 1;
+    byAgency[v.agency] = (byAgency[v.agency] ?? 0) + 1;
   }
 
   const report = {
     generatedAt: new Date().toISOString(),
-    totalStations: verified.length,
-    droppedNotTransmitting: withSeries.length - activeOnly.length,
+    totalStations: allStations.length,
+    droppedNotTransmitting: (withSeries.length - activeOnly.length),
     byRiver,
     byVariable,
     byTrend,
-    stationsWithForecast: verified.filter(v => v.forecast).map(v => v.name),
+    byAgency,
+    stationsWithForecast: allStations.filter(v => v.forecast).map(v => v.name),
     reachesFound: [...tramosByReach.keys()],
-    stations: verified,
+    stations: allStations,
   };
 
   await writeFile(join(DATA_DIR, 'stations.geojson'), JSON.stringify(stationsGeoJSON, null, 2));
@@ -508,11 +534,12 @@ async function main() {
   await writeFile(join(DATA_DIR, 'report.json'), JSON.stringify(report, null, 2));
 
   console.log('\n── Summary ──────────────────────────────');
-  console.log(`Total transmitting stations: ${verified.length} (dropped ${report.droppedNotTransmitting} not transmitting)`);
+  console.log(`Total transmitting stations: ${allStations.length} (dropped ${report.droppedNotTransmitting} INA candidates not transmitting)`);
+  console.log('By agency:', byAgency);
   console.log('By river:', byRiver);
   console.log('By variable:', byVariable);
   console.log('By trend:', byTrend);
-  console.log(`Stations with an official INA forecast: ${report.stationsWithForecast.join(', ') || 'none'}`);
+  console.log(`Stations with an official forecast: ${report.stationsWithForecast.join(', ') || 'none'}`);
   console.log(`Reaches: ${report.reachesFound.length} / ${TARGET_REACHES.size} target reaches found`);
   console.log(`\nWritten: public/data/stations.geojson, public/data/tramos.geojson, public/data/report.json`);
 }

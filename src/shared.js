@@ -1,3 +1,7 @@
+// Colors are keyed by RIVER, not by agency — an INA-run gauge and a
+// MADES-run gauge on the same river (e.g. "Paraguay") share a color, since
+// they're literally the same river. The `agency` property (INA / MADES) is
+// what distinguishes source, shown separately in popups and the dashboard.
 export const RIVER_COLOR = {
   'Bermejo':             '#4db8ff',
   'Pilcomayo':           '#f0a500',
@@ -5,6 +9,10 @@ export const RIVER_COLOR = {
   'Paraguay':            '#c084fc',
   'Paraná (medio)':      '#ef4444',
   'Paraná (inferior)':   '#fb7185',
+  // MADES's own "Río Paraná" grouping spans the whole Paraguayan reach —
+  // a different segmentation than INA's medio/inferior reach names, kept
+  // as its own label rather than force-mapped onto INA's scheme.
+  'Paraná (Paraguay)':   '#b91c1c',
   'Riacho Barranqueras': '#94a3b8',
   'Arroyo Riachuelo':    '#2dd4bf',
   'Piray Guazú':         '#eab308',
@@ -16,9 +24,11 @@ export const RIVER_FALLBACK_COLOR = '#DED8CF';
 // Order the four "headline" rivers first, then the extra corridor stations.
 export const RIVER_ORDER = [
   'Bermejo', 'Pilcomayo', 'Iguazú', 'Paraguay',
-  'Paraná (medio)', 'Paraná (inferior)', 'Riacho Barranqueras',
+  'Paraná (medio)', 'Paraná (inferior)', 'Paraná (Paraguay)', 'Riacho Barranqueras',
   'Arroyo Riachuelo', 'Piray Guazú', 'Piray Miní', 'Riacho Salado',
 ];
+
+export const AGENCY_LABEL = { INA: 'INA (Argentina)', MADES: 'MADES (Paraguay)' };
 
 export const VARIABLE_LABEL = {
   level: 'Water level', discharge: 'Discharge', rain: 'Rain',

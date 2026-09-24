@@ -2560,12 +2560,12 @@
         "condicion": "aguas altas",
         "percentil": 5,
         "color": "#6fa8dc",
-        "tendencia": "baja",
-        "level_m": 2.65,
+        "tendencia": "crece",
+        "level_m": 3.53,
         "level_condicion": null,
-        "discharge_m3s": 3799.076,
+        "discharge_m3s": 5518.564,
         "discharge_condicion": "aguas altas",
-        "fecha": "2026-09-21T03:00:00Z"
+        "fecha": "2026-09-24T03:00:00Z"
       }
     },
     {
@@ -8303,12 +8303,12 @@
         "condicion": "aguas medias altas",
         "percentil": 25,
         "color": "#cfe2f3",
-        "tendencia": "baja",
-        "level_m": 17.4,
+        "tendencia": "crece",
+        "level_m": 17.3,
         "level_condicion": "aguas medias altas",
         "discharge_m3s": null,
         "discharge_condicion": null,
-        "fecha": "2026-09-21T03:00:00Z"
+        "fecha": "2026-09-24T03:00:00Z"
       }
     },
     {
@@ -9655,11 +9655,11 @@
         "percentil": 50,
         "color": "#fff2cc",
         "tendencia": "crece",
-        "level_m": 4.35,
+        "level_m": 4.52,
         "level_condicion": "aguas medias",
-        "discharge_m3s": 19792.127,
+        "discharge_m3s": 20454.32,
         "discharge_condicion": "aguas medias",
-        "fecha": "2026-09-21T03:00:00Z"
+        "fecha": "2026-09-24T03:00:00Z"
       }
     },
     {
@@ -11141,12 +11141,12 @@
         "condicion": "aguas bajas",
         "percentil": 100,
         "color": "#ea9999",
-        "tendencia": "permanece",
+        "tendencia": "baja",
         "level_m": 1.09,
         "level_condicion": "aguas bajas",
         "discharge_m3s": 1578.5652,
         "discharge_condicion": null,
-        "fecha": "2026-09-21T03:00:00Z"
+        "fecha": "2026-09-24T03:00:00Z"
       }
     },
     {
@@ -13192,12 +13192,12 @@
         "condicion": "aguas medias bajas",
         "percentil": 95,
         "color": "#f6b26b",
-        "tendencia": "permanece",
-        "level_m": 2.25,
+        "tendencia": "crece",
+        "level_m": 2.42,
         "level_condicion": "aguas medias bajas",
-        "discharge_m3s": 2096.0627,
+        "discharge_m3s": 2170.8252,
         "discharge_condicion": null,
-        "fecha": "2026-09-21T03:00:00Z"
+        "fecha": "2026-09-24T03:00:00Z"
       }
     },
     {
@@ -16405,12 +16405,12 @@
         "condicion": "aguas medias altas",
         "percentil": 25,
         "color": "#cfe2f3",
-        "tendencia": "permanece",
+        "tendencia": "baja",
         "level_m": null,
         "level_condicion": null,
-        "discharge_m3s": 20000,
+        "discharge_m3s": 17500,
         "discharge_condicion": "aguas medias altas",
-        "fecha": "2026-09-21T03:00:00Z"
+        "fecha": "2026-09-24T03:00:00Z"
       }
     }
   ]

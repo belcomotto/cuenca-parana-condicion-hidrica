@@ -1,11 +1,13 @@
 import {
   RIVER_COLOR, RIVER_ORDER, TREND_LABEL, TREND_ARROW, TREND_COLOR,
-  VARIABLE_LABEL, VARIABLE_UNIT,
+  VARIABLE_LABEL, VARIABLE_UNIT, AGENCY_LABEL,
 } from './shared.js';
 
 const NETWORK_SOURCE_NOTE = {
   'RHN - SAT': 'RHN-SAT — automatic telemetry, INA/SSRH, hourly cadence',
   'escalas Prefectura Nacional': 'Prefectura Naval Argentina river-scale readings, INA SIyAH, ~daily cadence',
+  // MADES network strings are already descriptive (built per-station from
+  // its own data_owner) — no lookup needed, they pass through as-is.
 };
 
 let cachedData = null;
@@ -21,7 +23,7 @@ export function renderDashboard(container, data) {
   container.innerHTML = `
     <div class="dash-header">
       <h1>River Dashboards</h1>
-      <p class="dash-sub">Trend and forecast reading for every river in the Pilcomayo · Bermejo · Iguazú · Paraguay corridor.</p>
+      <p class="dash-sub">Trend and forecast reading for every gauge in the Paraná basin corridor — INA (Argentina) and MADES (Paraguay) stations together.</p>
       ${overallSummaryHTML(stations, generatedAt)}
     </div>
     <div class="dash-grid">
@@ -29,21 +31,25 @@ export function renderDashboard(container, data) {
     </div>
     <div class="dash-sources">
       <h2>Where this comes from</h2>
-      <p>All readings are pulled from INA's public SIyAH API (<code>alerta.ina.gob.ar</code>), the Argentine
-      Instituto Nacional del Agua's hydrological telemetry system. Two networks feed the stations shown
-      here: <strong>RHN-SAT</strong>, automatic sensors reporting roughly hourly, and <strong>escalas
-      Prefectura Nacional</strong>, river-scale gauges read and published by the Argentine Coast Guard,
-      roughly daily.</p>
-      <p><strong>Trend</strong> (rising / falling / steady) is computed here, not supplied by INA: for each
-      station we compare the average of its most recent ~3 readings against the average of its earliest ~3
-      readings in a ${stations[0]?.trend_window_days ?? 21}-day window, using a threshold scaled to that
-      station's own typical range so small sensor noise doesn't register as a trend.</p>
+      <p>Two national agencies feed this basin-wide layer. <strong>INA</strong> (Instituto Nacional del Agua,
+      Argentina) via its public SIyAH API (<code>alerta.ina.gob.ar</code>) — two networks:
+      <strong>RHN-SAT</strong>, automatic sensors reporting roughly hourly, and <strong>escalas Prefectura
+      Nacional</strong>, river-scale gauges read and published by the Argentine Coast Guard, roughly daily.
+      <strong>MADES</strong> (Ministerio del Ambiente y Desarrollo Sostenible, Paraguay) via its SIAGUAPY
+      system (<code>siaguapy.mades.gov.py</code>) — manual readings from the Armada Nacional/DINAC and a
+      handful of automatic sensors, reporting daily. MADES also monitors a few gauges physically in
+      Bolivia, Argentina and Brazil as part of regional basin-sharing agreements — their <code>country</code>
+      field reflects where the gauge actually sits, not who reads it.</p>
+      <p><strong>Trend</strong> (rising / falling / steady) is computed here, not supplied by either agency:
+      for each station we compare the average of its most recent ~3 readings against the average of its
+      earliest ~3 readings in a ${stations[0]?.trend_window_days ?? 21}-day window, using a threshold scaled
+      to that station's own typical range so small sensor noise doesn't register as a trend.</p>
       <p><strong>Forecast</strong> ("when to expect this") is INA's own official model output
       (<code>tabprono_central</code>) where available — a real dated projection with upper/central/lower
       bands, re-issued every few days. It currently only covers the Paraná/Paraguay mainstem navigation
-      network, so it's shown for Corrientes, Barranqueras, Puerto Pilcomayo and Puerto Formosa only. No
-      forecast exists yet for Bermejo, Pilcomayo, Iguazú or the smaller tributaries — those cards say so
-      rather than guessing.</p>
+      network, so it's shown for Corrientes, Barranqueras, Puerto Pilcomayo and Puerto Formosa only. MADES
+      doesn't publish an equivalent forecast product. No forecast exists for any other station — those cards
+      say so rather than guessing.</p>
       <p class="dash-snapshot">This is a snapshot, not a live feed. Data as of
       ${generatedAt ? generatedAt.toLocaleString() : 'unknown'} — run <code>npm run fetch:stations</code> to refresh.</p>
     </div>
@@ -76,10 +82,12 @@ function overallSummaryHTML(stations, generatedAt) {
   const counts = { rising: 0, falling: 0, steady: 0, unknown: 0 };
   for (const s of stations) counts[s.trend ?? 'unknown']++;
   const withForecast = stations.filter(s => s.forecast).length;
+  const byAgency = {};
+  for (const s of stations) byAgency[s.agency] = (byAgency[s.agency] ?? 0) + 1;
 
   return `
     <div class="dash-summary">
-      <div class="dash-stat"><span class="dash-stat-num">${stations.length}</span><span>stations</span></div>
+      <div class="dash-stat"><span class="dash-stat-num">${stations.length}</span><span>stations (${Object.entries(byAgency).map(([a, n]) => `${n} ${a}`).join(' · ')})</span></div>
       <div class="dash-stat"><span class="dash-stat-num" style="color:${TREND_COLOR.rising}">${counts.rising}</span><span>rising</span></div>
       <div class="dash-stat"><span class="dash-stat-num" style="color:${TREND_COLOR.falling}">${counts.falling}</span><span>falling</span></div>
       <div class="dash-stat"><span class="dash-stat-num" style="color:${TREND_COLOR.steady}">${counts.steady}</span><span>steady</span></div>
@@ -158,7 +166,7 @@ function stationRowHTML(s) {
   return `
     <div class="station-row">
       <div class="station-row-main">
-        <span class="station-row-name">${s.name}</span>
+        <span class="station-row-name">${s.name} <span class="agency-tag">${s.agency} · ${s.country}</span></span>
         <span class="station-row-trend" style="color:${TREND_COLOR[s.trend] ?? '#94a3b8'}">
           ${s.trend ? `${TREND_ARROW[s.trend]} ${TREND_LABEL[s.trend]}` : '—'}
         </span>
@@ -258,5 +266,5 @@ function forecastChartSVG(forecast) {
 }
 
 function noForecastHTML(river) {
-  return `<p class="no-forecast">No official INA forecast covers ${river} yet — trend above is the observed direction only.</p>`;
+  return `<p class="no-forecast">No official forecast (INA or MADES) covers ${river} yet — trend above is the observed direction only.</p>`;
 }
