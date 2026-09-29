@@ -1,0 +1,45 @@
+name: Refresh station data
+
+# Re-runs the INA/MADES fetch script hourly and commits the refreshed
+# GeoJSON/report if anything changed. Vercel is connected to this repo and
+# auto-deploys on push to main, so this is what keeps the live site's data
+# from going stale — the app itself only ever reads static files, it doesn't
+# call the upstream APIs from the browser.
+on:
+  schedule:
+    - cron: '0 * * * *' # every hour, on the hour (UTC)
+  workflow_dispatch: {} # lets us trigger a refresh manually from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # No npm dependencies needed for the fetch script itself (just Node's
+      # built-in fetch/fs), so skip `npm install` — keeps this fast.
+      - name: Fetch latest station data
+        run: node scripts/fetch-stations.mjs
+
+      - name: Commit and push if data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/stations.geojson public/data/tramos.geojson public/data/report.json
+          if git diff --cached --quiet; then
+            echo "No data changes — skipping commit."
+          else
+            git commit -m "Automated hourly data refresh"
+            git push || (git pull --rebase && git push)
+          fi
