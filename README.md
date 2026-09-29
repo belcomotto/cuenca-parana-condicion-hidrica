@@ -67,12 +67,10 @@ and `public/data/report.json`.
   reports — a station can have several (e.g. a combined station reporting
   both level and rain).
 
-As of the last run: **41 transmitting stations** across 11 river/reach
-labels (Bermejo 10, Paraná medio 10, Paraguay 7, Iguazú 4, Paraná inferior 2,
-Pilcomayo 3, plus 5 single-station tributaries: Riacho Barranqueras, Arroyo
-Riachuelo, Piray Guazú, Piray Miní, Riacho Salado) — 6 candidates were
-dropped for not currently transmitting. See `public/data/report.json` for
-the full per-station breakdown.
+Current counts (total stations, by river, by agency, by trend, which
+candidates got dropped for not transmitting) aren't hardcoded here since
+they refresh hourly — see `public/data/report.json` for the live
+per-station breakdown, or the summary bar at the top of the Dashboards tab.
 
 ## Explore locally
 
@@ -107,14 +105,33 @@ Both `public/data/stations.geojson` (points) and `public/data/tramos.geojson`
 **ArcGIS Online** → Content → New item → your computer → select the file →
 publish as a hosted feature layer → add to your Experience Builder map.
 
-**Station fields**: `site_code`, `name`, `river`, `variables`,
+**Station fields**: `agency`, `site_code`, `name`, `river`, `variables`,
 `variable_labels`, `country`, `network`, `status`, `level_m`,
 `discharge_m3s`, `rain_mm`, `temp_c`, `wind_kmh`, `humidity_pct`,
-`last_reading_date`, `days_since_reading`.
+`last_reading_date`, `days_since_reading`, `trend_variable`, `trend`,
+`trend_change`, `trend_window_days`, `trend_history` (JSON string),
+`has_forecast`, `forecast` (JSON string or null), `alert_level_m`,
+`critical_level_m`, `disaster_level_m` (the last three are MADES-only
+reference levels; INA's equivalents live inside `forecast` instead, a
+different scale/semantics — see `src/dashboard.js` if reconciling them).
 
 **Reach fields**: `reach`, `river`, `condicion`, `percentil`, `color` (hex,
 INA's own palette), `tendencia`, `level_m`, `level_condicion`,
 `discharge_m3s`, `discharge_condicion`, `fecha`.
 
-This is a snapshot, not a live feed — re-run `npm run fetch:stations` and
-re-upload to refresh the values in ArcGIS Online.
+## Keeping it live
+
+`.github/workflows/refresh-data.yml` re-runs `scripts/fetch-stations.mjs`
+every hour, commits `public/data/*.geojson`/`report.json` only if something
+actually changed, and pushes to `main`. Vercel is connected to this repo and
+auto-deploys on every push, so that's the whole loop: GitHub Action refreshes
+the files → push → Vercel rebuilds → the live site's "updated" timestamp
+moves. No server, no database, no app code calling the upstream APIs — just
+a static site whose static files happen to get regenerated hourly. Trigger
+it manually anytime from the repo's Actions tab (`workflow_dispatch`) instead
+of waiting for the next hour, or run `npm run fetch:stations` locally same
+as before.
+
+An ArcGIS Online layer built from the downloaded GeoJSON is still a manual
+snapshot, though — re-download and re-upload (or script an overwrite via the
+ArcGIS API for Python) to pull in what this pipeline has refreshed since.
