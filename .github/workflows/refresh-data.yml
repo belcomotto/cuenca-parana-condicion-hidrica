@@ -25,7 +25,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: lts/*
 
       # No npm dependencies needed for the fetch script itself (just Node's
       # built-in fetch/fs), so skip `npm install` — keeps this fast.
