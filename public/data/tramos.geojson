@@ -2557,15 +2557,15 @@
       "properties": {
         "reach": "Andresito - Desembocadura",
         "river": "Iguazú",
-        "condicion": "aguas medias altas",
-        "percentil": 25,
-        "color": "#cfe2f3",
+        "condicion": "aguas altas",
+        "percentil": 5,
+        "color": "#6fa8dc",
         "tendencia": "crece",
-        "level_m": 2.22,
+        "level_m": 3.14,
         "level_condicion": null,
-        "discharge_m3s": 3066.2568,
-        "discharge_condicion": "aguas medias altas",
-        "fecha": "2026-09-30T03:00:00Z"
+        "discharge_m3s": 4720.088,
+        "discharge_condicion": "aguas altas",
+        "fecha": "2026-10-01T03:00:00Z"
       }
     },
     {
@@ -8300,15 +8300,15 @@
       "properties": {
         "reach": "Puerto Iguazu - Yacyreta",
         "river": "Paraná (medio)",
-        "condicion": "aguas medias",
-        "percentil": 50,
-        "color": "#fff2cc",
-        "tendencia": "baja",
-        "level_m": 15.5,
-        "level_condicion": "aguas medias",
+        "condicion": "aguas medias altas",
+        "percentil": 25,
+        "color": "#cfe2f3",
+        "tendencia": "crece",
+        "level_m": 17.4,
+        "level_condicion": "aguas medias altas",
         "discharge_m3s": null,
         "discharge_condicion": null,
-        "fecha": "2026-09-30T03:00:00Z"
+        "fecha": "2026-10-01T03:00:00Z"
       }
     },
     {
@@ -9655,11 +9655,11 @@
         "percentil": 50,
         "color": "#fff2cc",
         "tendencia": "baja",
-        "level_m": 4.26,
+        "level_m": 4.2,
         "level_condicion": "aguas medias",
-        "discharge_m3s": 19446.352,
+        "discharge_m3s": 19217.68,
         "discharge_condicion": "aguas medias",
-        "fecha": "2026-09-30T03:00:00Z"
+        "fecha": "2026-10-01T03:00:00Z"
       }
     },
     {
@@ -11142,11 +11142,11 @@
         "percentil": 100,
         "color": "#ea9999",
         "tendencia": "crece",
-        "level_m": 1.08,
+        "level_m": 1.13,
         "level_condicion": "aguas bajas",
-        "discharge_m3s": 1573.4384,
+        "discharge_m3s": 1599.1643,
         "discharge_condicion": null,
-        "fecha": "2026-09-30T03:00:00Z"
+        "fecha": "2026-10-01T03:00:00Z"
       }
     },
     {
@@ -13192,12 +13192,12 @@
         "condicion": "aguas medias bajas",
         "percentil": 95,
         "color": "#f6b26b",
-        "tendencia": "crece",
+        "tendencia": "permanece",
         "level_m": 2.37,
         "level_condicion": "aguas medias bajas",
         "discharge_m3s": 2148.8103,
         "discharge_condicion": null,
-        "fecha": "2026-09-30T03:00:00Z"
+        "fecha": "2026-10-01T03:00:00Z"
       }
     },
     {
@@ -16405,12 +16405,12 @@
         "condicion": "aguas medias altas",
         "percentil": 25,
         "color": "#cfe2f3",
-        "tendencia": "baja",
+        "tendencia": "crece",
         "level_m": null,
         "level_condicion": null,
-        "discharge_m3s": 16300,
+        "discharge_m3s": 17600,
         "discharge_condicion": "aguas medias altas",
-        "fecha": "2026-09-30T03:00:00Z"
+        "fecha": "2026-10-01T03:00:00Z"
       }
     }
   ]
