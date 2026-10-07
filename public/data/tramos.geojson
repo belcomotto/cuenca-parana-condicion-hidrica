@@ -16405,10 +16405,10 @@
         "condicion": "aguas medias altas",
         "percentil": 25,
         "color": "#cfe2f3",
-        "tendencia": "permanece",
+        "tendencia": "crece",
         "level_m": null,
         "level_condicion": null,
-        "discharge_m3s": 21700,
+        "discharge_m3s": 22600,
         "discharge_condicion": "aguas medias altas",
         "fecha": "2026-10-07T03:00:00Z"
       }
