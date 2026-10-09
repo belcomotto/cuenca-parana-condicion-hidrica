@@ -11144,7 +11144,7 @@
         "tendencia": "crece",
         "level_m": 1.44,
         "level_condicion": "aguas medias bajas",
-        "discharge_m3s": 1724.6904,
+        "discharge_m3s": 1763.8032,
         "discharge_condicion": null,
         "fecha": "2026-10-09T03:00:00Z"
       }
@@ -13195,7 +13195,7 @@
         "tendencia": "crece",
         "level_m": 2.72,
         "level_condicion": "aguas medias bajas",
-        "discharge_m3s": 2232.5806,
+        "discharge_m3s": 2303.3586,
         "discharge_condicion": null,
         "fecha": "2026-10-09T03:00:00Z"
       }
