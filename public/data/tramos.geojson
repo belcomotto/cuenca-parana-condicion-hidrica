@@ -2561,11 +2561,11 @@
         "percentil": 5,
         "color": "#6fa8dc",
         "tendencia": "baja",
-        "level_m": 3.9,
+        "level_m": 3.7,
         "level_condicion": null,
-        "discharge_m3s": 6329.6997,
+        "discharge_m3s": 5884.766,
         "discharge_condicion": "aguas altas",
-        "fecha": "2026-10-19T03:00:00Z"
+        "fecha": "2026-10-20T03:00:00Z"
       }
     },
     {
@@ -8304,11 +8304,11 @@
         "percentil": 5,
         "color": "#6fa8dc",
         "tendencia": "baja",
-        "level_m": 30.6,
+        "level_m": 28.95,
         "level_condicion": "aguas altas",
         "discharge_m3s": null,
         "discharge_condicion": null,
-        "fecha": "2026-10-19T03:00:00Z"
+        "fecha": "2026-10-20T03:00:00Z"
       }
     },
     {
@@ -9655,11 +9655,11 @@
         "percentil": 5,
         "color": "#6fa8dc",
         "tendencia": "crece",
-        "level_m": 7.07,
+        "level_m": 7.27,
         "level_condicion": "aguas altas",
-        "discharge_m3s": 31809.088,
+        "discharge_m3s": 32812.406,
         "discharge_condicion": "aguas altas",
-        "fecha": "2026-10-19T03:00:00Z"
+        "fecha": "2026-10-20T03:00:00Z"
       }
     },
     {
@@ -11142,11 +11142,11 @@
         "percentil": 75,
         "color": "#fff2cc",
         "tendencia": "crece",
-        "level_m": 3.32,
+        "level_m": 3.39,
         "level_condicion": "aguas medias",
-        "discharge_m3s": 2956.0674,
+        "discharge_m3s": 3007.02,
         "discharge_condicion": null,
-        "fecha": "2026-10-19T03:00:00Z"
+        "fecha": "2026-10-20T03:00:00Z"
       }
     },
     {
@@ -13192,12 +13192,12 @@
         "condicion": "aguas medias",
         "percentil": 50,
         "color": "#fff2cc",
-        "tendencia": "crece",
+        "tendencia": "permanece",
         "level_m": 4.74,
         "level_condicion": "aguas medias",
         "discharge_m3s": 3476.9475,
         "discharge_condicion": null,
-        "fecha": "2026-10-19T03:00:00Z"
+        "fecha": "2026-10-20T03:00:00Z"
       }
     },
     {
@@ -16408,9 +16408,9 @@
         "tendencia": "baja",
         "level_m": null,
         "level_condicion": null,
-        "discharge_m3s": 36200,
+        "discharge_m3s": 35600,
         "discharge_condicion": "aguas altas",
-        "fecha": "2026-10-19T03:00:00Z"
+        "fecha": "2026-10-20T03:00:00Z"
       }
     }
   ]
