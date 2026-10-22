@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T00:22:30.425Z",
+  "generatedAt": "2026-10-22T05:41:19.885Z",
   "totalStations": 62,
   "droppedNotTransmitting": 6,
   "byRiver": {
@@ -25,9 +25,9 @@
     "hydrological_state": 6
   },
   "byTrend": {
-    "rising": 48,
-    "steady": 10,
-    "falling": 4
+    "rising": 47,
+    "falling": 7,
+    "steady": 8
   },
   "byAgency": {
     "INA": 44,
@@ -61,9 +61,9 @@
       "lon": -58.1619444444444,
       "lat": -26.1830555555556,
       "status": "ok",
-      "last_reading_date": "2026-10-21T16:00:00",
+      "last_reading_date": "2026-10-22T00:00:00",
       "days_since_reading": 0,
-      "level_m": 5.17,
+      "level_m": 5.21,
       "discharge_m3s": null,
       "rain_mm": null,
       "temp_c": null,
@@ -71,7 +71,7 @@
       "humidity_pct": null,
       "trend_variable": "level",
       "trend": "rising",
-      "trend_change": 2.6,
+      "trend_change": 2.7,
       "trend_window_days": 21,
       "trend_history": [
         {
@@ -156,7 +156,11 @@
         },
         {
           "date": "2026-10-21",
-          "value": 5.17
+          "value": 5.19
+        },
+        {
+          "date": "2026-10-22",
+          "value": 5.21
         }
       ],
       "forecast": null
@@ -174,9 +178,9 @@
       "lon": -57.6502777777778,
       "lat": -25.3719444444444,
       "status": "ok",
-      "last_reading_date": "2026-10-21T16:00:00",
+      "last_reading_date": "2026-10-21T20:00:00",
       "days_since_reading": 0,
-      "level_m": 3.45,
+      "level_m": 3.47,
       "discharge_m3s": null,
       "rain_mm": null,
       "temp_c": null,
@@ -269,7 +273,7 @@
         },
         {
           "date": "2026-10-21",
-          "value": 3.45
+          "value": 3.47
         }
       ],
       "forecast": null
@@ -287,17 +291,17 @@
       "lon": -54.4213888888889,
       "lat": -25.6766666666667,
       "status": "ok",
-      "last_reading_date": "2026-10-21T16:00:00",
+      "last_reading_date": "2026-10-21T20:00:00",
       "days_since_reading": 0,
-      "level_m": 2.28,
+      "level_m": 2.13,
       "discharge_m3s": null,
       "rain_mm": null,
       "temp_c": null,
       "wind_kmh": null,
       "humidity_pct": null,
       "trend_variable": "level",
-      "trend": "steady",
-      "trend_change": -0.07,
+      "trend": "falling",
+      "trend_change": -0.12,
       "trend_window_days": 21,
       "trend_history": [
         {
@@ -382,7 +386,7 @@
         },
         {
           "date": "2026-10-21",
-          "value": 2.28
+          "value": 2.13
         }
       ],
       "forecast": null
@@ -402,17 +406,17 @@
       "lon": -53.995,
       "lat": -25.5905555555556,
       "status": "ok",
-      "last_reading_date": "2026-10-21T16:00:00",
+      "last_reading_date": "2026-10-22T00:00:00",
       "days_since_reading": 0,
-      "level_m": 2.35,
-      "discharge_m3s": 4934.21,
-      "rain_mm": 2,
+      "level_m": 2.54,
+      "discharge_m3s": 3995.75,
+      "rain_mm": 4.25,
       "temp_c": null,
       "wind_kmh": null,
       "humidity_pct": null,
       "trend_variable": "level",
-      "trend": "steady",
-      "trend_change": -0.07,
+      "trend": "falling",
+      "trend_change": -0.51,
       "trend_window_days": 21,
       "trend_history": [
         {
@@ -489,7 +493,11 @@
         },
         {
           "date": "2026-10-21",
-          "value": 2.35
+          "value": 2.08
+        },
+        {
+          "date": "2026-10-22",
+          "value": 2.54
         }
       ],
       "forecast": null
@@ -509,9 +517,9 @@
       "lon": -59.3625,
       "lat": -26.3341666666667,
       "status": "ok",
-      "last_reading_date": "2026-10-21T17:00:00",
+      "last_reading_date": "2026-10-21T21:00:00",
       "days_since_reading": 0,
-      "level_m": 2.49,
+      "level_m": 2.48,
       "discharge_m3s": null,
       "rain_mm": 0,
       "temp_c": null,
@@ -604,7 +612,7 @@
         },
         {
           "date": "2026-10-21",
-          "value": 2.49
+          "value": 2.48
         }
       ],
       "forecast": null
@@ -623,9 +631,9 @@
       "lon": -64.1380555555556,
       "lat": -23.2480555555556,
       "status": "ok",
-      "last_reading_date": "2026-10-21T17:00:00",
+      "last_reading_date": "2026-10-22T00:00:00",
       "days_since_reading": 0,
-      "level_m": 0.92,
+      "level_m": 0.89,
       "discharge_m3s": null,
       "rain_mm": 0,
       "temp_c": null,
@@ -633,7 +641,7 @@
       "humidity_pct": null,
       "trend_variable": "level",
       "trend": "rising",
-      "trend_change": 0.17,
+      "trend_change": 0.08,
       "trend_window_days": 21,
       "trend_history": [
         {
@@ -718,7 +726,11 @@
         },
         {
           "date": "2026-10-21",
-          "value": 0.92
+          "value": 0.89
+        },
+        {
+          "date": "2026-10-22",
+          "value": 0.89
         }
       ],
       "forecast": null
@@ -737,9 +749,9 @@
       "lon": -60.1280555555556,
       "lat": -25.6511111111111,
       "status": "ok",
-      "last_reading_date": "2026-10-21T16:00:00",
+      "last_reading_date": "2026-10-21T20:00:00",
       "days_since_reading": 0,
-      "level_m": 0.77,
+      "level_m": 0.76,
       "discharge_m3s": null,
       "rain_mm": 0,
       "temp_c": null,
@@ -832,7 +844,7 @@
         },
         {
           "date": "2026-10-21",
-          "value": 0.77
+          "value": 0.76
         }
       ],
       "forecast": null
@@ -951,17 +963,17 @@
       "lon": -64.3647222222222,
       "lat": -22.725,
       "status": "ok",
-      "last_reading_date": "2026-10-21T12:00:00",
+      "last_reading_date": "2026-10-21T16:00:00",
       "days_since_reading": 0,
       "level_m": null,
       "discharge_m3s": null,
       "rain_mm": 0,
-      "temp_c": 35,
-      "wind_kmh": 1,
+      "temp_c": 25,
+      "wind_kmh": 0,
       "humidity_pct": 0,
       "trend_variable": "temperature",
-      "trend": "rising",
-      "trend_change": 2.67,
+      "trend": "falling",
+      "trend_change": -0.67,
       "trend_window_days": 21,
       "trend_history": [
         {
@@ -1046,7 +1058,7 @@
         },
         {
           "date": "2026-10-21",
-          "value": 35
+          "value": 25
         }
       ],
       "forecast": null
@@ -1065,7 +1077,7 @@
       "lat": -22.7280555555556,
       "status": "ok",
       "last_reading_date": "2026-10-21T04:00:00",
-      "days_since_reading": 0,
+      "days_since_reading": 1,
       "level_m": 0.72,
       "discharge_m3s": null,
       "rain_mm": null,
@@ -1181,9 +1193,9 @@
       "lon": -62.5236111111111,
       "lat": -22.3775,
       "status": "ok",
-      "last_reading_date": "2026-10-21T16:00:00",
+      "last_reading_date": "2026-10-21T20:00:00",
       "days_since_reading": 0,
-      "level_m": 3.28,
+      "level_m": 3.29,
       "discharge_m3s": null,
       "rain_mm": 0,
       "temp_c": 22,
@@ -1260,7 +1272,7 @@
         },
         {
           "date": "2026-10-21",
-          "value": 3.28
+          "value": 3.29
         }
       ],
       "forecast": null
@@ -1278,7 +1290,7 @@
       "lon": -58.61,
       "lat": -27.2891666666667,
       "status": "ok",
-      "last_reading_date": "2026-10-21T18:00:00",
+      "last_reading_date": "2026-10-22T01:00:00",
       "days_since_reading": 0,
       "level_m": 7.99,
       "discharge_m3s": null,
@@ -1288,7 +1300,7 @@
       "humidity_pct": null,
       "trend_variable": "level",
       "trend": "rising",
-      "trend_change": 3.5,
+      "trend_change": 3.56,
       "trend_window_days": 21,
       "trend_history": [
         {
@@ -1374,6 +1386,10 @@
         {
           "date": "2026-10-21",
           "value": 7.99
+        },
+        {
+          "date": "2026-10-22",
+          "value": 7.99
         }
       ],
       "forecast": null
@@ -1392,9 +1408,9 @@
       "lon": -58.6427777777778,
       "lat": -27.1180555555556,
       "status": "ok",
-      "last_reading_date": "2026-10-21T18:00:00",
+      "last_reading_date": "2026-10-22T01:00:00",
       "days_since_reading": 0,
-      "level_m": 7.32,
+      "level_m": 7.33,
       "discharge_m3s": null,
       "rain_mm": 0,
       "temp_c": null,
@@ -1402,7 +1418,7 @@
       "humidity_pct": null,
       "trend_variable": "level",
       "trend": "rising",
-      "trend_change": 3.35,
+      "trend_change": 3.42,
       "trend_window_days": 21,
       "trend_history": [
         {
@@ -1488,6 +1504,10 @@
         {
           "date": "2026-10-21",
           "value": 7.32
+        },
+        {
+          "date": "2026-10-22",
+          "value": 7.33
         }
       ],
       "forecast": null
@@ -1505,9 +1525,9 @@
       "lon": -64.3691666666667,
       "lat": -22.7263888888889,
       "status": "ok",
-      "last_reading_date": "2026-10-21T16:00:00",
+      "last_reading_date": "2026-10-22T00:00:00",
       "days_since_reading": 0,
-      "level_m": 1.85,
+      "level_m": 1.83,
       "discharge_m3s": null,
       "rain_mm": null,
       "temp_c": null,
@@ -1515,7 +1535,7 @@
       "humidity_pct": null,
       "trend_variable": "level",
       "trend": "rising",
-      "trend_change": 0.26,
+      "trend_change": 0.16,
       "trend_window_days": 21,
       "trend_history": [
         {
@@ -1600,7 +1620,11 @@
         },
         {
           "date": "2026-10-21",
-          "value": 1.85
+          "value": 1.84
+        },
+        {
+          "date": "2026-10-22",
+          "value": 1.83
         }
       ],
       "forecast": null
@@ -1618,7 +1642,7 @@
       "lon": -57.8730555555556,
       "lat": -25.875,
       "status": "ok",
-      "last_reading_date": "2026-10-21T16:00:00",
+      "last_reading_date": "2026-10-22T00:00:00",
       "days_since_reading": 0,
       "level_m": -0.28,
       "discharge_m3s": null,
@@ -1714,6 +1738,10 @@
         {
           "date": "2026-10-21",
           "value": -0.28
+        },
+        {
+          "date": "2026-10-22",
+          "value": -0.28
         }
       ],
       "forecast": null
@@ -1731,7 +1759,7 @@
       "lon": -59.4997222222222,
       "lat": -24.7469444444444,
       "status": "ok",
-      "last_reading_date": "2026-10-21T16:00:00",
+      "last_reading_date": "2026-10-22T00:00:00",
       "days_since_reading": 0,
       "level_m": 1.27,
       "discharge_m3s": null,
@@ -1741,7 +1769,7 @@
       "humidity_pct": null,
       "trend_variable": "level",
       "trend": "falling",
-      "trend_change": -0.13,
+      "trend_change": -0.14,
       "trend_window_days": 21,
       "trend_history": [
         {
@@ -1827,6 +1855,10 @@
         {
           "date": "2026-10-21",
           "value": 1.27
+        },
+        {
+          "date": "2026-10-22",
+          "value": 1.27
         }
       ],
       "forecast": null
@@ -1845,9 +1877,9 @@
       "lon": -64.6527777777778,
       "lat": -22.1902777777778,
       "status": "ok",
-      "last_reading_date": "2026-10-21T16:00:00",
+      "last_reading_date": "2026-10-21T20:00:00",
       "days_since_reading": 0,
-      "level_m": 0.01,
+      "level_m": 0,
       "discharge_m3s": null,
       "rain_mm": 0,
       "temp_c": null,
@@ -1940,7 +1972,7 @@
         },
         {
           "date": "2026-10-21",
-          "value": 0.01
+          "value": 0
         }
       ],
       "forecast": null
@@ -1962,7 +1994,7 @@
       "lon": -64.4636111111111,
       "lat": -22.4925,
       "status": "ok",
-      "last_reading_date": "2026-10-21T12:00:00",
+      "last_reading_date": "2026-10-21T20:00:00",
       "days_since_reading": 0,
       "level_m": 2.09,
       "discharge_m3s": null,
@@ -2043,9 +2075,9 @@
       "lon": -64.1947222222222,
       "lat": -23.1438888888889,
       "status": "ok",
-      "last_reading_date": "2026-10-21T16:00:00",
+      "last_reading_date": "2026-10-21T20:00:00",
       "days_since_reading": 0,
-      "level_m": 0.88,
+      "level_m": 0.85,
       "discharge_m3s": null,
       "rain_mm": null,
       "temp_c": null,
@@ -2053,7 +2085,7 @@
       "humidity_pct": null,
       "trend_variable": "level",
       "trend": "rising",
-      "trend_change": 0.56,
+      "trend_change": 0.55,
       "trend_window_days": 21,
       "trend_history": [
         {
@@ -2138,7 +2170,7 @@
         },
         {
           "date": "2026-10-21",
-          "value": 0.88
+          "value": 0.85
         }
       ],
       "forecast": null
@@ -2157,9 +2189,9 @@
       "lon": -64.9613888888889,
       "lat": -22.2486111111111,
       "status": "ok",
-      "last_reading_date": "2026-10-21T16:00:00",
+      "last_reading_date": "2026-10-21T20:00:00",
       "days_since_reading": 0,
-      "level_m": 1.07,
+      "level_m": 1.05,
       "discharge_m3s": null,
       "rain_mm": 0,
       "temp_c": null,
@@ -2252,7 +2284,7 @@
         },
         {
           "date": "2026-10-21",
-          "value": 1.07
+          "value": 1.05
         }
       ],
       "forecast": null
@@ -2270,9 +2302,9 @@
       "lon": -54.58,
       "lat": -25.5933333333333,
       "status": "ok",
-      "last_reading_date": "2026-10-21T18:00:00",
+      "last_reading_date": "2026-10-22T01:30:00",
       "days_since_reading": 0,
-      "level_m": 28.48,
+      "level_m": 28.31,
       "discharge_m3s": null,
       "rain_mm": null,
       "temp_c": null,
@@ -2280,7 +2312,7 @@
       "humidity_pct": null,
       "trend_variable": "level",
       "trend": "rising",
-      "trend_change": 9.6,
+      "trend_change": 9.12,
       "trend_window_days": 21,
       "trend_history": [
         {
@@ -2365,7 +2397,11 @@
         },
         {
           "date": "2026-10-21",
-          "value": 28.48
+          "value": 28.37
+        },
+        {
+          "date": "2026-10-22",
+          "value": 28.31
         }
       ],
       "forecast": null
@@ -2383,9 +2419,9 @@
       "lon": -58.3591666666667,
       "lat": -26.4077777777778,
       "status": "ok",
-      "last_reading_date": "2026-10-21T16:00:00",
+      "last_reading_date": "2026-10-21T20:00:00",
       "days_since_reading": 0,
-      "level_m": 2.93,
+      "level_m": 2.95,
       "discharge_m3s": null,
       "rain_mm": null,
       "temp_c": null,
@@ -2393,7 +2429,7 @@
       "humidity_pct": null,
       "trend_variable": "level",
       "trend": "rising",
-      "trend_change": 1.46,
+      "trend_change": 1.47,
       "trend_window_days": 21,
       "trend_history": [
         {
@@ -2478,7 +2514,7 @@
         },
         {
           "date": "2026-10-21",
-          "value": 2.93
+          "value": 2.95
         }
       ],
       "forecast": null
@@ -2606,55 +2642,55 @@
           {
             "date": "2026-10-21",
             "upper": 3.54,
-            "central": 3.43,
-            "lower": 3.32
+            "lower": 3.32,
+            "central": 3.43
           },
           {
             "date": "2026-10-22",
-            "lower": 3.36,
             "upper": 3.58,
+            "lower": 3.36,
             "central": 3.47
           },
           {
             "date": "2026-10-23",
-            "upper": 3.69,
+            "lower": 3.31,
             "central": 3.5,
-            "lower": 3.31
+            "upper": 3.69
           },
           {
             "date": "2026-10-24",
             "upper": 3.82,
-            "central": 3.56,
-            "lower": 3.29
+            "lower": 3.29,
+            "central": 3.56
           },
           {
             "date": "2026-10-25",
-            "upper": 3.92,
             "central": 3.57,
+            "upper": 3.92,
             "lower": 3.22
           },
           {
             "date": "2026-10-26",
-            "upper": 4.02,
+            "lower": 3.16,
             "central": 3.59,
-            "lower": 3.16
+            "upper": 4.02
           },
           {
             "date": "2026-10-27",
+            "upper": 4.12,
             "lower": 3.09,
-            "central": 3.6,
-            "upper": 4.12
+            "central": 3.6
           },
           {
             "date": "2026-10-28",
-            "lower": 3.01,
             "central": 3.61,
+            "lower": 3.01,
             "upper": 4.2
           },
           {
             "date": "2026-10-29",
-            "lower": 2.93,
             "central": 3.61,
+            "lower": 2.93,
             "upper": 4.28
           }
         ],
@@ -2782,57 +2818,57 @@
         "points": [
           {
             "date": "2026-10-21",
-            "lower": 4.73,
             "upper": 4.88,
-            "central": 4.81
+            "central": 4.81,
+            "lower": 4.73
           },
           {
             "date": "2026-10-22",
-            "central": 4.96,
+            "lower": 4.88,
             "upper": 5.03,
-            "lower": 4.88
+            "central": 4.96
           },
           {
             "date": "2026-10-23",
             "upper": 5.16,
-            "lower": 4.91,
-            "central": 5.04
+            "central": 5.04,
+            "lower": 4.91
           },
           {
             "date": "2026-10-24",
-            "lower": 4.94,
             "upper": 5.3,
-            "central": 5.12
+            "central": 5.12,
+            "lower": 4.94
           },
           {
             "date": "2026-10-25",
-            "lower": 4.95,
+            "upper": 5.45,
             "central": 5.2,
-            "upper": 5.45
+            "lower": 4.95
           },
           {
             "date": "2026-10-26",
-            "central": 5.25,
             "upper": 5.58,
+            "central": 5.25,
             "lower": 4.92
           },
           {
             "date": "2026-10-27",
+            "upper": 5.7,
             "central": 5.29,
-            "lower": 4.89,
-            "upper": 5.7
+            "lower": 4.89
           },
           {
             "date": "2026-10-28",
-            "upper": 5.82,
+            "lower": 4.84,
             "central": 5.33,
-            "lower": 4.84
+            "upper": 5.82
           },
           {
             "date": "2026-10-29",
             "lower": 4.78,
-            "upper": 5.94,
-            "central": 5.36
+            "central": 5.36,
+            "upper": 5.94
           }
         ],
         "source": "INA modelo \"tabprono_central\" (Pronósticos hidrométricos)"
@@ -3299,15 +3335,15 @@
         "points": [
           {
             "date": "2026-10-20",
+            "upper": 7.27,
             "lower": 7.27,
-            "central": 7.27,
-            "upper": 7.27
+            "central": 7.27
           },
           {
             "date": "2026-10-27",
+            "upper": 7.4,
             "lower": 6.6,
-            "central": 7.14,
-            "upper": 7.4
+            "central": 7.14
           },
           {
             "date": "2026-11-03",
@@ -3442,20 +3478,20 @@
           {
             "date": "2026-10-20",
             "lower": 7.13,
-            "upper": 7.13,
-            "central": 7.13
+            "central": 7.13,
+            "upper": 7.13
           },
           {
             "date": "2026-10-27",
-            "central": 7.08,
             "upper": 7.4,
-            "lower": 6.6
+            "lower": 6.6,
+            "central": 7.08
           },
           {
             "date": "2026-11-03",
-            "upper": 7.8,
+            "central": 7.22,
             "lower": 7,
-            "central": 7.22
+            "upper": 7.8
           }
         ],
         "source": "INA modelo \"tabprono_central\" (Pronósticos hidrométricos)"
@@ -3474,7 +3510,7 @@
       "lon": -58.5697222222222,
       "lat": -27.5105555555556,
       "status": "ok",
-      "last_reading_date": "2026-10-21T18:00:00",
+      "last_reading_date": "2026-10-22T01:00:00",
       "days_since_reading": 0,
       "level_m": 1.21,
       "discharge_m3s": null,
@@ -3484,7 +3520,7 @@
       "humidity_pct": null,
       "trend_variable": "level",
       "trend": "rising",
-      "trend_change": 0.48,
+      "trend_change": 0.46,
       "trend_window_days": 21,
       "trend_history": [
         {
@@ -3569,6 +3605,10 @@
         },
         {
           "date": "2026-10-21",
+          "value": 1.21
+        },
+        {
+          "date": "2026-10-22",
           "value": 1.21
         }
       ],
@@ -4493,7 +4533,7 @@
       "lon": -54.5883333333333,
       "lat": -26.4858333333333,
       "status": "ok",
-      "last_reading_date": "2026-10-21T16:00:00",
+      "last_reading_date": "2026-10-21T20:00:00",
       "days_since_reading": 0,
       "level_m": 1.38,
       "discharge_m3s": null,
@@ -4720,17 +4760,17 @@
       "lon": -54.4983333333333,
       "lat": -26.355,
       "status": "ok",
-      "last_reading_date": "2026-10-21T16:00:00",
+      "last_reading_date": "2026-10-21T20:00:00",
       "days_since_reading": 0,
-      "level_m": 1.34,
+      "level_m": 1.32,
       "discharge_m3s": null,
-      "rain_mm": 1.75,
+      "rain_mm": 4,
       "temp_c": null,
       "wind_kmh": null,
       "humidity_pct": null,
       "trend_variable": "level",
       "trend": "falling",
-      "trend_change": -0.73,
+      "trend_change": -0.74,
       "trend_window_days": 21,
       "trend_history": [
         {
@@ -4815,7 +4855,7 @@
         },
         {
           "date": "2026-10-21",
-          "value": 1.34
+          "value": 1.32
         }
       ],
       "forecast": null
@@ -5989,8 +6029,8 @@
       "lon": -62.518639,
       "lat": -22.3782,
       "status": "ok",
-      "last_reading_date": "2026-10-21",
-      "days_since_reading": 1,
+      "last_reading_date": "2026-10-22",
+      "days_since_reading": 0,
       "level_m": 3.35,
       "discharge_m3s": null,
       "rain_mm": null,
@@ -5999,13 +6039,9 @@
       "humidity_pct": null,
       "trend_variable": "level",
       "trend": "rising",
-      "trend_change": 0.17,
+      "trend_change": 0.2,
       "trend_window_days": 21,
       "trend_history": [
-        {
-          "date": "2026-10-01",
-          "value": 3.04
-        },
         {
           "date": "2026-10-02",
           "value": 3.05
@@ -6084,6 +6120,10 @@
         },
         {
           "date": "2026-10-21",
+          "value": 3.35
+        },
+        {
+          "date": "2026-10-22",
           "value": 3.35
         }
       ],
@@ -7033,9 +7073,9 @@
       "lon": -63.503391,
       "lat": -21.2609,
       "status": "ok",
-      "last_reading_date": "2026-10-21",
-      "days_since_reading": 1,
-      "level_m": 1.12,
+      "last_reading_date": "2026-10-22",
+      "days_since_reading": 0,
+      "level_m": 1.1,
       "discharge_m3s": null,
       "rain_mm": null,
       "temp_c": null,
@@ -7043,13 +7083,9 @@
       "humidity_pct": null,
       "trend_variable": "level",
       "trend": "rising",
-      "trend_change": 0.16,
+      "trend_change": 0.24,
       "trend_window_days": 21,
       "trend_history": [
-        {
-          "date": "2026-10-01",
-          "value": 1.13
-        },
         {
           "date": "2026-10-02",
           "value": 0.96
@@ -7128,7 +7164,11 @@
         },
         {
           "date": "2026-10-21",
-          "value": 1.12
+          "value": 1.11
+        },
+        {
+          "date": "2026-10-22",
+          "value": 1.1
         }
       ],
       "forecast": null,
