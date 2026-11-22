@@ -2560,12 +2560,12 @@
         "condicion": "aguas medias altas",
         "percentil": 25,
         "color": "#cfe2f3",
-        "tendencia": "crece",
-        "level_m": 2.5,
+        "tendencia": "baja",
+        "level_m": 1.8,
         "level_condicion": null,
-        "discharge_m3s": 3535.4348,
+        "discharge_m3s": 2418.5369,
         "discharge_condicion": "aguas medias altas",
-        "fecha": "2026-11-21T03:00:00Z"
+        "fecha": "2026-11-22T03:00:00Z"
       }
     },
     {
@@ -8303,12 +8303,12 @@
         "condicion": "aguas medias altas",
         "percentil": 25,
         "color": "#cfe2f3",
-        "tendencia": "permanece",
-        "level_m": 20.5,
+        "tendencia": "crece",
+        "level_m": 21.3,
         "level_condicion": "aguas medias altas",
         "discharge_m3s": null,
         "discharge_condicion": null,
-        "fecha": "2026-11-21T03:00:00Z"
+        "fecha": "2026-11-22T03:00:00Z"
       }
     },
     {
@@ -9655,11 +9655,11 @@
         "percentil": 25,
         "color": "#cfe2f3",
         "tendencia": "baja",
-        "level_m": 5.85,
+        "level_m": 5.76,
         "level_condicion": "aguas medias altas",
-        "discharge_m3s": 26043.977,
+        "discharge_m3s": 25642.852,
         "discharge_condicion": "aguas medias altas",
-        "fecha": "2026-11-21T03:00:00Z"
+        "fecha": "2026-11-22T03:00:00Z"
       }
     },
     {
@@ -11142,11 +11142,11 @@
         "percentil": 95,
         "color": "#f6b26b",
         "tendencia": "crece",
-        "level_m": 2.42,
+        "level_m": 2.48,
         "level_condicion": "aguas medias bajas",
-        "discharge_m3s": 2343.2769,
+        "discharge_m3s": 2381.7053,
         "discharge_condicion": null,
-        "fecha": "2026-11-21T03:00:00Z"
+        "fecha": "2026-11-22T03:00:00Z"
       }
     },
     {
@@ -13190,14 +13190,14 @@
         "reach": "Puerto Formosa - Desembocadura",
         "river": "Paraguay",
         "condicion": "aguas medias",
-        "percentil": 50,
+        "percentil": 75,
         "color": "#fff2cc",
         "tendencia": "baja",
-        "level_m": 4.58,
+        "level_m": 4.47,
         "level_condicion": "aguas medias",
-        "discharge_m3s": 3331.2346,
+        "discharge_m3s": 3231.2427,
         "discharge_condicion": null,
-        "fecha": "2026-11-21T03:00:00Z"
+        "fecha": "2026-11-22T03:00:00Z"
       }
     },
     {
@@ -16410,7 +16410,7 @@
         "level_condicion": null,
         "discharge_m3s": 21900,
         "discharge_condicion": "aguas medias altas",
-        "fecha": "2026-11-21T03:00:00Z"
+        "fecha": "2026-11-22T03:00:00Z"
       }
     }
   ]
