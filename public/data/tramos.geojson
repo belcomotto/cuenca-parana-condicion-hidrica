@@ -2557,15 +2557,15 @@
       "properties": {
         "reach": "Andresito - Desembocadura",
         "river": "Iguazú",
-        "condicion": "aguas medias altas",
-        "percentil": 25,
-        "color": "#cfe2f3",
-        "tendencia": "baja",
-        "level_m": 2.1,
+        "condicion": "aguas altas",
+        "percentil": 5,
+        "color": "#6fa8dc",
+        "tendencia": "crece",
+        "level_m": 5.2,
         "level_condicion": null,
-        "discharge_m3s": 2874.331,
-        "discharge_condicion": "aguas medias altas",
-        "fecha": "2026-11-25T03:00:00Z"
+        "discharge_m3s": 9593.506,
+        "discharge_condicion": "aguas altas",
+        "fecha": "2026-11-26T03:00:00Z"
       }
     },
     {
@@ -8303,12 +8303,12 @@
         "condicion": "aguas medias altas",
         "percentil": 25,
         "color": "#cfe2f3",
-        "tendencia": "permanece",
-        "level_m": 21,
+        "tendencia": "crece",
+        "level_m": 22.1,
         "level_condicion": "aguas medias altas",
         "discharge_m3s": null,
         "discharge_condicion": null,
-        "fecha": "2026-11-25T03:00:00Z"
+        "fecha": "2026-11-26T03:00:00Z"
       }
     },
     {
@@ -9654,12 +9654,12 @@
         "condicion": "aguas medias altas",
         "percentil": 25,
         "color": "#cfe2f3",
-        "tendencia": "crece",
-        "level_m": 5.67,
+        "tendencia": "baja",
+        "level_m": 5.65,
         "level_condicion": "aguas medias altas",
-        "discharge_m3s": 25245.047,
+        "discharge_m3s": 25157.098,
         "discharge_condicion": "aguas medias altas",
-        "fecha": "2026-11-25T03:00:00Z"
+        "fecha": "2026-11-26T03:00:00Z"
       }
     },
     {
@@ -11138,15 +11138,15 @@
       "properties": {
         "reach": "Puerto Pilcomayo - Puerto Formosa",
         "river": "Paraguay",
-        "condicion": "aguas medias bajas",
-        "percentil": 95,
-        "color": "#f6b26b",
+        "condicion": "aguas medias",
+        "percentil": 75,
+        "color": "#fff2cc",
         "tendencia": "crece",
-        "level_m": 2.96,
-        "level_condicion": "aguas medias bajas",
-        "discharge_m3s": 2701.5623,
+        "level_m": 3.29,
+        "level_condicion": "aguas medias",
+        "discharge_m3s": 2934.377,
         "discharge_condicion": null,
-        "fecha": "2026-11-25T03:00:00Z"
+        "fecha": "2026-11-26T03:00:00Z"
       }
     },
     {
@@ -13190,14 +13190,14 @@
         "reach": "Puerto Formosa - Desembocadura",
         "river": "Paraguay",
         "condicion": "aguas medias",
-        "percentil": 75,
+        "percentil": 50,
         "color": "#fff2cc",
         "tendencia": "crece",
-        "level_m": 4.52,
+        "level_m": 4.58,
         "level_condicion": "aguas medias",
-        "discharge_m3s": 3276.6746,
+        "discharge_m3s": 3331.2346,
         "discharge_condicion": null,
-        "fecha": "2026-11-25T03:00:00Z"
+        "fecha": "2026-11-26T03:00:00Z"
       }
     },
     {
@@ -16402,15 +16402,15 @@
       "properties": {
         "reach": "Yacyreta - Corrientes",
         "river": "Paraná (medio)",
-        "condicion": "aguas medias altas",
-        "percentil": 25,
-        "color": "#cfe2f3",
+        "condicion": "aguas altas",
+        "percentil": 5,
+        "color": "#6fa8dc",
         "tendencia": "crece",
         "level_m": null,
         "level_condicion": null,
-        "discharge_m3s": 22200,
-        "discharge_condicion": "aguas medias altas",
-        "fecha": "2026-11-25T03:00:00Z"
+        "discharge_m3s": 26200,
+        "discharge_condicion": "aguas altas",
+        "fecha": "2026-11-26T03:00:00Z"
       }
     }
   ]
